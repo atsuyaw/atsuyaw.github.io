@@ -1,0 +1,33 @@
+baseURL = "https://atsuyaw.github.io/"
+languageCode = "ja-jp"
+title = "Atsuya Watanabe's Site"
+theme = "github-style"
+uglyurls = true
+publishDir = "docs"
+canonifyurls = true
+
+[params]
+    author = "Atsuya Watanabe"
+    github = "atsuyaw"
+    favicon = "images/AtsuyaWatanabe.svg"
+    location = "Osaka Prefecture University"
+
+    [[params.links]]
+        title = "ORCID"
+        href = "https://orcid.org/0000-0002-6861-7352"
+        icon = "images/orcid.png"
+
+    [[params.links]]
+        title = "Google Scholor"
+        href = "https://scholar.google.com/citations?hl=ja&user=WOwPSkEAAAAJ"
+        icon = "images/google_scholar.png"
+
+    [[params.links]]
+        title = "Reliable Materials Gourp"
+        href = "http://www2.mtr.osakafu-u.ac.jp/"
+
+[frontmatter]
+lastmod = ["lastmod", ":fileModTime", ":default"]
+
+[permalinks]
+post = "/:year/:month:/:day/:filename/"
