@@ -154,7 +154,7 @@
                 </path>
               </svg>
               Posts
-              <span class="Counter">2</span>
+              <span class="Counter">3</span>
             </a>
           </nav>
           <div class="profile-color-modes js-promo-color-modes-banner-profile isInitialToggle">
@@ -420,7 +420,7 @@
         </path>
       </svg>
       Posts
-      <span class="Counter ">2</span>
+      <span class="Counter ">3</span>
     </a>
   </nav>
 </div>
@@ -432,6 +432,56 @@
     <div>
       
       <ul>
+        
+        <li class="col-12 d-flex width-full py-4 border-bottom color-border-secondary public source">
+          <div class="col-12 d-inline-block">
+            <div class="d-inline-block mb-1">
+              <h3 class="wb-break-all">
+                <a href="https://atsuyaw.github.io/2021/06/13/210613.html">Windows上でLinuxパッケージを走らせようとしたらcondaすら動かず苦労した話</a>
+              </h3>
+            </div>
+
+            <div>
+              <div class="col-12 d-inline-block text-gray mb-2 pr-4">
+                ことのアラマシ FDTD法という電磁波シミュレーションしたい
+↓
+高額なソフトが必要
+↓
+MEEPというフリーソフトで可能
+↓
+MEEPはLinux or Mac環境でしか動作しないらしい…
+ということでLinux環境をWindows上に構築する必要が生じました。
+最近は便利なものでWindows Subsystem for Linux（WSL）というMicrosoft謹製ツールが配布されており，手軽にLinux環境が構築できるとのこと。
+いまにして思えばこれを鵜呑みにしたのが良くなかったような…
+導入手順 導入自体はMEEPの公式ドキュメントで説明されている。
+まずはパッケージ管理ツールminicondaを導入する
+wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.shbash miniconda.sh -b -p &lt;desired_prefix&gt;export PATH=&lt;desired_prefix&gt;/bin:$PATHcondaでpymeepを導入する。
+conda create -n mp -c conda-forge pymeepところが，2手目の
+bash miniconda.sh -b -pがうまくいかなかった。
+OSError: [Errno 40] Too many levels of symbolic links:原因がよくわからず2週間を費やした（さすがにこればっかりやってたわけじゃないけど…）。
+解決 調べても情報があまり出てこなくて時間を費やした。
+結局のところWSL上でAnacondaを入れようとしたときに発生する不具合のようだった（たぶん）。
+Githubでタイムリーなissueが立っていて，これを参考に解決に至った。
+あとはこのissueに追記した通り。
+原因は
+ pkgs/ncurses-6.2-h58526e2_4/share/terminfo/N/ncr260vt300wpp pkgs/ncurses-6.2-h58526e2_4/share/terminfo/E/Eterm  で，これらに含まれるリンクが良くないとのこと。
+issue #10333 (comment)では別途ncursesパッケージをAnacondaのページから拾ってきて上記2ファイルを差し替えれば良いとのことだったが，これでは解消しなかった。
+渡邉の環境ではリンク先である
+miniconda3/share/terminfo/N/ncr260vt300wppをコピーしてきて
+              </div>
+            </div>
+
+            <div class="f6 text-gray mt-2">
+              
+
+              Created
+              <relative-time datetime=" Sun, 13 Jun 2021 16:30:34 &#43;0900" class="no-wrap"
+                title=" Sun, 13 Jun 2021 16:30:34 &#43;0900">
+                Sun, 13 Jun 2021 16:30:34 &#43;0900
+              </relative-time>
+            </div>
+          </div>
+        </li>
         
         <li class="col-12 d-flex width-full py-4 border-bottom color-border-secondary public source">
           <div class="col-12 d-inline-block">
