@@ -1,10 +1,10 @@
-baseURL = "https://atsuyaw.github.io"
+baseURL = "https://atsuyaw.netlify.app"
 languageCode = "ja-jp"
 title = "Atsuya Watanabe's Site"
 theme = "github-style"
 uglyurls = true
 publishDir = "docs"
-canonifyurls = true
+canonifyurls = false
 
 [params]
     author = "Atsuya Watanabe"
