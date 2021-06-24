@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Atsuya Watanabe's Site</title><link>https://atsuyaw.github.io/</link><description>Recent content on Atsuya Watanabe's Site</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Sat, 29 May 2021 19:07:57 +0900</lastBuildDate><atom:link href="https://atsuyaw.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>ページ開設</title><link>https://atsuyaw.github.io/2021/05/29/210529_open.html</link><pubDate>Sat, 29 May 2021 19:07:57 +0900</pubDate><guid>https://atsuyaw.github.io/2021/05/29/210529_open.html</guid><description>ページを開設しました。 SEO対策ということで多少記事を増やそうかと思います。</description></item><item><title>Atsuya Watanabe's Site</title><link>https://atsuyaw.github.io/2021/05/29/readme.html</link><pubDate>Sat, 29 May 2021 13:29:51 +0900</pubDate><guid>https://atsuyaw.github.io/2021/05/29/readme.html</guid><description>&lt;h1 id="渡邉充哉atsuya-watanabe">渡邉充哉（Atsuya Watanabe）&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Atsuya Watanabe's Site</title><link>https://atsuyaw.netlify.app/</link><description>Recent content on Atsuya Watanabe's Site</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Sun, 13 Jun 2021 20:00:00 +0900</lastBuildDate><atom:link href="https://atsuyaw.netlify.app/index.xml" rel="self" type="application/rss+xml"/><item><title>[聴講] 繊維学会</title><link>https://atsuyaw.netlify.app/2021/06/13/210611_sfst.html</link><pubDate>Sun, 13 Jun 2021 20:00:00 +0900</pubDate><guid>https://atsuyaw.netlify.app/2021/06/13/210611_sfst.html</guid><description>2021年繊維学会 年次大会に聴講として参加しました。 （リーディングプログラム・自主研究費）</description></item><item><title>Windows上でLinuxパッケージを走らせようとしたらcondaすら動かず苦労した話</title><link>https://atsuyaw.netlify.app/2021/06/13/210613.html</link><pubDate>Sun, 13 Jun 2021 16:30:34 +0900</pubDate><guid>https://atsuyaw.netlify.app/2021/06/13/210613.html</guid><description>ことのアラマシ FDTD法という電磁波シミュレーションしたい
+↓
+高額なソフトが必要
+↓
+MEEPというフリーソフトで可能
+↓
+MEEPはLinux or Mac環境でしか動作しないらしい…
+ということでLinux環境をWindows上に構築する必要が生じました。
+最近は便利なものでWindows Subsystem for Linux（WSL）というMicrosoft謹製ツールが配布されており，手軽にLinux環境が構築できるとのこと。
+いまにして思えばこれを鵜呑みにしたのが良くなかったような…
+導入手順 導入自体はMEEPの公式ドキュメントで説明されている。
+まずはパッケージ管理ツールminicondaを導入する
+wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh bash miniconda.sh -b -p &amp;lt;desired_prefix&amp;gt; export PATH=&amp;lt;desired_prefix&amp;gt;/bin:$PATH condaでpymeepを導入する。
+conda create -n mp -c conda-forge pymeep ところが，2手目の
+bash miniconda.sh -b -p がうまくいかなかった。
+OSError: [Errno 40] Too many levels of symbolic links: 原因がよくわからず2週間を費やした（さすがにこればっかりやってたわけじゃないけど…）。
+解決 調べても情報があまり出てこなくて時間を費やした。
+結局のところWSL上でAnacondaを入れようとしたときに発生する不具合のようだった（たぶん）。
+Githubでタイムリーなissueが立っていて，これを参考に解決に至った。
+あとはこのissueに追記した通り。
+原因は
+pkgs/ncurses-6.2-h58526e2_4/share/terminfo/N/ncr260vt300wpp pkgs/ncurses-6.2-h58526e2_4/share/terminfo/E/Eterm で，これらに含まれるリンクが良くないとのこと。
+issue #10333 (comment)では別途ncursesパッケージをAnacondaのページから拾ってきて上記2ファイルを差し替えれば良いとのことだったが，これでは解消しなかった。
+渡邉の環境ではリンク先である
+miniconda3/share/terminfo/N/ncr260vt300wpp をコピーしてきて</description></item><item><title>ページ開設</title><link>https://atsuyaw.netlify.app/2021/05/29/210529_open.html</link><pubDate>Sat, 29 May 2021 19:07:57 +0900</pubDate><guid>https://atsuyaw.netlify.app/2021/05/29/210529_open.html</guid><description>ページを開設しました。 SEO対策ということで多少記事を増やそうかと思います。</description></item><item><title>Atsuya Watanabe's Site</title><link>https://atsuyaw.netlify.app/2021/05/29/readme.html</link><pubDate>Sat, 29 May 2021 13:29:51 +0900</pubDate><guid>https://atsuyaw.netlify.app/2021/05/29/readme.html</guid><description>&lt;h1 id="渡邉充哉atsuya-watanabe">渡邉充哉（Atsuya Watanabe）&lt;/h1>
 &lt;!-- raw HTML omitted -->
 &lt;p>E-Mail: &lt;code>watanabe [at] osakafu-u.net&lt;/code>&lt;br>
 ORCID: &lt;a href="https://orcid.org/0000-0002-6861-7352">0000-0002-6861-7352&lt;/a>&lt;br>
