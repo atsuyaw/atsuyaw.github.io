@@ -19,14 +19,16 @@ Nanocrystalline / Electrodeposition / High-entropy alloys
 
 ## Affiliation
 [大阪府立大学](https://www.osakafu-u.ac.jp/) 大学院[工学研究科](http://www.eng.osakafu-u.ac.jp)  
-物質・化学系専攻 [マテリアル工学分野](http://mtr1.osakafu-u.ac.jp/materials-jpn) （[リーディングプログラムコース](https://sims-program.osakafu-u.ac.jp)）  
+物質・化学系専攻 [マテリアル工学分野](http://mtr1.osakafu-u.ac.jp/materials-jpn)   
+（[リーディングプログラムコース](https://sims-program.osakafu-u.ac.jp)）  
 [信頼性材料研究グループ](http://www2.mtr.osakafu-u.ac.jp)
  
  ## Education
+
 - 2013-03 四日市市立羽津中学校 卒業
 - 2013-04 [鈴鹿工業高等専門学校](https://www.suzuka-ct.ac.jp) [材料工学科](https://www.suzuka-ct.ac.jp/mse) 入学
 - 2018-03 鈴鹿工業高等専門学校 材料工学科 卒業
-- 2018-04 [大阪府立大学](https://www.osakafu-u.ac.jp/) 工学域物質化学系学類[マテリアル工学分野](http://mtr1.osakafu-u.ac.jp/materials-jpn) 3年次編入学
+- 2018-04 [大阪府立大学](https://www.osakafu-u.ac.jp/) 工学域物質化学系学類[マテリアル工学課程](http://mtr1.osakafu-u.ac.jp/materials-jpn) 3年次編入学
 - 2020-03 大阪府立大学 工学域物質化学系学類マテリアル工学課程 卒業
 - 2020-04 大阪府立大学 工学研究科物質・化学系専攻マテリアル工学分野 入学
 
@@ -65,7 +67,9 @@ Nanocrystalline / Electrodeposition / High-entropy alloys
     日本金属学会 第166回講演大会，S4.11，中止・発表成立，2020-03．（口頭発表，査読有り）
 
 ### 2019
+
 <!--more-->
+
 1. 電析Ni材におけるヘテロ微細構造  
     ◦松井功，<u>渡邉充哉</u>，瀧川順庸．  
     第21回関西表面技術フォーラム，9，神戸，2019-11．（口頭発表，査読無し）

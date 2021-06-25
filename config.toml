@@ -1,4 +1,4 @@
-baseURL = "https://atsuyaw.netlify.app"
+baseURL = "https://atsuyaw.github.io"
 languageCode = "ja-jp"
 title = "Atsuya Watanabe's Site"
 theme = "github-style"
