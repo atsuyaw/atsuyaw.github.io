@@ -29,9 +29,9 @@ Nanocrystalline / Electrodeposition / High-entropy alloys
 - 2013-03 四日市市立羽津中学校 卒業
 - 2013-04 [鈴鹿工業高等専門学校](https://www.suzuka-ct.ac.jp) [材料工学科](https://www.suzuka-ct.ac.jp/mse) 入学
 - 2018-03 鈴鹿工業高等専門学校 材料工学科 卒業
-- 2018-04 [大阪府立大学](https://www.osakafu-u.ac.jp/) 工学域物質化学系学類[マテリアル工学課程](http://mtr1.osakafu-u.ac.jp/materials-jpn) 3年次編入学
-- 2020-03 大阪府立大学 工学域物質化学系学類マテリアル工学課程 卒業
-- 2020-04 大阪府立大学 工学研究科物質・化学系専攻マテリアル工学分野 入学
+- 2018-04 [大阪府立大学](https://www.osakafu-u.ac.jp/) [工学域](http://www.eng.osakafu-u.ac.jp/) 物質化学系学類 [マテリアル工学課程](http://mtr1.osakafu-u.ac.jp/materials-jpn) 3年次編入学
+- 2020-03 大阪府立大学 工学域 物質化学系学類 マテリアル工学課程 卒業
+- 2020-04 大阪府立大学 工学研究科 物質・化学系専攻 マテリアル工学分野 入学
 
 ## Membership
 - [表面技術協会](https://www.sfj.or.jp) 学生会員
