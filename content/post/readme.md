@@ -7,6 +7,7 @@ logo: "images/AtsuyaWatanabe.svg"
 
 # 渡邉充哉（Atsuya Watanabe）
 <!-- ![Atsuya Watanabe](images/AtsuyaWatanabe.svg) -->
+[![github pages](https://github.com/atsuyaw/atsuyaw.github.io/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/atsuyaw/atsuyaw.github.io/actions/workflows/gh-pages.yml)
 
 E-Mail: `watanabe [at] osakafu-u.net`  
 ORCID: [0000-0002-6861-7352](https://orcid.org/0000-0002-6861-7352)  
