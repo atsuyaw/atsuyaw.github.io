@@ -5,6 +5,7 @@ theme = "github-style"
 uglyurls = true
 publishDir = "docs"
 canonifyurls = false
+gems = "jekyll-redirect-from"
 
 [params]
     author = "Atsuya Watanabe"
