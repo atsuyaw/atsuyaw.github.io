@@ -24,6 +24,7 @@ issue #10333 (comment)では別途ncursesパッケージをAnacondaのページ�
 渡邉の環境ではリンク先である
 miniconda3/share/terminfo/N/ncr260vt300wpp をコピーしてきて</description></item><item><title>ページ開設</title><link>https://atsuyaw.github.io/2021/05/29/210529_open.html</link><pubDate>Sat, 29 May 2021 19:07:57 +0900</pubDate><guid>https://atsuyaw.github.io/2021/05/29/210529_open.html</guid><description>ページを開設しました。 SEO対策ということで多少記事を増やそうかと思います。</description></item><item><title>Atsuya Watanabe's Site</title><link>https://atsuyaw.github.io/2021/05/29/readme.html</link><pubDate>Sat, 29 May 2021 13:29:51 +0900</pubDate><guid>https://atsuyaw.github.io/2021/05/29/readme.html</guid><description>&lt;h1 id="渡邉充哉atsuya-watanabe">渡邉充哉（Atsuya Watanabe）&lt;/h1>
 &lt;!-- raw HTML omitted -->
+&lt;p>&lt;a href="https://github.com/atsuyaw/atsuyaw.github.io/actions/workflows/gh-pages.yml">&lt;img src="https://github.com/atsuyaw/atsuyaw.github.io/actions/workflows/gh-pages.yml/badge.svg" alt="github pages">&lt;/a>&lt;/p>
 &lt;p>E-Mail: &lt;code>watanabe [at] osakafu-u.net&lt;/code>&lt;br>
 ORCID: &lt;a href="https://orcid.org/0000-0002-6861-7352">0000-0002-6861-7352&lt;/a>&lt;br>
 Google Scholar: &lt;a href="https://scholar.google.com/citations?hl=ja&amp;amp;user=WOwPSkEAAAAJ">WOwPSkEAAAAJ&lt;/a>&lt;br>
