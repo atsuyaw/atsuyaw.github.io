@@ -1,62 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Atsuya Watanabe's Site</title><link>https://atsuyaw.github.io/</link><description>Recent content on Atsuya Watanabe's Site</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Fri, 25 Jun 2021 20:00:00 +0900</lastBuildDate><atom:link href="https://atsuyaw.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>大学入試問題解答集 2021年度</title><link>https://atsuyaw.github.io/2021/06/25/210701_hocsom/</link><pubDate>Fri, 25 Jun 2021 20:00:00 +0900</pubDate><guid>https://atsuyaw.github.io/2021/06/25/210701_hocsom/</guid><description>執筆に参加した書籍が出版されました。
-安田亨とそのグループ 著
-大学入試問題解答集　私立大編2021年度 大学入試問題解答集　国公立大編2021年度</description></item><item><title>[聴講] 繊維学会</title><link>https://atsuyaw.github.io/2021/06/13/210611_sfst/</link><pubDate>Sun, 13 Jun 2021 20:00:00 +0900</pubDate><guid>https://atsuyaw.github.io/2021/06/13/210611_sfst/</guid><description>2021年繊維学会 年次大会に聴講として参加しました。 （リーディングプログラム・自主研究費）</description></item><item><title>Windows上でLinuxパッケージを走らせようとしたらcondaすら動かず苦労した話</title><link>https://atsuyaw.github.io/2021/06/13/210613/</link><pubDate>Sun, 13 Jun 2021 16:30:34 +0900</pubDate><guid>https://atsuyaw.github.io/2021/06/13/210613/</guid><description>ことのアラマシ FDTD法という電磁波シミュレーションしたい
-↓
-高額なソフトが必要
-↓
-MEEPというフリーソフトで可能
-↓
-MEEPはLinux or Mac環境でしか動作しないらしい…
-ということでLinux環境をWindows上に構築する必要が生じました。
-最近は便利なものでWindows Subsystem for Linux（WSL）というMicrosoft謹製ツールが配布されており，手軽にLinux環境が構築できるとのこと。
-いまにして思えばこれを鵜呑みにしたのが良くなかったような…
-導入手順 導入自体はMEEPの公式ドキュメントで説明されている。
-まずはパッケージ管理ツールminicondaを導入する
-wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh bash miniconda.sh -b -p &amp;lt;desired_prefix&amp;gt; export PATH=&amp;lt;desired_prefix&amp;gt;/bin:$PATH condaでpymeepを導入する。
-conda create -n mp -c conda-forge pymeep ところが，2手目の
-bash miniconda.sh -b -p がうまくいかなかった。
-OSError: [Errno 40] Too many levels of symbolic links: 原因がよくわからず2週間を費やした（さすがにこればっかりやってたわけじゃないけど…）。
-解決 調べても情報があまり出てこなくて時間を費やした。
-結局のところWSL上でAnacondaを入れようとしたときに発生する不具合のようだった（たぶん）。
-Githubでタイムリーなissueが立っていて，これを参考に解決に至った。
-あとはこのissueに追記した通り。
-原因は
-pkgs/ncurses-6.2-h58526e2_4/share/terminfo/N/ncr260vt300wpp pkgs/ncurses-6.2-h58526e2_4/share/terminfo/E/Eterm で，これらに含まれるリンクが良くないとのこと。
-issue #10333 (comment)では別途ncursesパッケージをAnacondaのページから拾ってきて上記2ファイルを差し替えれば良いとのことだったが，これでは解消しなかった。
-渡邉の環境ではリンク先である
-miniconda3/share/terminfo/N/ncr260vt300wpp をコピーしてきて</description></item><item><title>ページ開設</title><link>https://atsuyaw.github.io/2021/05/29/210529_open/</link><pubDate>Sat, 29 May 2021 19:07:57 +0900</pubDate><guid>https://atsuyaw.github.io/2021/05/29/210529_open/</guid><description>ページを開設しました。 SEO対策ということで多少記事を増やそうかと思います。</description></item><item><title>Atsuya Watanabe's Site</title><link>https://atsuyaw.github.io/2021/05/29/readme/</link><pubDate>Sat, 29 May 2021 13:29:51 +0900</pubDate><guid>https://atsuyaw.github.io/2021/05/29/readme/</guid><description>&lt;h1 id="渡邉充哉atsuya-watanabe">渡邉充哉（Atsuya Watanabe）&lt;/h1>
-&lt;!-- raw HTML omitted -->
-&lt;p>&lt;a href="https://github.com/atsuyaw/atsuyaw.github.io/actions/workflows/gh-pages.yml">&lt;img src="https://github.com/atsuyaw/atsuyaw.github.io/actions/workflows/gh-pages.yml/badge.svg" alt="github pages">&lt;/a>&lt;/p>
-&lt;p>E-Mail: &lt;code>watanabe [at] osakafu-u.net&lt;/code>&lt;br>
-ORCID: &lt;a href="https://orcid.org/0000-0002-6861-7352">0000-0002-6861-7352&lt;/a>&lt;br>
-Google Scholar: &lt;a href="https://scholar.google.com/citations?hl=ja&amp;amp;user=WOwPSkEAAAAJ">WOwPSkEAAAAJ&lt;/a>&lt;br>
-Scopus: &lt;a href="https://www.scopus.com/authid/detail.uri?authorId=57211107471">57211107471&lt;/a>&lt;/p>
-&lt;h2 id="keywords">Keywords&lt;/h2>
-&lt;p>ナノ結晶 / 電着プロセス / ハイエントロピー合金&lt;br>
-Nanocrystalline / Electrodeposition / High-entropy alloys&lt;/p>
-&lt;h2 id="affiliation">Affiliation&lt;/h2>
-&lt;p>&lt;a href="https://www.osakafu-u.ac.jp/">大阪府立大学&lt;/a> 大学院&lt;a href="http://www.eng.osakafu-u.ac.jp">工学研究科&lt;/a>&lt;br>
-物質・化学系専攻 &lt;a href="http://mtr1.osakafu-u.ac.jp/materials-jpn">マテリアル工学分野&lt;/a>&lt;br>
-（&lt;a href="https://sims-program.osakafu-u.ac.jp">リーディングプログラムコース&lt;/a>）&lt;br>
-&lt;a href="http://www2.mtr.osakafu-u.ac.jp">信頼性材料研究グループ&lt;/a>&lt;/p>
-&lt;h2 id="education">Education&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Atsuya Watanabe's Site</title><link>https://atsuyaw.github.io/</link><description>Recent content on Atsuya Watanabe's Site</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Fri, 02 Jul 2021 11:10:15 +0900</lastBuildDate><atom:link href="https://atsuyaw.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Works</title><link>https://atsuyaw.github.io/content/works/</link><pubDate>Fri, 02 Jul 2021 11:10:15 +0900</pubDate><guid>https://atsuyaw.github.io/content/works/</guid><description>&lt;h2 id="works">Works&lt;/h2>
+&lt;h3 id="2021">2021&lt;/h3>
+&lt;ol start="0">
+&lt;li>
+&lt;p>電着プロセスによる微細結晶粒を有した中エントロピー合金の作製&lt;br>
+◦&lt;!-- raw HTML omitted -->渡邉充哉&lt;!-- raw HTML omitted -->，瀧川順庸&lt;br>
+第6回材料 WEEK 材料シンポジウム ワークショップ「金属ガラス・ハイエントロピー合金のメタラジー」, 京都, 2021-10.（予定；口頭発表，査読無し）&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>安田亨とそのグループ&lt;/p>
 &lt;ul>
-&lt;li>2013-03 四日市市立羽津中学校 卒業&lt;/li>
-&lt;li>2013-04 &lt;a href="https://www.suzuka-ct.ac.jp">鈴鹿工業高等専門学校&lt;/a> &lt;a href="https://www.suzuka-ct.ac.jp/mse">材料工学科&lt;/a> 入学&lt;/li>
-&lt;li>2018-03 鈴鹿工業高等専門学校 材料工学科 卒業&lt;/li>
-&lt;li>2018-04 &lt;a href="https://www.osakafu-u.ac.jp/">大阪府立大学&lt;/a> &lt;a href="http://www.eng.osakafu-u.ac.jp/">工学域&lt;/a> 物質化学系学類 &lt;a href="http://mtr1.osakafu-u.ac.jp/materials-jpn">マテリアル工学課程&lt;/a> 3年次編入学&lt;/li>
-&lt;li>2020-03 大阪府立大学 工学域 物質化学系学類 マテリアル工学課程 卒業&lt;/li>
-&lt;li>2020-04 大阪府立大学 工学研究科 物質・化学系専攻 マテリアル工学分野 入学&lt;/li>
+&lt;li>&lt;a href="https://www.amazon.co.jp/dp/4908003262/ref=cm_sw_r_cp_apa_glt_i_JTTPJ288AN2BXN8979DW">大学入試問題解答集　私立大編2021年度&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.amazon.co.jp/dp/4908003270/ref=cm_sw_r_cp_apa_glt_i_FZEERNVC176BYC5G0S14?_encoding=UTF8&amp;amp;psc=1">大学入試問題解答集　国公立大編2021年度&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;h2 id="membership">Membership&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://www.sfj.or.jp">表面技術協会&lt;/a> 学生会員&lt;/li>
-&lt;li>&lt;a href="https://jim.or.jp">日本金属学会&lt;/a> 学生会員&lt;/li>
-&lt;li>&lt;a href="http://www.jsht.or.jp">日本熱処理技術協会&lt;/a> 学生会員&lt;/li>
-&lt;li>&lt;a href="http://jact.sakura.ne.jp">日本高専学会&lt;/a> 学生会員&lt;/li>
-&lt;li>&lt;a href="https://www.jsms.jp">日本材料学会&lt;/a> 学生会員&lt;/li>
-&lt;/ul>
-&lt;h2 id="works">Works&lt;/h2>
+&lt;/li>
+&lt;/ol>
 &lt;h3 id="2020">2020&lt;/h3>
 &lt;ol>
 &lt;li>
@@ -87,8 +44,47 @@ doi: &lt;a href="https://doi.org/10.1016/j.rsurfi.2020.100001">10.1016/j.rsurfi.
 &lt;/li>
 &lt;li>
 &lt;p>電析Niにおける微細構造の不均一性&lt;br>
-◦松井功，&lt;!-- raw HTML omitted -->渡邉充哉&lt;!-- raw HTML omitted -->，瀧川順庸，尾村直紀，山本剛久．&lt;br>
+◦松井功，&lt;!-- raw HTML omitted -->渡邉充哉&lt;!-- raw HTML omitted -->，瀧川順庸，尾村直紀，山本剛久&lt;br>
 日本金属学会 第166回講演大会，S4.11，中止・発表成立，2020-03．（口頭発表，査読有り）&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;h3 id="2019">2019&lt;/h3></description></item></channel></rss>
+&lt;h3 id="2019">2019&lt;/h3></description></item><item><title>大学入試問題解答集 2021年度</title><link>https://atsuyaw.github.io/2021/06/25/210701_hocsom/</link><pubDate>Fri, 25 Jun 2021 20:00:00 +0900</pubDate><guid>https://atsuyaw.github.io/2021/06/25/210701_hocsom/</guid><description>執筆に参加した書籍が出版されました。
+安田亨とそのグループ 著
+大学入試問題解答集　私立大編2021年度 大学入試問題解答集　国公立大編2021年度</description></item><item><title>[聴講] 繊維学会</title><link>https://atsuyaw.github.io/2021/06/13/210611_sfst/</link><pubDate>Sun, 13 Jun 2021 20:00:00 +0900</pubDate><guid>https://atsuyaw.github.io/2021/06/13/210611_sfst/</guid><description>2021年繊維学会 年次大会に聴講として参加しました。 （リーディングプログラム・自主研究費）</description></item><item><title>Windows上でLinuxパッケージを走らせようとしたらcondaすら動かず苦労した話</title><link>https://atsuyaw.github.io/2021/06/13/210613/</link><pubDate>Sun, 13 Jun 2021 16:30:34 +0900</pubDate><guid>https://atsuyaw.github.io/2021/06/13/210613/</guid><description>ことのアラマシ FDTD法という電磁波シミュレーションしたい
+↓
+高額なソフトが必要
+↓
+MEEPというフリーソフトで可能
+↓
+MEEPはLinux or Mac環境でしか動作しないらしい…
+ということでLinux環境をWindows上に構築する必要が生じました。
+最近は便利なものでWindows Subsystem for Linux（WSL）というMicrosoft謹製ツールが配布されており，手軽にLinux環境が構築できるとのこと。
+いまにして思えばこれを鵜呑みにしたのが良くなかったような…
+導入手順 導入自体はMEEPの公式ドキュメントで説明されている。
+まずはパッケージ管理ツールminicondaを導入する
+wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh bash miniconda.sh -b -p &amp;lt;desired_prefix&amp;gt; export PATH=&amp;lt;desired_prefix&amp;gt;/bin:$PATH condaでpymeepを導入する。
+conda create -n mp -c conda-forge pymeep ところが，2手目の
+bash miniconda.sh -b -p がうまくいかなかった。
+OSError: [Errno 40] Too many levels of symbolic links: 原因がよくわからず2週間を費やした（さすがにこればっかりやってたわけじゃないけど…）。
+解決 調べても情報があまり出てこなくて時間を費やした。
+結局のところWSL上でAnacondaを入れようとしたときに発生する不具合のようだった（たぶん）。
+Githubでタイムリーなissueが立っていて，これを参考に解決に至った。
+あとはこのissueに追記した通り。
+原因は
+pkgs/ncurses-6.2-h58526e2_4/share/terminfo/N/ncr260vt300wpp pkgs/ncurses-6.2-h58526e2_4/share/terminfo/E/Eterm で，これらに含まれるリンクが良くないとのこと。
+issue #10333 (comment)では別途ncursesパッケージをAnacondaのページから拾ってきて上記2ファイルを差し替えれば良いとのことだったが，これでは解消しなかった。
+渡邉の環境ではリンク先である
+miniconda3/share/terminfo/N/ncr260vt300wpp をコピーしてきて</description></item><item><title>ページ開設</title><link>https://atsuyaw.github.io/2021/05/29/210529_open/</link><pubDate>Sat, 29 May 2021 19:07:57 +0900</pubDate><guid>https://atsuyaw.github.io/2021/05/29/210529_open/</guid><description>ページを開設しました。 SEO対策ということで多少記事を増やそうかと思います。</description></item><item><title>Atsuya Watanabe's Site</title><link>https://atsuyaw.github.io/2021/05/29/readme/</link><pubDate>Sat, 29 May 2021 13:29:51 +0900</pubDate><guid>https://atsuyaw.github.io/2021/05/29/readme/</guid><description>渡邉充哉（Atsuya Watanabe）
+E-Mail: watanabe [at] osakafu-u.net
+ORCID: 0000-0002-6861-7352
+Google Scholar: WOwPSkEAAAAJ
+Scopus: 57211107471
+Works My works
+ORCID
+Keywords ナノ結晶 / 電着プロセス / ハイエントロピー合金
+Nanocrystalline / Electrodeposition / High-entropy alloys
+Affiliation 大阪府立大学 大学院工学研究科
+物質・化学系専攻 マテリアル工学分野
+（リーディングプログラムコース）
+信頼性材料研究グループ
+Education 2013-03 四日市市立羽津中学校 卒業 2013-04 鈴鹿工業高等専門学校 材料工学科 入学 2018-03 鈴鹿工業高等専門学校 材料工学科 卒業 2018-04 大阪府立大学 工学域 物質化学系学類 マテリアル工学課程 3年次編入学 2020-03 大阪府立大学 工学域 物質化学系学類 マテリアル工学課程 卒業 2020-04 大阪府立大学 工学研究科 物質・化学系専攻 マテリアル工学分野 入学 Membership 表面技術協会 学生会員 日本金属学会 学生会員 日本熱処理技術協会 学生会員 日本高専学会 学生会員 日本材料学会 学生会員</description></item></channel></rss>
