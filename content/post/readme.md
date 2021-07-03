@@ -1,9 +1,12 @@
 ---
-title: "Atsuya Watanabe's Site"
+title: "readme.md"
 date: 2021-05-29T13:29:51+09:00
 draft: false
 logo: "images/AtsuyaWatanabe.svg"
 ---
+
+The summary as a top page of this site
+<!--more-->
 
 # 渡邉充哉（Atsuya Watanabe）
 
@@ -16,8 +19,8 @@ Scopus: [57211107471](https://www.scopus.com/authid/detail.uri?authorId=57211107
 
 ## Works
 
-[My works](./works)  
-[ORCID](https://orcid.org/0000-0002-6861-7352)  
+* [Recent activities](./post/works)  
+* [Works list](./post/works/works-list/) / [ORCID](https://orcid.org/0000-0002-6861-7352)  
 
 ## Keywords
 
