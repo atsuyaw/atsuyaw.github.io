@@ -19,8 +19,8 @@ Scopus: [57211107471](https://www.scopus.com/authid/detail.uri?authorId=57211107
 
 ## Works
 
-* [Recent activities](./post/works)  
-* [Works list](./post/works/works-list/) / [ORCID](https://orcid.org/0000-0002-6861-7352)  
+* [Recent activities](./tags/works/)  
+* [Works list](./post/works-list/) / [ORCID](https://orcid.org/0000-0002-6861-7352)  
 
 ## Keywords
 
