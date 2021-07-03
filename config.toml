@@ -30,5 +30,5 @@ gems = "jekyll-redirect-from"
 [frontmatter]
 lastmod = ["lastmod", ":fileModTime", ":default"]
 
-[permalinks]
-post = "/:year/:month:/:day/:filename/"
+# [permalinks]
+# post = "/:year/:month:/:day/:filename/"

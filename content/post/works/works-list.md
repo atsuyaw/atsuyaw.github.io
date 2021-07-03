@@ -1,12 +1,14 @@
 ---
-title: "Works"
-date: 2021-07-02T11:10:15+09:00
+title: "Works list"
+date: 2021-06-25T11:10:15+09:00
 draft: false
 ---
 
-## Works
+The list of my works.
 
-### 2021
+<!--more-->
+
+## 2021
 0. 電着プロセスによる微細結晶粒を有した中エントロピー合金の作製  
     ◦<u>渡邉充哉</u>，瀧川順庸  
     第6回材料 WEEK 材料シンポジウム ワークショップ「金属ガラス・ハイエントロピー合金のメタラジー」, 京都, 2021-10.（予定；口頭発表，査読無し）
@@ -15,7 +17,7 @@ draft: false
     - [大学入試問題解答集　私立大編2021年度](https://www.amazon.co.jp/dp/4908003262/ref=cm_sw_r_cp_apa_glt_i_JTTPJ288AN2BXN8979DW)
     - [大学入試問題解答集　国公立大編2021年度](https://www.amazon.co.jp/dp/4908003270/ref=cm_sw_r_cp_apa_glt_i_FZEERNVC176BYC5G0S14?_encoding=UTF8&psc=1)
 
-### 2020
+## 2020
 1. Reducing sulfur to improve thermal embrittlement in electrodeposited nickel using citric acid  
     <u>A. Watanabe</u>, Y. Takigawa  
     Results in Surfaces and Interfaces, 1, 1000001 (2020).（査読有り）  
@@ -41,7 +43,7 @@ draft: false
     ◦松井功，<u>渡邉充哉</u>，瀧川順庸，尾村直紀，山本剛久  
     日本金属学会 第166回講演大会，S4.11，中止・発表成立，2020-03．（口頭発表，査読有り）
 
-### 2019
+## 2019
 
 <!--more-->
 
@@ -67,7 +69,7 @@ draft: false
     ◦<u>渡邉充哉</u>  
     ナノテクノロジープラットフォーム学生研修プログラム成果発表会，学1，東京，2019-09．（ポスター発表，査読無し）
 
-### 2014
+## 2014
 1. バイオプラスチックの耐熱性向上に関する研究  
   ◦<u>渡邉充哉</u>，川崎禎明，懸野正崇，森陽一郎，浅川健一郎，伊藤遼，小川凌，西村大樹，稲垣美穂，政木確．  
   日本動物学会 第85回大会高校生によるポスター発表, 22, 仙台, 2014-09. （ポスター発表，査読無し）
