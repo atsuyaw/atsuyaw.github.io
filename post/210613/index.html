@@ -192,15 +192,15 @@ MEEPはLinux or Mac環境でしか動作しないらしい…</p>
 <h1 id=導入手順>導入手順</h1>
 <p>導入自体は<a href=https://meep.readthedocs.io/en/latest/Installation/>MEEPの公式ドキュメント</a>で説明されている。</p>
 <p>まずはパッケージ管理ツールminicondaを導入する</p>
-<pre><code>wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
+<pre tabindex=0><code>wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
 bash miniconda.sh -b -p &lt;desired_prefix&gt;
 export PATH=&lt;desired_prefix&gt;/bin:$PATH
 </code></pre><p><code>conda</code>で<code>pymeep</code>を導入する。</p>
-<pre><code>conda create -n mp -c conda-forge pymeep
+<pre tabindex=0><code>conda create -n mp -c conda-forge pymeep
 </code></pre><p>ところが，2手目の</p>
-<pre><code>bash miniconda.sh -b -p
+<pre tabindex=0><code>bash miniconda.sh -b -p
 </code></pre><p>がうまくいかなかった。</p>
-<pre><code>OSError: [Errno 40] Too many levels of symbolic links:
+<pre tabindex=0><code>OSError: [Errno 40] Too many levels of symbolic links:
 </code></pre><p>原因がよくわからず2週間を費やした（さすがにこればっかりやってたわけじゃないけど…）。</p>
 <h1 id=解決>解決</h1>
 <p>調べても情報があまり出てこなくて時間を費やした。<br>
@@ -215,9 +215,9 @@ Githubで<a href=https://github.com/conda/conda/issues/10333#issuecomment-836803
 <p>で，これらに含まれるリンクが良くないとのこと。<br>
 <a href=https://github.com/conda/conda/issues/10333#issuecomment-836803901>issue #10333 (comment)</a>では別途ncursesパッケージを<a href=https://anaconda.org/conda-forge/ncurses/files>Anacondaのページ</a>から拾ってきて上記2ファイルを差し替えれば良いとのことだったが，これでは解消しなかった。<br>
 渡邉の環境ではリンク先である</p>
-<pre><code>miniconda3/share/terminfo/N/ncr260vt300wpp
+<pre tabindex=0><code>miniconda3/share/terminfo/N/ncr260vt300wpp
 </code></pre><p>をコピーしてきて</p>
-<pre><code>pkgs/ncurses-6.2-h58526e2_4/share/terminfo/N/ncr260vt300wpp
+<pre tabindex=0><code>pkgs/ncurses-6.2-h58526e2_4/share/terminfo/N/ncr260vt300wpp
 </code></pre><p>を置き換えたところminicondaのインストールが成功した<br>
 (<code>Eterm</code>のファイルサイズが違うぞって怒られたけど無視)。</p>
 <p>Linuxマシン買おうかな…</p>
