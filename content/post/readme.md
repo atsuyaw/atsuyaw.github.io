@@ -1,8 +1,7 @@
 ---
 title: "readme.md"
-date: 2021-05-29T13:29:51+09:00
+date: 2021-09-12T21:29:51+09:00
 draft: false
-logo: "images/AtsuyaWatanabe.svg"
 ---
 
 The summary as a top page of this site
