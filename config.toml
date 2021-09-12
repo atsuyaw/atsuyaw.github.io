@@ -10,7 +10,7 @@ gems = "jekyll-redirect-from"
 [params]
     author = "Atsuya Watanabe"
     github = "atsuyaw"
-    favicon = "images/AtsuyaWatanabe.svg"
+    favicon = "images/port-ill.png"
     location = "Osaka Prefecture University"
 
     [[params.links]]
