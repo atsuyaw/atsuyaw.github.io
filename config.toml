@@ -10,8 +10,12 @@ gems = "jekyll-redirect-from"
 [params]
     author = "Atsuya Watanabe"
     github = "atsuyaw"
-    favicon = "images/port-ill.png"
     location = "Osaka Prefecture University"
+    
+    [params.meta]
+        favicon = true
+        svg = true
+        faviconVersion = ""
 
     [[params.links]]
         title = "ORCID"
