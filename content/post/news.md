@@ -1,7 +1,7 @@
 ---
 title: "NEWS"
 date: 2021-12-11T13:44:00+09:00
-draft: false
+draft: true
 ---
 
 ## 2022

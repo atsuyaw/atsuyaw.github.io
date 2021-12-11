@@ -5,14 +5,18 @@ draft: false
 tags: ["works", "publish", "学会"]
 ---
 
-The list of my works.
 
-<!--more-->
+## 2022
+[日本金属学会 2022年春期(第170回)講演大会](https://jim.or.jp/MEETINGS/2022_spr/news/meeting-guide.html)にて講演予定
 
 ## 2021
-0. 電着プロセスによる微細結晶粒を有した中エントロピー合金の作製  
+1. 高強度・高延性化を指向した電着法による超微細粒FeCoNi ミディアムエントロピー合金の作製  
     ◦<u>渡邉充哉</u>，宮本了輔，瀧川順庸  
-    [第7回材料 WEEK 材料シンポジウム ワークショップ](https://www.jsms.jp/kaikoku/7weekpro.htm)「金属ガラス・ハイエントロピー合金のメタラジー」, 京都, 2021-10.（予定；口頭発表，査読無し）
+    [第23回 関西表面技術フォーラム](https://kansai.sfj.or.jp/gyoji/forum/23th/index.html)，オンライン，2021-11. （口頭発表，査読無し）
+
+1. 電着プロセスによる微細結晶粒を有した中エントロピー合金の作製  
+    ◦<u>渡邉充哉</u>，宮本了輔，瀧川順庸  
+    [第7回材料 WEEK 材料シンポジウム ワークショップ](https://www.jsms.jp/kaikoku/7weekpro.htm)「金属ガラス・ハイエントロピー合金のメタラジー」, 京都, 2021-10.（口頭発表，査読無し）
 
 1. 安田亨とそのグループ
     - [大学入試問題解答集　私立大編2021年度](https://www.amazon.co.jp/dp/4908003262/ref=cm_sw_r_cp_apa_glt_i_JTTPJ288AN2BXN8979DW)

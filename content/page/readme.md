@@ -1,11 +1,9 @@
 ---
-title: "readme.md"
+title: "About me"
 date: 2021-12-11T14:14:00+09:00
 draft: false
+weight: 1
 ---
-
-The summary as a top page of this site
-<!--more-->
 
 # 渡邉充哉（Atsuya Watanabe）
 
@@ -27,11 +25,6 @@ Scopus: [57211107471](https://www.scopus.com/authid/detail.uri?authorId=57211107
 物質・化学系専攻 [マテリアル工学分野](http://mtr1.osakafu-u.ac.jp/materials-jpn)   
 （[リーディングプログラムコース](https://sims-program.osakafu-u.ac.jp)）  
 [信頼性材料研究グループ](http://www2.mtr.osakafu-u.ac.jp)
-
-Osaka Prefecture University  
-School of Engineering  
-Department of Materials Science  
-Graduate Course for System-Inspired Leaders in Multidisciplinary Science
 
  ## Education
 
