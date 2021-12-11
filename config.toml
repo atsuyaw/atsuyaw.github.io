@@ -24,6 +24,7 @@ DefaultContentLanguage = "jp"
     showReadingTime = false
     showFooter = true
     showFooterLanguageChooser = true
+    amountLatestPostsInFooter = -1
 
     socialMediaLinks = [
       { link = "https://orcid.org/0000-0002-6861-7352", icon = "fab fa-orcid" },
