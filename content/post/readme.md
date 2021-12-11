@@ -1,6 +1,6 @@
 ---
 title: "readme.md"
-date: 2021-09-12T21:29:51+09:00
+date: 2021-12-11T14:14:00+09:00
 draft: false
 ---
 
@@ -18,13 +18,8 @@ Scopus: [57211107471](https://www.scopus.com/authid/detail.uri?authorId=57211107
 
 ## Works
 
-* [Recent activities](./tags/works/)  
-* [Works list](./post/works-list/) / [ORCID](https://orcid.org/0000-0002-6861-7352)  
-
-## Keywords
-
-ナノ結晶 / 電着プロセス / ハイエントロピー合金  
-Nanocrystalline / Electrodeposition / High-entropy alloys
+* [NEWS](./post/news/)
+* [ORCID](https://orcid.org/0000-0002-6861-7352)  
 
 ## Affiliation
 
@@ -32,7 +27,12 @@ Nanocrystalline / Electrodeposition / High-entropy alloys
 物質・化学系専攻 [マテリアル工学分野](http://mtr1.osakafu-u.ac.jp/materials-jpn)   
 （[リーディングプログラムコース](https://sims-program.osakafu-u.ac.jp)）  
 [信頼性材料研究グループ](http://www2.mtr.osakafu-u.ac.jp)
- 
+
+Osaka Prefecture University  
+School of Engineering  
+Department of Materials Science  
+Graduate Course for System-Inspired Leaders in Multidisciplinary Science
+
  ## Education
 
 - 2013-03 四日市市立羽津中学校 卒業
