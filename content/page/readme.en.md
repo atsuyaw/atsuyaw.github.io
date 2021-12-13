@@ -15,7 +15,7 @@ Scopus: [57211107471](https://www.scopus.com/authid/detail.uri?authorId=57211107
 
 ## Works
 
-Please check [NEWS](./post/news/) or [my ORCID](https://orcid.org/0000-0002-6861-7352) page.
+Please check [my ORCID](https://orcid.org/0000-0002-6861-7352) page.
 
 ## Affiliation
 

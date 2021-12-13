@@ -7,8 +7,6 @@ weight: 1
 
 # 渡邉充哉（Atsuya Watanabe）
 
-[![github pages](https://github.com/atsuyaw/atsuyaw.github.io/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/atsuyaw/atsuyaw.github.io/actions/workflows/gh-pages.yml)
-
 E-Mail: `watanabe [at] osakafu-u.net`  
 ORCID: [0000-0002-6861-7352](https://orcid.org/0000-0002-6861-7352)  
 Google Scholar: [WOwPSkEAAAAJ](https://scholar.google.com/citations?hl=ja&user=WOwPSkEAAAAJ)  
@@ -16,7 +14,7 @@ Scopus: [57211107471](https://www.scopus.com/authid/detail.uri?authorId=57211107
 
 ## Works
 
-* [NEWS](./post/news/)
+* [Works](../../page/works-list/)
 * [ORCID](https://orcid.org/0000-0002-6861-7352)  
 
 ## Affiliation
@@ -28,12 +26,12 @@ Scopus: [57211107471](https://www.scopus.com/authid/detail.uri?authorId=57211107
 
  ## Education
 
-- 2013-03 四日市市立羽津中学校 卒業
-- 2013-04 [鈴鹿工業高等専門学校](https://www.suzuka-ct.ac.jp) [材料工学科](https://www.suzuka-ct.ac.jp/mse) 入学
-- 2018-03 鈴鹿工業高等専門学校 材料工学科 卒業
-- 2018-04 [大阪府立大学](https://www.osakafu-u.ac.jp/) [工学域](http://www.eng.osakafu-u.ac.jp/) 物質化学系学類 [マテリアル工学課程](http://mtr1.osakafu-u.ac.jp/materials-jpn) 3年次編入学
-- 2020-03 大阪府立大学 工学域 物質化学系学類 マテリアル工学課程 卒業
-- 2020-04 大阪府立大学 工学研究科 物質・化学系専攻 マテリアル工学分野 入学
+2013-03 四日市市立羽津中学校 卒業  
+2013-04 [鈴鹿工業高等専門学校](https://www.suzuka-ct.ac.jp) [材料工学科](https://www.suzuka-ct.ac.jp/mse) 入学  
+2018-03 鈴鹿工業高等専門学校 材料工学科 卒業  
+2018-04 [大阪府立大学](https://www.osakafu-u.ac.jp/) [工学域](http://www.eng.osakafu-u.ac.jp/) 物質化学系学類 [マテリアル工学課程](http://mtr1.osakafu-u.ac.jp/materials-jpn) 3年次編入学  
+2020-03 大阪府立大学 工学域 物質化学系学類 マテリアル工学課程 卒業  
+2020-04 大阪府立大学 工学研究科 物質・化学系専攻 マテリアル工学分野 入学
 
 ## Membership
 - [表面技術協会](https://www.sfj.or.jp) 学生会員
