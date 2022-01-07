@@ -10,7 +10,7 @@ tags: []
 ## 論文がSci. Rep.誌に掲載されました。
 
 Microstructural heterogeneity in the electrodeposited Ni: insights from growth modes  
-    I. Matsui, <u>A. Watanabe</u>, Y. Takigawa, N. Omura, T. Yamamoto
+    I. Matsui, <u>A. Watanabe</u>, Y. Takigawa, N. Omura, T. Yamamoto  
     Sci. Rep., 10, 5548 (2020).（査読有り）  
     doi: [10.1038/s41598-020-62565-z](https://doi.org/10.1038/s41598-020-62565-z)
 
