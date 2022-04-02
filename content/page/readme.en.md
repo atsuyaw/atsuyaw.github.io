@@ -19,9 +19,7 @@ Please check [my ORCID](https://orcid.org/0000-0002-6861-7352) page.
 
 ## Affiliation
 
-[Graduate School of Osaka Prefecture University](https://www.osakafu-u.ac.jp/en/)  
-[School of Engineering](http://www.eng.osakafu-u.ac.jp/english/)  
-[Department of Materials Science](http://mtr1.osakafu-u.ac.jp/materials-eng/)  
+[Department of Materials Science](https://www.omu.ac.jp/eng/en/undergraduate/mat-sci/), [Graduate School of Engineering](https://www.omu.ac.jp/eng/en/), [Osaka Metropolitan University](https://www.omu.ac.jp/en/)  
 [Graduate Course for System-Inspired Leaders in Multidisciplinary Science](http://sims-program.osakafu-u.ac.jp/eng/)
 
  ## Education
@@ -31,11 +29,12 @@ Please check [my ORCID](https://orcid.org/0000-0002-6861-7352) page.
 [National Institute of Technology (KOSEN), Suzuka College](https://www.suzuka-ct.ac.jp/english/)
 - 2020-03 Bachelor of Engineering  
 [Department of Materials Science](http://mtr1.osakafu-u.ac.jp/materials-eng/),  
-[Graduate School of Osaka Prefecture University](https://www.osakafu-u.ac.jp/en/)  
+[Osaka Prefecture University](https://www.osakafu-u.ac.jp/en/)
+- 2022-03 Master of Engineering  
+[Department of Materials Science](http://mtr1.osakafu-u.ac.jp/materials-eng/),  
+[Graduate School of Osaka Prefecture University](https://www.osakafu-u.ac.jp/en/)
 
 ## Membership
 - [The Surface Finishing Society of Japan](https://www.sfj.or.jp) Student member
 - [The Japan Institute of Metals and Materials](https://jim.or.jp/en/) Student member
-- [The Japan Society for Heat Treatment](http://www.jsht.or.jp) Student member
-- [The Japan Association for College of Technology](http://jact.sakura.ne.jp) Student member
 - [The Society of Materials Science, Japan](https://www.jsms.jp/e-index.html) Student member

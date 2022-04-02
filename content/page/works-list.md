@@ -7,7 +7,13 @@ tags: ["works", "publish", "学会"]
 
 
 ## 2022
-[日本金属学会 2022年春期(第170回)講演大会](https://jim.or.jp/MEETINGS/2022_spr/news/meeting-guide.html)にて講演予定
+1. [高繰り返し紫外ピコ秒レーザーによる金属ナノ粒子生成](https://confit.atlas.jp/guide/event/csj102nd/subject/A202-2pm-13/advanced)  
+    <u>渡邉充哉</u>，水田千尋，○八ッ橋 知幸．  
+    [日本化学会第102春季年会](https://confit.atlas.jp/guide/event/csj102nd/top), A202-2pm-13, オンライン, 2022-03-24.
+
+1. [電着によるbcc微細粒FeCoNiミディアムエントロピー合金の作製](https://confit.atlas.jp/guide/event/jim2022spring/subject/2J08-16-09/advanced)  
+    <u>渡邉充哉</u>，山本剛久，宮本了輔，瀧川順庸．  
+    [日本金属学会 2022年春期(第170回)講演大会](https://jim.or.jp/MEETINGS/2022_spr/news/meeting-guide.html) ハイエントロピー合金の材料科学VII，S2.26，オンライン，2022-03-16．
 
 ## 2021
 1. 高強度・高延性化を指向した電着法による超微細粒FeCoNi ミディアムエントロピー合金の作製  
