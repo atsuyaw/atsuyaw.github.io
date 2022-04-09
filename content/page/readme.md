@@ -9,13 +9,13 @@ weight: 1
 
 E-Mail: `watanabe [at] osakafu-u.net`  
 ORCID: [0000-0002-6861-7352](https://orcid.org/0000-0002-6861-7352)  
+researchmap: [atsuyaw](https://researchmap.jp/atsuyaw)  
 Google Scholar: [WOwPSkEAAAAJ](https://scholar.google.com/citations?hl=ja&user=WOwPSkEAAAAJ)  
 Scopus: [57211107471](https://www.scopus.com/authid/detail.uri?authorId=57211107471)
 
 ## Works
 
 * [Works](../../page/works-list/)
-* [ORCID](https://orcid.org/0000-0002-6861-7352)  
 
 ## Affiliation
 [大阪公立大学](https://www.omu.ac.jp)大学院 [工学研究科](https://www.omu.ac.jp/eng/graduate/) 物質化学生命系専攻 [マテリアル工学分野](https://www.omu.ac.jp/eng/mtr/)（[リーディングプログラムコース](https://sims-program.osakafu-u.ac.jp)）  

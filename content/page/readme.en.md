@@ -10,6 +10,7 @@ weight: 1
 
 E-Mail: `watanabe [at] osakafu-u.net`  
 ORCID: [0000-0002-6861-7352](https://orcid.org/0000-0002-6861-7352)  
+researchmap: [atsuyaw](https://researchmap.jp/atsuyaw)  
 Google Scholar: [WOwPSkEAAAAJ](https://scholar.google.com/citations?hl=ja&user=WOwPSkEAAAAJ)  
 Scopus: [57211107471](https://www.scopus.com/authid/detail.uri?authorId=57211107471)
 
