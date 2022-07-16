@@ -8,6 +8,11 @@ tags: ["works", "publish", "学会"]
 
 ## 2022
 
+1. Tensile strength of nanocrystalline FeCoNi medium-entropy alloy fabricated using electrodeposition  
+    <u>A. Watanabe</u>, T. Yamamoto, and Y. Takigawa  
+    Scientific Reports, 12, 12076 (2022).
+    doi: [10.1038/s41598-022-16086-6](https://doi.org/10.1038/s41598-022-16086-6)
+
 1. [電着によるbcc微細粒FeCoNiミディアムエントロピー合金の作製](https://confit.atlas.jp/guide/event/jim2022spring/subject/2J08-16-09/advanced)  
     <u>渡邉充哉</u>，山本剛久，宮本了輔，瀧川順庸．  
     [日本金属学会 2022年春期(第170回)講演大会](https://jim.or.jp/MEETINGS/2022_spr/news/meeting-guide.html) ハイエントロピー合金の材料科学VII，S2.26，オンライン，2022-03-16．
