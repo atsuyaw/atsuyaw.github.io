@@ -29,8 +29,7 @@ DefaultContentLanguage = "jp"
     socialMediaLinks = [
       { link = "https://orcid.org/0000-0002-6861-7352", icon = "fab fa-orcid" },
       { link = "https://scholar.google.com/citations?hl=ja&user=WOwPSkEAAAAJ", icon = "fas fa-graduation-cap" },
-      { link = "https://github.com/atsuyaw", icon = "fab fa-github" },
-      { link = "http://www2.mtr.osakafu-u.ac.jp", icon = "fas fa-link" },
+      { link = "https://github.com/atsuyaw", icon = "fab fa-github" }
     ]
 
     [Languages]
