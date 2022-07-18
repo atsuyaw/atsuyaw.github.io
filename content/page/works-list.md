@@ -5,6 +5,7 @@ draft: false
 tags: ["works", "publish", "学会"]
 ---
 
+[researchmap](https://researchmap.jp/atsuyaw)も併せてご覧ください。
 
 ## 2022
 
