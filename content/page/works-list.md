@@ -11,7 +11,7 @@ tags: ["works", "publish", "学会"]
 
 1. Tensile strength of nanocrystalline FeCoNi medium-entropy alloy fabricated using electrodeposition  
     <u>A. Watanabe</u>, T. Yamamoto, and Y. Takigawa  
-    Scientific Reports, 12, 12076 (2022).
+    Scientific Reports, 12, 12076 (2022).  
     doi: [10.1038/s41598-022-16086-6](https://doi.org/10.1038/s41598-022-16086-6)
 
 1. [電着によるbcc微細粒FeCoNiミディアムエントロピー合金の作製](https://confit.atlas.jp/guide/event/jim2022spring/subject/2J08-16-09/advanced)  
