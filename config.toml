@@ -29,7 +29,7 @@ DefaultContentLanguage = "jp"
     copyrightBy = "Atsuya Watanabe"
     creditsText = " "
     creditsUrl = " "
-    dafaultNoimage = "https://gohugo.io/images/gohugoio-card-1.png"
+    dafaultNoimage = "/no-image.png"
 
     socialMediaLinks = [
       { link = "https://orcid.org/0000-0002-6861-7352", icon = "fab fa-orcid" },
