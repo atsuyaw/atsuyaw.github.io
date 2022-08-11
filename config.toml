@@ -24,6 +24,12 @@ DefaultContentLanguage = "jp"
     showFooter = true
     showFooterLanguageChooser = true
     amountLatestPostsInFooter = -1
+    copyrightUrl = "https://github.com/atsuyaw"
+    copyrightUseCurrentYear = true
+    copyrightBy = "Atsuya Watanabe"
+    creditsText = " "
+    creditsUrl = " "
+    dafaultNoimage = "https://gohugo.io/images/gohugoio-card-1.png"
 
     socialMediaLinks = [
       { link = "https://orcid.org/0000-0002-6861-7352", icon = "fab fa-orcid" },

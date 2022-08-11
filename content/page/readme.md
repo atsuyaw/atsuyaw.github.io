@@ -15,7 +15,7 @@ Scopus: [57211107471](https://www.scopus.com/authid/detail.uri?authorId=57211107
 
 ## Works
 
-* [Works](../../page/works-list/)
+* [Works]({{< relref "works-list.md">}})
 
 ## Affiliation
 [大阪公立大学](https://www.omu.ac.jp)大学院 [工学研究科](https://www.omu.ac.jp/eng/graduate/) 物質化学生命系専攻 [マテリアル工学分野](https://www.omu.ac.jp/eng/mtr/)  
