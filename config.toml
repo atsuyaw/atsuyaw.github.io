@@ -7,6 +7,7 @@ publishDir = "docs"
 canonifyurls = false
 gems = "jekyll-redirect-from"
 DefaultContentLanguage = "jp"
+googleAnalytics = "G-HNVCPLHT68"
 
 
 [params]
