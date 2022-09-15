@@ -11,6 +11,6 @@ tags: ["Publication"]
 
 Research findings of collaborative research have been presented in [Annual Meeting on Photochemistry 2022](https://photochemistry.jp/2022/english.html).
 
-* Tomoyuki Yatsuhashi, <u>Atsuya Watanabe</u>．  
-[Laser ablation synthesis of FeCoNi medium entropy alloy colloidal solution by using high-repetition rate UV picosecond laser](https://confit.atlas.jp/guide/event/photochemistry2022/subject/1P26/advanced)  
+* [Laser ablation synthesis of FeCoNi medium entropy alloy colloidal solution by using high-repetition rate UV picosecond laser](https://confit.atlas.jp/guide/event/photochemistry2022/subject/1P26/advanced)  
+Tomoyuki Yatsuhashi, <u>Atsuya Watanabe</u>．  
 [Annual Meeting on Photochemistry 2022](https://photochemistry.jp/2022/) ,1P26, Kyoto.
