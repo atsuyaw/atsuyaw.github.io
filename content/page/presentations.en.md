@@ -9,7 +9,7 @@ See also [researchmap](https://researchmap.jp/atsuyaw).
 
 ## Scheduled in future
 
-Crystal orientation evolutions during grian growth in electrodeposited nanocrystalline FeCoNi medium-entropy alloy
+* Crystal orientation evolutions during grian growth in electrodeposited nanocrystalline FeCoNi medium-entropy alloy
     ◦<u>Atsuya Watanabe</u>,Yorinobu Takigawa.  
     第1回 結晶性材料の結晶配向評価および結晶方位解析技術研究会, Atami, 2022-10.
 
