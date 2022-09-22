@@ -2,6 +2,7 @@
 title: "Papers"
 date: 2022-09-17T12:00:00+09:00
 draft: false
+icon: "fa-pen-nib"
 tags: ["works", "publish"]
 aliases: ["/page/works-list/"]
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Presentations"
-date: 2022-09-17T18:05:00+09:00
+date: 2022-09-22T14:20:00+09:00
+icon: "fa-microphone"
 draft: false
 tags: ["works", "publish", "学会"]
 ---
@@ -12,12 +13,12 @@ See also [researchmap](https://researchmap.jp/atsuyaw).
 * Crystal orientation evolutions during grian growth in electrodeposited nanocrystalline FeCoNi medium-entropy alloy
     ◦<u>Atsuya Watanabe</u>,Yorinobu Takigawa.  
     第1回 結晶性材料の結晶配向評価および結晶方位解析技術研究会, Atami, 2022-10.
-
-## 2022
-
+    
 * Effects of 4th element addition into electrodeposited nanocrystalline FeCoNi medium-entropy alloy  
     ◦Nozomi Ueyama, <u>Atsuya Watanabe</u>, Yorinobu Takigawa  
     The 8th Materials WEEK, Research Presentations of Young Students, 44, Kyoto, 2022-10-11.
+
+## 2022
 
 * [Deformation behavior of nanocrystalline FeCoNi medium-entropy alloys at room temperature](https://confit.atlas.jp/guide/event/jim2022autumn/subject/2M08-20-13/advanced)  
     ◦<u>Atsuya Watanabe</u>, Takahisa Yamamoto, Nozomi Ueyama, Yorinobu Takigawa  
