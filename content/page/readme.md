@@ -15,7 +15,8 @@ Scopus: [57211107471](https://www.scopus.com/authid/detail.uri?authorId=57211107
 
 ## Works
 
-* [Works]({{< relref "works-list.md">}})
+* [Papers]({{< relref "papers.md">}})
+* [Presentations]({{< relref "presentations.md">}})
 
 ## Affiliation
 [大阪公立大学](https://www.omu.ac.jp)大学院 [工学研究科](https://www.omu.ac.jp/eng/graduate/) 物質化学生命系専攻 [マテリアル工学分野](https://www.omu.ac.jp/eng/mtr/)  
@@ -24,13 +25,13 @@ Scopus: [57211107471](https://www.scopus.com/authid/detail.uri?authorId=57211107
 
  ## Education
 
-- 2013-03 四日市市立羽津中学校 卒業
-- 2013-04 [鈴鹿工業高等専門学校](https://www.suzuka-ct.ac.jp) [材料工学科](https://www.suzuka-ct.ac.jp/mse) 入学
-- 2018-03 鈴鹿工業高等専門学校 材料工学科 卒業
-- 2018-04 [大阪府立大学](https://www.osakafu-u.ac.jp/) [工学域](http://www.eng.osakafu-u.ac.jp/) 物質化学系学類 [マテリアル工学課程](http://mtr1.osakafu-u.ac.jp/materials-jpn) 3年次編入学
-- 2020-03 大阪府立大学 工学域 物質化学系学類 マテリアル工学課程 卒業
-- 2022-03 大阪府立大学 工学研究科 物質・化学系専攻 マテリアル工学分野 博士前期課程修了
 - 2022-04 [大阪公立大学](https://www.omu.ac.jp) [工学研究科](https://www.omu.ac.jp/eng) [物質化学生命系専攻 マテリアル工学分野](https://www.omu.ac.jp/eng/mtr) 博士後期課程 入学
+- 2022-03 [大阪府立大学](https://www.osakafu-u.ac.jp/)大阪府立大学 工学研究科 物質・化学系専攻 マテリアル工学分野 博士前期課程修了
+- 2020-03 大阪府立大学 [工学域](http://www.eng.osakafu-u.ac.jp/) 物質化学系学類 [マテリアル工学課程](http://mtr1.osakafu-u.ac.jp/materials-jpn) 卒業
+- 2018-04 大阪府立大学 工学域 物質化学系学類 マテリアル工学課程 3年次編入学
+- 2018-03 [鈴鹿工業高等専門学校](https://www.suzuka-ct.ac.jp) [材料工学科](https://www.suzuka-ct.ac.jp/mse) 卒業
+- 2013-04 鈴鹿工業高等専門学校 材料工学科 入学
+- 2013-03 四日市市立羽津中学校 卒業
 
 ## Membership
 - [表面技術協会](https://www.sfj.or.jp) 学生会員

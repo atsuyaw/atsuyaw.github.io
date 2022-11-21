@@ -25,15 +25,15 @@ Please check [my ORCID](https://orcid.org/0000-0002-6861-7352) page.
 
  ## Education
 
-- 2018-03 Associate degree of Engineering  
-[Dept. Materials Science and Engineering](https://www.suzuka-ct.ac.jp/mse),  
-[National Institute of Technology (KOSEN), Suzuka College](https://www.suzuka-ct.ac.jp/english/)
-- 2020-03 Bachelor of Engineering  
-[Department of Materials Science](http://mtr1.osakafu-u.ac.jp/materials-eng/),  
-[Osaka Prefecture University](https://www.osakafu-u.ac.jp/en/)
 - 2022-03 Master of Engineering  
 [Department of Materials Science](http://mtr1.osakafu-u.ac.jp/materials-eng/),  
 [Graduate School of Osaka Prefecture University](https://www.osakafu-u.ac.jp/en/)
+- 2020-03 Bachelor of Engineering  
+[Department of Materials Science](http://mtr1.osakafu-u.ac.jp/materials-eng/),  
+[Osaka Prefecture University](https://www.osakafu-u.ac.jp/en/)
+- 2018-03 Associate degree of Engineering  
+[Dept. Materials Science and Engineering](https://www.suzuka-ct.ac.jp/mse),  
+[National Institute of Technology (KOSEN), Suzuka College](https://www.suzuka-ct.ac.jp/english/)
 
 ## Membership
 - [The Surface Finishing Society of Japan](https://www.sfj.or.jp) Student member
