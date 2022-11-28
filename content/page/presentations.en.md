@@ -4,6 +4,7 @@ date: 2022-09-22T14:20:00+09:00
 icon: "fa-microphone"
 draft: false
 tags: ["works", "publish", "学会"]
+weight: 30
 ---
 
 See also [researchmap](https://researchmap.jp/atsuyaw).

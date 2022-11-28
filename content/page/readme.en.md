@@ -1,9 +1,9 @@
 ---
 title: "About me"
-date: 2021-12-11T14:14:00+09:00
+date: 2022-11-28T10:02:00+09:00
 draft: false
 icon: "fa-user"
-weight: 1
+weight: 10
 ---
 
 # Atsuya Watanabe
@@ -37,5 +37,5 @@ Please check [my ORCID](https://orcid.org/0000-0002-6861-7352) page.
 
 ## Membership
 - [The Surface Finishing Society of Japan](https://www.sfj.or.jp) Student member
-- [The Japan Institute of Metals and Materials](https://jim.or.jp/en/) Student member
+- [The Japan Institute of Metals and Materials](https://jimm.jp/en/) Student member
 - [The Society of Materials Science, Japan](https://www.jsms.jp/e-index.html) Student member

@@ -1,8 +1,8 @@
 ---
 title: "About me"
-date: 2021-12-11T14:14:00+09:00
+date: 2022-11-28T09:46:00+09:00
 draft: false
-weight: 1
+weight: 10
 ---
 
 # 渡邉充哉（Atsuya Watanabe）
@@ -14,9 +14,9 @@ Google Scholar: [WOwPSkEAAAAJ](https://scholar.google.com/citations?hl=ja&user=W
 Scopus: [57211107471](https://www.scopus.com/authid/detail.uri?authorId=57211107471)
 
 ## Works
-
-* [Papers]({{< relref "papers.md">}})
-* [Presentations]({{< relref "presentations.md">}})
+参照:
+* [学術論文]({{< relref "papers.md">}})
+* [学会発表]({{< relref "presentations.md">}})
 
 ## Affiliation
 [大阪公立大学](https://www.omu.ac.jp)大学院 [工学研究科](https://www.omu.ac.jp/eng/graduate/) 物質化学生命系専攻 [マテリアル工学分野](https://www.omu.ac.jp/eng/mtr/)  
@@ -35,7 +35,5 @@ Scopus: [57211107471](https://www.scopus.com/authid/detail.uri?authorId=57211107
 
 ## Membership
 - [表面技術協会](https://www.sfj.or.jp) 学生会員
-- [日本金属学会](https://jim.or.jp) 学生会員
-- [日本熱処理技術協会](http://www.jsht.or.jp) 学生会員
-- [日本高専学会](http://jact.sakura.ne.jp) 学生会員
+- [日本金属学会](https://jimm.jp) 学生会員
 - [日本材料学会](https://www.jsms.jp) 学生会員
