@@ -7,7 +7,7 @@ showDate: true
 
 ## セミナー実施
 
-LaTeXを使った卒論・レポート作成講座に講師として参加しました。
+I attented "LaTeXを使った卒論・レポート作成講座" (Writing seminar for reports and thesis using LaTeX) as a instructor.
 
 * [LaTeXを使った卒論・レポート作成講座](https://cloudlatex.io/20221223-latex-webinar)
 アカリク Cloud LaTeX Team．Zoom，2022-12-23．
