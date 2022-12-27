@@ -1,6 +1,6 @@
 ---
 title: "About me"
-date: 2022-11-28T10:02:00+09:00
+date: 2022-12-27T11:00:00+09:00
 draft: false
 icon: "fa-user"
 weight: 10
