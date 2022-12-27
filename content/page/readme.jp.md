@@ -11,7 +11,7 @@ E-Mail: `watanabe [at] osakafu-u.net`
 ORCID: [0000-0002-6861-7352](https://orcid.org/0000-0002-6861-7352)  
 researchmap: [atsuyaw](https://researchmap.jp/atsuyaw)  
 Google Scholar: [WOwPSkEAAAAJ](https://scholar.google.com/citations?hl=ja&user=WOwPSkEAAAAJ)  
-ResearcherID: [AAD-7527-2021](https://www.webofscience.com/wos/author/rid/AAD-7527-2021)
+ResearcherID: [AAD-7527-2021](https://www.webofscience.com/wos/author/rid/AAD-7527-2021)  
 Scopus: [57211107471](https://www.scopus.com/authid/detail.uri?authorId=57211107471)
 
 ## Works
@@ -26,7 +26,7 @@ Scopus: [57211107471](https://www.scopus.com/authid/detail.uri?authorId=57211107
 
  ## Education
 
-- 2022-04 [大阪公立大学](https://www.omu.ac.jp) [工学研究科](https://www.omu.ac.jp/eng) [物質化学生命系専攻 マテリアル工学分野](https://www.omu.ac.jp/eng/mtr) 博士後期課程 入学
+- 2022-04 [大阪公立大学](https://www.omu.ac.jp) [工学研究科](https://www.omu.ac.jp/eng) 物質化学生命系専攻 [マテリアル工学分野](https://www.omu.ac.jp/eng/mtr) 博士後期課程 入学
 - 2022-03 [大阪府立大学](https://www.osakafu-u.ac.jp/)大阪府立大学 工学研究科 物質・化学系専攻 マテリアル工学分野 博士前期課程修了
 - 2020-03 大阪府立大学 [工学域](http://www.eng.osakafu-u.ac.jp/) 物質化学系学類 [マテリアル工学課程](http://mtr1.osakafu-u.ac.jp/materials-jpn) 卒業
 - 2018-04 大阪府立大学 工学域 物質化学系学類 マテリアル工学課程 3年次編入学
