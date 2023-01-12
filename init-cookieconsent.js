@@ -8,5 +8,8 @@ window.cookieconsent.initialise({
     }
   },
   "theme": "classic",
-  "position": "bottom-right"
+  "position": "bottom-right",
+  "content": {
+    "message": "This website uses cookies to ensure you get the best experience on my website."
+  }
 });
