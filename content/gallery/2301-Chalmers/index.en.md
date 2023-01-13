@@ -6,7 +6,7 @@ noSummary: true
 imageSlider: true   #set to false if you don't want to use the imageSlider but a featuredImage
 icon: "fa-plane-departure"
 ---
-I have been at Chalmers tekniska högskola (Chalmers University of Technology) in Göteborg, Sweden since Jan.  
+As a guest PhD student, I have been at Chalmers tekniska högskola (Chalmers University of Technology) in Göteborg, Sweden since Jan.  
 I will work with professor Sheng Guo and Dr. Zhenyuan Xia for about 3 months here.
 
 <iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="Chalmers University of Technology | Chalmers" src="https://hatenablog-parts.com/embed?url=https://www.chalmers.se/en/Pages/default.aspx" frameborder="0" scrolling="no"></iframe>
