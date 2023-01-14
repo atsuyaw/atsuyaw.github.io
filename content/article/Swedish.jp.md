@@ -5,7 +5,7 @@ draft: false
 summary: "スウェーデン語が読めない"
 showDate: true
 excludeFromIndex: true
-categories: ["スウェーデン"]
+categories: ["Sweden"]
 ---
 スウェーデンの文字はドイツ語に似ています。
 なんか読めそうで，でも読めない。
@@ -24,8 +24,8 @@ categories: ["スウェーデン"]
 乾燥機に書かれていた説明です。
 
 ちなみにSwedishキーボードはこうなっています。  
+![Swedish配列](https://user-images.githubusercontent.com/68371029/212390954-0803029e-c319-498c-ab98-3a5fa7a82466.jpg)
 Enterキーが日本仕様である一方，Backspaceが欧文仕様なのが興味深いです。
 キーが足りないのか，[Alt Gr]なるキーがあり，Shiftキーとは別のレイヤーが割り当てられています。
 
-![Swedish配列](https://user-images.githubusercontent.com/68371029/212390954-0803029e-c319-498c-ab98-3a5fa7a82466.jpg)
 渡邉は日本語も使いたいので，PCに日本語入力を設定したところキー配列が訳わからん状態になりました。
