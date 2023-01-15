@@ -6,6 +6,7 @@ summary: "スウェーデン語が読めない"
 showDate: true
 excludeFromIndex: true
 categories: ["Sweden"]
+icon: "fa-plane-departure"
 ---
 スウェーデンの文字はドイツ語に似ています。
 なんか読めそうで，でも読めない。
