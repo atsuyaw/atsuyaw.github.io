@@ -18,3 +18,6 @@ icon: "fa-plane-departure"
 ![昼の様子](https://user-images.githubusercontent.com/68371029/216774429-f3926a35-152a-4fba-99e4-c85fbba17169.jpg)
 
 ![夕方の様子](https://user-images.githubusercontent.com/68371029/216774428-fca205e1-9113-46b4-b429-61ae5916a8c0.jpg)
+
+2月に入り少しずつ日も長くなってきました。  
+今回は降雪の話題でしたが，押し並べて言えば天気の良い日も増えてきたように思います。
