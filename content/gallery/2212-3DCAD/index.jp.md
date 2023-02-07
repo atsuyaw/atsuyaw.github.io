@@ -6,6 +6,7 @@ showDate: true
 title: "セミナー実施"
 imageSlider: true   #set to false if you don't want to use the imageSlider but a featuredImage
 noSummary: true
+categories: [Other]
 ---
 「初めてのCAD、初めての3Dプリンター講習会」にて講師を担当しました。
 

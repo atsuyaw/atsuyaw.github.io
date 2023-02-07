@@ -6,6 +6,7 @@ showDate: true
 title: "Seminar held"
 imageSlider: true   #set to false if you don't want to use the imageSlider but a featuredImage
 noSummary: true
+categories: [Other]
 ---
 I attented "初めてのCAD、初めての3Dプリンター講習会" (Lecture for using CAD and 3D-printer for the first time) as an instructor.
 
