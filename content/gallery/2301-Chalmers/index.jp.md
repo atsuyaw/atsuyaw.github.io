@@ -5,6 +5,7 @@ draft: false
 noSummary: true
 imageSlider: true   #set to false if you don't want to use the imageSlider but a featuredImage
 icon: "fa-plane-departure"
+categories: ["Sweden"]
 ---
 1月から外来博士課程学生としてスウェーデンのChalmers tekniska högskola（Chalmers工科大学）に滞在しています。  
 Guo先生，Xia先生のご指導の下，およそ3か月間研究を実施します。
