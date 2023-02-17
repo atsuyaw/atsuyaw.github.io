@@ -1,8 +1,8 @@
 ---
-title: "降雪"
+title: "北欧人は傘を差さない？"
 date: 2023-02-17T17:00:00+01:00
 draft: false
-summary: "北欧人は傘を差さない？"
+summary: "もちろん差すひともいます"
 showDate: true
 excludeFromIndex: true
 categories: ["Sweden"]
@@ -12,7 +12,7 @@ icon: "fa-plane-departure"
 きょうは雨です。
 ![雨のChalmers](https://user-images.githubusercontent.com/68371029/219698865-0d9358e8-6094-4df6-9b55-5d194ae9b637.jpg)
 
-来てからずっと感じていたことですが，こちらでは傘を差さないひとが多いです（もちろん差すひともいます）。
+来てからずっと感じていたことですが，こちらでは傘を差さないひとが多いです。
 
 訊けば，風が強いから傘なんて意味ないよって言ってました。  
 割と強めの雨でもフードをかぶってすたすた歩くのがスウェーデン流。
