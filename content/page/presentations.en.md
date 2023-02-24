@@ -10,10 +10,17 @@ weight: 30
 See also [researchmap](https://researchmap.jp/atsuyaw).
 
 ## Scheduled in future
+* 
+
+## 2023
+
+* Fabrication of FeCoNi medium-entropy alloy by laser ablation in water using UV picosecond laser pulses  
+    <u>Atsuya Watanabe</u>, ◦Tomoyuki Yatsuhashi.  
+    HEA International Workshop, Kyoto, 2023-02-14, 15.
 
 ## 2022
 
-* Crystal orientation evolutions during grian growth in electrodeposited nanocrystalline FeCoNi medium-entropy alloy
+* Crystal orientation evolutions during grian growth in electrodeposited nanocrystalline FeCoNi medium-entropy alloy  
     ◦<u>Atsuya Watanabe</u>,Yorinobu Takigawa.  
     1st 結晶性材料の結晶配向評価および結晶方位解析技術研究会, Atami, 2022-10.
 

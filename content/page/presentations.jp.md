@@ -9,18 +9,27 @@ weight: 30
 
 [researchmap](https://researchmap.jp/atsuyaw)も併せてご覧ください。
 
+## 予定
+* 
+
+## 2023
+
+* Fabrication of FeCoNi medium-entropy alloy by laser ablation in water using UV picosecond laser pulses  
+    <u>Atsuya Watanabe</u>, ◦Tomoyuki Yatsuhashi.  
+    HEA International Workshop, Kyoto, 2023-02-14, 15.
+
 ## 2022
 
 * 電析ナノ結晶FeCoNiミディアムエントロピー合金の粒成長に伴う結晶配向変化  
-    <u>渡邉充哉</u>，瀧川順庸．  
+    ◦<u>渡邉充哉</u>，瀧川順庸．  
     日本金属学会 第1回 結晶性材料の結晶配向評価および結晶方位解析技術研究会, No. 4，熱海，2022-11-25．
 
 * 電着バルクCrFeNiミディアムエントロピー合金の作製  
-    宮本了輔，<u>渡邉充哉</u>，瀧川順庸．  
+    ◦宮本了輔，<u>渡邉充哉</u>，瀧川順庸．  
     日本材料学会 第8回材料WEEK 若手学生研究発表会，95，京都，2022-10-12．
 
 * 電析ナノ結晶FeCoNiミディアムエントロピー合金への第四元素微量添加  
-    植山希，<u>渡邉充哉</u>，瀧川順庸
+    ◦植山希，<u>渡邉充哉</u>，瀧川順庸
     日本材料学会 第8回材料WEEK 若手学生研究発表会，44，京都，2022-10-11．
 
 * [バルクナノ結晶FeCoNiミディアムエントロピー合金の室温変形特性](https://confit.atlas.jp/guide/event/jim2022autumn/subject/2M08-20-13/advanced)  

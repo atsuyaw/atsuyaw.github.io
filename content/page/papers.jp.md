@@ -11,20 +11,23 @@ weight: 20
 
 ## Tensile strength of nanocrystalline FeCoNi medium-entropy alloy fabricated using electrodeposition
 
-<u>A. Watanabe</u>, T. Yamamoto, and Y. Takigawa  
+<u>A. Watanabe</u>, T. Yamamoto, Y. Takigawa  
 Scientific Reports, 12, 12076 (2022).  
-doi: [10.1038/s41598-022-16086-6](https://doi.org/10.1038/s41598-022-16086-6)
+<img align="left" src="https://img.shields.io/badge/Open%20Access-F68212?style=flat&logo=Open%20Access&logoColor=white">  
+doi: [10.1038/s41598-022-16086-6](https://doi.org/10.1038/s41598-022-16086-6)  
+
 
 ## Reducing sulfur to improve thermal embrittlement in electrodeposited nickel using citric acid
-
 <u>A. Watanabe</u>, Y. Takigawa  
 Results in Surfaces and Interfaces, 1, 1000001 (2020).  
+<img align="left" src="https://img.shields.io/badge/Open%20Access-F68212?style=flat&logo=Open%20Access&logoColor=white">  
 doi: [10.1016/j.rsurfi.2020.100001](https://doi.org/10.1016/j.rsurfi.2020.100001)
 
 
 ## Microstructural heterogeneity in the electrodeposited Ni: insights from growth modes  
 I. Matsui, <u>A. Watanabe</u>, T. Uesugi, N. Omura, Y. Takigawa, T. Yamamoto  
 Scientific Reports, 10, 5548 (2020).  
+<img align="left" src="https://img.shields.io/badge/Open%20Access-F68212?style=flat&logo=Open%20Access&logoColor=white">  
 doi: [10.1038/s41598-020-62565-z](https://doi.org/10.1038/s41598-020-62565-z)
 
 ## Mechanical properties and microstructures after abnormal grain growth in electrodeposited Ni–W alloys  
