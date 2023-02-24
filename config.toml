@@ -33,7 +33,7 @@ googleAnalytics = "G-HNVCPLHT68"
     creditsText = " "
     creditsUrl = " "
     dafaultNoimage = "/no-image.png"
-    css_modules = ["..", "//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css"]
+    css_modules = ["..", "//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css","https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"]
     js_modules = ["..", "//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js", "init-cookieconsent.js"]
 
     socialMediaLinks = [
