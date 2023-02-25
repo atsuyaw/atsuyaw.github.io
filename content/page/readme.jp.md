@@ -8,11 +8,11 @@ weight: 10
 # 渡邉充哉（Atsuya Watanabe）
 
 E-Mail: `watanabe [at] osakafu-u.net`  
-ORCID: [0000-0002-6861-7352](https://orcid.org/0000-0002-6861-7352)  
+ORCID: <i class="ai ai-orcid ai" style="color:#a6ce39"></i> [0000-0002-6861-7352](https://orcid.org/0000-0002-6861-7352)  
 researchmap: [atsuyaw](https://researchmap.jp/atsuyaw)  
-Google Scholar: [WOwPSkEAAAAJ](https://scholar.google.com/citations?hl=ja&user=WOwPSkEAAAAJ)  
-ResearcherID: [AAD-7527-2021](https://www.webofscience.com/wos/author/rid/AAD-7527-2021)  
-Scopus: [57211107471](https://www.scopus.com/authid/detail.uri?authorId=57211107471)
+Google Scholar: <i class="ai ai-google-scholar ai"></i> [WOwPSkEAAAAJ](https://scholar.google.com/citations?hl=ja&user=WOwPSkEAAAAJ)  
+ResearcherID: <i class="ai ai-researcherid ai"></i> [AAD-7527-2021](https://www.webofscience.com/wos/author/rid/AAD-7527-2021)  
+Scopus: <i class="ai ai-scopus ai"></i> [57211107471](https://www.scopus.com/authid/detail.uri?authorId=57211107471)
 
 ## Works
 参照:
