@@ -38,8 +38,10 @@ googleAnalytics = "G-HNVCPLHT68"
 
     socialMediaLinks = [
       { link = "https://orcid.org/0000-0002-6861-7352", icon = "fab fa-orcid" },
-      { link = "https://scholar.google.com/citations?hl=ja&user=WOwPSkEAAAAJ", icon = "fas fa-graduation-cap" },
-      { link = "https://github.com/atsuyaw", icon = "fab fa-github" }
+      { link = "https://scholar.google.com/citations?hl=ja&user=WOwPSkEAAAAJ", icon = "ai ai-google-scholar" },
+      { link = "https://www.webofscience.com/wos/author/rid/AAD-7527-2021", icon = "ai ai-clarivate"},
+      { link = "https://www.scopus.com/authid/detail.uri?authorId=57211107471", icon = "ai ai-scopus" },
+      { link = "https://github.com/atsuyaw", icon = "fab fa-github"}
     ]
 
     [Languages]

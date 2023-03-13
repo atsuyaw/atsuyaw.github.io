@@ -7,12 +7,12 @@ weight: 10
 
 # 渡邉充哉（Atsuya Watanabe）
 
-E-Mail: `watanabe [at] osakafu-u.net`  
-ORCID: <i class="ai ai-orcid ai" style="color:#a6ce39"></i> [0000-0002-6861-7352](https://orcid.org/0000-0002-6861-7352)  
+E-Mail <i class="fa fa-envelope"></i> `watanabe [at] osakafu-u.net`  
+ORCID <i class="ai ai-orcid ai"></i> [0000-0002-6861-7352](https://orcid.org/0000-0002-6861-7352)  
 researchmap: [atsuyaw](https://researchmap.jp/atsuyaw)  
-Google Scholar: <i class="ai ai-google-scholar ai"></i> [WOwPSkEAAAAJ](https://scholar.google.com/citations?hl=ja&user=WOwPSkEAAAAJ)  
-ResearcherID: <i class="ai ai-researcherid ai"></i> [AAD-7527-2021](https://www.webofscience.com/wos/author/rid/AAD-7527-2021)  
-Scopus: <i class="ai ai-scopus ai"></i> [57211107471](https://www.scopus.com/authid/detail.uri?authorId=57211107471)
+Google Scholar <i class="ai ai-google-scholar ai"></i> [WOwPSkEAAAAJ](https://scholar.google.com/citations?hl=ja&user=WOwPSkEAAAAJ)  
+ResearcherID <i class="ai ai-clarivate"></i> [AAD-7527-2021](https://www.webofscience.com/wos/author/rid/AAD-7527-2021)  
+Scopus <i class="ai ai-scopus ai"></i> [57211107471](https://www.scopus.com/authid/detail.uri?authorId=57211107471)
 
 ## Works
 参照:
@@ -21,7 +21,7 @@ Scopus: <i class="ai ai-scopus ai"></i> [57211107471](https://www.scopus.com/aut
 
 ## Affiliation
 [大阪公立大学](https://www.omu.ac.jp)大学院 [工学研究科](https://www.omu.ac.jp/eng/graduate/) 物質化学生命系専攻 [マテリアル工学分野](https://www.omu.ac.jp/eng/mtr/)  
-（[リーディングプログラムコース](https://sims-program.osakafu-u.ac.jp)）  
+（[リーディングプログラムコース](https://www.omu.ac.jp/las/sims/)）  
 [信頼性材料研究グループ](http://www2.mtr.osakafu-u.ac.jp)
 
  ## Education
