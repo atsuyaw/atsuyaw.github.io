@@ -7,7 +7,7 @@ categories: ["Meeting"]
 tags: ["Publication"]
 ---
 
-## 共同研究の成果発表
+## 光化学討論会 / 分子科学討論会
 
 [2022年光化学討論会](https://photochemistry.jp/2022/)及び[第16回分子科学討論会](http://www.molsci.jp/2022/)において共同研究の成果が発表されました。
 
