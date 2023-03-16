@@ -8,7 +8,7 @@ tags: ["Publication"]
 ---
 
 ## HEA国際ワークショップ
-阪公大 理学研究科の八ッ橋先生が共同研究で得られた成果を発表されました。
+阪公大 理学研究科の八ッ橋先生が共同研究において得られた成果を発表されました。
 
 * Fabrication of FeCoNi medium-entropy alloy by laser ablation in water using UV picosecond laser pulses  
 <u>Atsuya Watanabe</u>, Tomoyuki Yatsuhashi．  

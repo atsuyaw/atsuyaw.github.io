@@ -9,6 +9,11 @@ weight: 20
 
 [researchmap](https://researchmap.jp/atsuyaw)も併せてご覧ください。
 
+## Microstructure and tensile strength of electrodeposited Fe-rich bcc FeCoNi medium-entropy alloys
+<u>A. Watanabe</u>, T. Yamamoto, R. Miyamoto, and Y. Takigawa  
+Materials Science and Technology, (2023).  
+<i class="ai ai-doi ai"></i> [10.1080/02670836.2023.2187973](https://doi.org/10.1080/02670836.2023.2187973) <i class="ai ai-closed-access ai"></i>
+
 ## Tensile strength of nanocrystalline FeCoNi medium-entropy alloy fabricated using electrodeposition
 <u>A. Watanabe</u>, T. Yamamoto, Y. Takigawa  
 Scientific Reports, 12, 12076 (2022).  
