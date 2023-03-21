@@ -10,6 +10,10 @@ icon: "fa-lightbulb"
 tags: ["Microsoft Office", "PowerPoint", "Presentation", "Font"]
 ---
 
+<p>
+<img src="//img.shields.io/badge/-MS%20PowerPoint-B7472A?logo=Microsoft%20PowerPoint" alt="MS PowerPoint" align="left"></br>
+</p>
+
 Microsoft PowerPointで「°」をそれっぽく入力する方法について。
 
 ## そもそも: MS Wordの場合
@@ -26,13 +30,13 @@ WordにしてもPowerPointにしても［挿入 / 記号と特殊文字パッド
 ![記号と特殊記号](https://user-images.githubusercontent.com/68371029/226348477-33d46472-0a3a-4096-b4f9-d571e10c1f9f.png)
 
 ## 応急的対処法
-メイリオかMeiryo UIを設定してあげるとArialと比べてあまり悪目立ちしない雰囲気になります（若干でかい気がしますが…）。
+メイリオかMeiryo UIを設定してあげるとあまり悪目立ちしない雰囲気になります（若干でかい気がしますが…）。
 
 ![Meiryo UIで入力したDegree Sign](https://user-images.githubusercontent.com/68371029/226361238-d1e463b7-d3aa-4abd-a193-54387f1cc7b2.png)
 
 ここでArialを指定してやっても，同様に見かけ上Arialなどになりますが，文字は変化しない。
 
-Wordで入力できるので当然ですが，ArialのDegree Sign自体はあるはずなんですが…入力できない。
+Wordで入力できるので当然ですが，ArialのDegree Sign自体はあるはずなのに…入力できない。
 ![ArialのDegree Sign](https://user-images.githubusercontent.com/68371029/226348481-4058733a-29d7-48b0-8bfb-daec414751cb.png)
 
 Wordで入力しておいてからコピーしてもだめ（和文フォントになる）。  
