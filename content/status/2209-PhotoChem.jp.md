@@ -17,3 +17,5 @@ tags: ["Publication"]
 * 紫外ピコ秒レーザーアブレーションによるFeCoNiミディアムエントロピー合金ナノ粒子の作製  
 <u>渡邉充哉</u>，八ツ橋知幸．  
 分子科学会 [第16回分子科学討論会](http://www.molsci.jp/2022/)，1P053，横浜，2022-09-19．
+
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://confit.atlas.jp/guide/event/photochemistry2022/subject/1P26/detail" data-iframely-url="//iframely.net/TKY82hr"></a></div></div><script async src="//iframely.net/embed.js"></script>

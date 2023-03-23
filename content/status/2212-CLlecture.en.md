@@ -13,4 +13,4 @@ I attented "LaTeXを使った卒論・レポート作成講座" (Writing seminar
 * [Writing seminar for reports and thesis using LaTeX](https://cloudlatex.io/20221223-latex-webinar)
 Acaric Co., Ltd. Cloud LaTeX Team. Zoom, 2022-12-23.
 
-<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="Writing seminar for reports and thesis using LaTeX" src="https://hatenablog-parts.com/embed?url=https://cloudlatex.io/20221223-latex-webinar" frameborder="0" scrolling="no"></iframe>
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://cloudlatex.io/20221223-latex-webinar" data-iframely-url="//iframely.net/6rqmTJd?card=small"></a></div></div><script async src="//iframely.net/embed.js"></script>

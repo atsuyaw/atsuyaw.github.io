@@ -13,4 +13,4 @@ LaTeXを使った卒論・レポート作成講座に講師として参加しま
 * [LaTeXを使った卒論・レポート作成講座](https://cloudlatex.io/20221223-latex-webinar)
 アカリク Cloud LaTeX Team．Zoom，2022-12-23．
 
-<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="LaTeXを使った卒論・レポート作成講座" src="https://hatenablog-parts.com/embed?url=https://cloudlatex.io/20221223-latex-webinar" frameborder="0" scrolling="no"></iframe>
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://cloudlatex.io/20221223-latex-webinar" data-iframely-url="//iframely.net/6rqmTJd?card=small"></a></div></div><script async src="//iframely.net/embed.js"></script>

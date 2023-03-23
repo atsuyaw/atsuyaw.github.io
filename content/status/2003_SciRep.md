@@ -14,7 +14,4 @@ Microstructural heterogeneity in the electrodeposited Ni: insights from growth m
     Sci. Rep., 10, 5548 (2020).（査読有り）  
     doi: [10.1038/s41598-020-62565-z](https://doi.org/10.1038/s41598-020-62565-z)
 
-<iframe class="hatenablogcard" style="width:100%;height:155px;margin:15px 0;max-width:680px;" title="Microstructural heterogeneity in the electrodeposited Ni: insights from growth modes" src="https://hatenablog-parts.com/embed?url=https://www.nature.com/articles/s41598-020-62565-z" frameborder="0" scrolling="no"></iframe>
-
-<script type="text/javascript" src="//cdn.plu.mx/widget-summary.js"></script>
-<a href="https://plu.mx/plum/a/?doi=10.1038%2Fs41598-020-62565-z" data-orientation="vertical" data-hide-print="true" class="plumx-summary" data-site="plum" data-hide-when-empty="true">Microstructural heterogeneity in the electrodeposited Ni: insights from growth modes</a>
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://www.nature.com/articles/s41598-020-62565-z" data-iframely-url="//iframely.net/O2X0EQs?card=small"></a></div></div><script async src="//iframely.net/embed.js"></script>
