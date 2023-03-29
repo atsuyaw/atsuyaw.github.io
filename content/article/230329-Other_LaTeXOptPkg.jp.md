@@ -14,7 +14,9 @@ tags: ["LaTeX","備忘録"]
 
 TeX Live 2023がリリースされ，TeX Live Managerが文句を吐くようになったのでアップデートしました。  
 毎年のことなので以下メモです
-（新規のインストールも同じ手順です）。
+
+新規のインストールも同じ手順ですが，TeXに不慣れならfullバージョンを入れたほうがパッケージ不足によるトラブルは避けられると思います。
+ただしディスクスペースを食うのでいざというときはCloud LaTeXなどのサービスに頼るのも一案です。
 
 1. TeX Liveインストーラーを**管理者権限で起動**し，`Advanced`を選択
 1. `Scheme`を`basic scheme (plain and latex)`に変更
@@ -49,6 +51,8 @@ C:\texlive\2023\texmf-var\web2c\tlmgr.log
 [Wed Mar 29 13:41:23 2023] install: biber
 ```
 `biber.windows`は`biber`と一緒に勝手に入ります。
+
+`helvetic`や`biblatex`，`biber`の不足はきれいなエラーが出ないケースあり。
 
 `beamerthememetropolis.sty`ですが，`beamertheme-metropolis`と入れてやらないとうまく見つからないので注意。
 
