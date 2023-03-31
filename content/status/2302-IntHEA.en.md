@@ -13,3 +13,5 @@ Prof. Yatsuhashi at Dept. Science, Osaka Metropolitan University presented the f
 * Fabrication of FeCoNi medium-entropy alloy by laser ablation in water using UV picosecond laser pulses  
 <u>Atsuya Watanabe</u>, Tomoyuki Yatsuhashi．  
 HEA International Workshop, Kyoto, 2023-02-14,15.
+
+[High Entropy Alloys, Grant-in-Aid for Scientific Research on Innovative Areas](https://highentropy.mtl.kyoto-u.ac.jp/en)

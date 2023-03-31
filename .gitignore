@@ -1,3 +1,4 @@
 hugo.exe
 docs
 resources
+.hugo_build.lock

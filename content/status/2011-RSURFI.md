@@ -14,9 +14,9 @@ Reducing sulfur to improve thermal embrittlement in electrodeposited nickel usin
     Results in Surfaces and Interfaces, 1, 1000001 (2020).（査読有り）  
     doi: [10.1016/j.rsurfi.2020.100001](https://doi.org/10.1016/j.rsurfi.2020.100001)
 
-<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://www.sciencedirect.com/science/article/pii/S2666845920300015" data-iframely-url="//iframely.net/S0Z8DHh"></a></div></div><script async src="//iframely.net/embed.js"></script>
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://doi.org/10.1016/j.rsurfi.2020.100001" data-iframely-url="//cdn.iframe.ly/api/iframe?url=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.rsurfi.2020.100001&key=8bc9fbec81f15b0cbb303c18f126d6a3"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
 </br>
 
 この論文はHighlighted Articleとしてジャーナルで紹介されています。
 
-[Better and more attractive nickel plating: A technique that removes sulphur from the nickel plating process maintains ductility at higher temperatures and enhances visual appeal](https://www.sciencedirect.com/journal/results-in-surfaces-and-interfaces/about/highlighted-articles#better-and-more-attractive-nickel-plating)
+[Better and more attractive nickel plating - Highlighted Articles](https://www.sciencedirect.com/journal/results-in-surfaces-and-interfaces/about/highlighted-articles#better-and-more-attractive-nickel-plating)
