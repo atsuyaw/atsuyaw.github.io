@@ -10,7 +10,7 @@ tags: [Publication, JALCOM, HEAs/MEAs]
 ## New paper has been published on JALCOM!
 
 Fabrication of FeCoNi medium-entropy alloy nanoparticles by high-repetition-rate UV picosecond laser ablation in water  
-    <u>Atsuya Watanabe</u>, Tomoyuki Yatsuyashi  
+    <u>Atsuya Watanabe</u>, Tomoyuki Yatsuhashi  
     Journal of Alloys and Compounds (in press).  
     <i class="ai ai-doi ai"></i> [10.1016/j.jallcom.2023.169896](https://doi.org/10.1016/j.jallcom.2023.169896) <i class="ai ai-closed-access ai"></i>
 
