@@ -14,4 +14,5 @@ Prof. Yatsuhashi at Dept. Science, Osaka Metropolitan University presented the f
 <u>Atsuya Watanabe</u>, Tomoyuki Yatsuhashi．  
 HEA International Workshop, Kyoto, 2023-02-14,15.
 
+<i class="fa fa-link"></i>
 [High Entropy Alloys, Grant-in-Aid for Scientific Research on Innovative Areas](https://highentropy.mtl.kyoto-u.ac.jp/en)

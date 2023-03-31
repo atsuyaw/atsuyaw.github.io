@@ -14,4 +14,5 @@ tags: ["Publication"]
 <u>Atsuya Watanabe</u>, Tomoyuki Yatsuhashi．  
 HEA国際ワークショップ，京都，2023-02-14,15．
 
+<i class="fa fa-link"></i>
 [文部科学省科学研究費補助金 新学術領域研究（研究領域提案型） ハイエントロピー合金](https://highentropy.mtl.kyoto-u.ac.jp/)

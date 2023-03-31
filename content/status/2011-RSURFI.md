@@ -19,4 +19,5 @@ Reducing sulfur to improve thermal embrittlement in electrodeposited nickel usin
 
 この論文はHighlighted Articleとしてジャーナルで紹介されています。
 
+<i class="fa fa-link"></i>
 [Better and more attractive nickel plating - Highlighted Articles](https://www.sciencedirect.com/journal/results-in-surfaces-and-interfaces/about/highlighted-articles#better-and-more-attractive-nickel-plating)
