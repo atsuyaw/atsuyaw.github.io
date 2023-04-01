@@ -1,13 +1,13 @@
 ---
 title: "学会発表"
-date: 2022-09-22T14:20:00+09:00
+date: 2023-04-01T12:50:00+02:00
 icon: "fa-microphone"
 draft: false
 tags: ["works", "publish", "学会"]
 weight: 30
 ---
 
-<iframe style="width:100%;height:600px;margin:15px 0;max-width:680px;" title="Vega" src="/page/visit.html" frameborder="0" scrolling="no"></iframe>
+<!-- <iframe style="width:100%;height:600px;margin:15px 0;max-width:680px;" title="Vega" src="/page/visit.html" frameborder="0" scrolling="no"></iframe> -->
 
 [researchmap](https://researchmap.jp/atsuyaw)も併せてご覧ください。
 
