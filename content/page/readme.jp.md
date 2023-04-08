@@ -1,18 +1,18 @@
 ---
 title: "About me"
-date: 2022-12-27T11:00:00+09:00
+date: 2023-04-08T19:00:00+09:00
 draft: false
 weight: 10
 ---
 
 # 渡邉充哉（Atsuya Watanabe）
 
-E-Mail <i class="fa fa-envelope"></i> `watanabe [at] osakafu-u.net`  
-ORCID <i class="ai ai-orcid ai"></i> [0000-0002-6861-7352](https://orcid.org/0000-0002-6861-7352)  
+<i class="fa fa-envelope"></i> E-Mail: `watanabe [at] osakafu-u.net`  
+<i class="ai ai-orcid ai"></i> ORCID: [0000-0002-6861-7352](https://orcid.org/0000-0002-6861-7352)  
 researchmap: [atsuyaw](https://researchmap.jp/atsuyaw)  
-Google Scholar <i class="ai ai-google-scholar ai"></i> [WOwPSkEAAAAJ](https://scholar.google.com/citations?hl=ja&user=WOwPSkEAAAAJ)  
-ResearcherID <i class="ai ai-clarivate"></i> [AAD-7527-2021](https://www.webofscience.com/wos/author/rid/AAD-7527-2021)  
-Scopus <i class="ai ai-scopus ai"></i> [57211107471](https://www.scopus.com/authid/detail.uri?authorId=57211107471)
+<i class="ai ai-google-scholar ai"></i> Google Scholar: [WOwPSkEAAAAJ](https://scholar.google.com/citations?hl=ja&user=WOwPSkEAAAAJ)  
+<i class="ai ai-clarivate"></i> ResearcherID: [AAD-7527-2021](https://www.webofscience.com/wos/author/rid/AAD-7527-2021)  
+<i class="ai ai-scopus ai"></i> Scopus: [57211107471](https://www.scopus.com/authid/detail.uri?authorId=57211107471)
 
 ## Works
 参照:
@@ -20,9 +20,11 @@ Scopus <i class="ai ai-scopus ai"></i> [57211107471](https://www.scopus.com/auth
 * [学会発表]({{< relref "presentations.md">}})
 
 ## Affiliation
-[大阪公立大学](https://www.omu.ac.jp)大学院 [工学研究科](https://www.omu.ac.jp/eng/graduate/) 物質化学生命系専攻 [マテリアル工学分野](https://www.omu.ac.jp/eng/mtr/)  
-（[リーディングプログラムコース](https://www.omu.ac.jp/las/sims/)）  
-[信頼性材料研究グループ](http://www2.mtr.osakafu-u.ac.jp)
+* [大阪公立大学](https://www.omu.ac.jp)大学院 [工学研究科](https://www.omu.ac.jp/eng/graduate/)博士後期課程  
+    物質化学生命系専攻 [マテリアル工学分野](https://www.omu.ac.jp/eng/mtr/)  
+    （[リーディングプログラムコース](https://www.omu.ac.jp/las/sims/)）  
+    [信頼性材料研究グループ](http://www2.mtr.osakafu-u.ac.jp)
+* 大阪産業大学 工学部（非常勤講師）
 
  ## Education
 
@@ -38,3 +40,4 @@ Scopus <i class="ai ai-scopus ai"></i> [57211107471](https://www.scopus.com/auth
 - [表面技術協会](https://www.sfj.or.jp) 学生会員
 - [日本金属学会](https://jimm.jp) 学生会員
 - [日本材料学会](https://www.jsms.jp) 学生会員
+- [日本機械学会] 学生会員
