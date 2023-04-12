@@ -9,10 +9,11 @@ weight: 10
 
 <i class="fa fa-envelope"></i> E-Mail: `watanabe [at] osakafu-u.net`  
 <i class="ai ai-orcid ai"></i> ORCID: [0000-0002-6861-7352](https://orcid.org/0000-0002-6861-7352)  
-researchmap: [atsuyaw](https://researchmap.jp/atsuyaw)  
 <i class="ai ai-google-scholar ai"></i> Google Scholar: [WOwPSkEAAAAJ](https://scholar.google.com/citations?hl=ja&user=WOwPSkEAAAAJ)  
 <i class="ai ai-clarivate"></i> ResearcherID: [AAD-7527-2021](https://www.webofscience.com/wos/author/rid/AAD-7527-2021)  
 <i class="ai ai-scopus ai"></i> Scopus: [57211107471](https://www.scopus.com/authid/detail.uri?authorId=57211107471)
+</br>
+<img title='researchmap' alt='researchmap' src='https://researchmap.jp/outline/img/researchmap130.gif' align="left">  <a href='https://researchmap.jp/atsuyaw' target='_blank'> atsuyaw</a>
 
 ## Works
 参照:
@@ -40,4 +41,4 @@ researchmap: [atsuyaw](https://researchmap.jp/atsuyaw)
 - [表面技術協会](https://www.sfj.or.jp) 学生会員
 - [日本金属学会](https://jimm.jp) 学生会員
 - [日本材料学会](https://www.jsms.jp) 学生会員
-- [日本機械学会] 学生会員
+- [日本機械学会](https://www.jsme.or.jp) 正員
