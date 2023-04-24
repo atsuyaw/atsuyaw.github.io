@@ -15,6 +15,7 @@ googleAnalytics = "G-HNVCPLHT68"
     github = "atsuyaw"
     location = "Osaka Metropolitan University"
     resizeImages = true
+    avatarEmail = "watanabe@osakafu-u.net"
     customImage = "https://atsuyaw.github.io/images/avatar.jpg"
     permanentTopNav = true
     stickyNav = true
