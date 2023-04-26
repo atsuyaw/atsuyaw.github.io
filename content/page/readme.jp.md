@@ -1,6 +1,6 @@
 ---
 title: "About me"
-date: 2023-04-08T19:00:00+09:00
+date: 2023-04-26T19:00:00+09:00
 draft: false
 weight: 10
 ---
@@ -21,11 +21,14 @@ weight: 10
 * [学会発表]({{< relref "presentations.md">}})
 
 ## Affiliation
-* [大阪公立大学](https://www.omu.ac.jp)大学院 [工学研究科](https://www.omu.ac.jp/eng/graduate/)博士後期課程  
-    物質化学生命系専攻 [マテリアル工学分野](https://www.omu.ac.jp/eng/mtr/)  
-    （[リーディングプログラムコース](https://www.omu.ac.jp/las/sims/)）  
+* [大阪公立大学](https://www.omu.ac.jp)大学院 博士後期課程  
+    [工学研究科](https://www.omu.ac.jp/eng/graduate/) 物質化学生命系専攻 [マテリアル工学分野](https://www.omu.ac.jp/eng/mtr/)  
+    [システム発想型学際科学リーダー養成学位プログラム](https://www.omu.ac.jp/las/sims/)  
     [信頼性材料研究グループ](http://www2.mtr.osakafu-u.ac.jp)
-* 大阪産業大学 工学部（非常勤講師）
+* 日本学術振興会  
+    特別研究員 DC2
+* 大阪産業大学 工学部  
+    非常勤講師
 
  ## Education
 
