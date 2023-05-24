@@ -10,7 +10,9 @@ weight: 30
 See also [researchmap](https://researchmap.jp/atsuyaw).
 
 ## Scheduled in future
-* 
+* Fabrication of FeCoNi medium-entropy alloy nanoparticles by high-repetition-rate UV picosecond laser ablation in water  
+    <u>Atsuya Watanabe</u>, ◦Tomoyuki Yatsuhashi.  
+    The 24th International Symposium on Laser Precision Microfabrication (LPM2023), Hirosaki, 2023-06-14.
 
 ## 2023
 
