@@ -9,7 +9,7 @@ tags: [Publication, JALCOM, HEAs/MEAs]
 
 ## 共同研究の成果がJALCOM誌に掲載
 
-大阪公立大学理学研究科 光物理化学 八ッ橋先生との共同研究の成果がJ Alloys Compd誌に掲載されました。
+大阪公立大学理学研究科 光物理化学研究室 八ツ橋先生との共同研究の成果がJ Alloys Compd誌に掲載されました。
 
 * Fabrication of FeCoNi medium-entropy alloy nanoparticles by high-repetition-rate UV picosecond laser ablation in water  
     <u>Atsuya Watanabe</u>, Tomoyuki Yatsuhashi  

@@ -1,6 +1,6 @@
 ---
 title: "学会発表"
-date: 2023-04-01T12:50:00+02:00
+date: 2023-06-15T11:00:00+09:00
 icon: "fa-microphone"
 draft: false
 tags: ["works", "publish", "学会"]
@@ -12,15 +12,16 @@ weight: 30
 [researchmap](https://researchmap.jp/atsuyaw)も併せてご覧ください。
 
 ## 予定
-* Fabrication of FeCoNi medium-entropy alloy nanoparticles by high-repetition-rate UV picosecond laser ablation in water  
-    <u>Atsuya Watanabe</u>, ◦Tomoyuki Yatsuhashi.  
-    The 24th International Symposium on Laser Precision Microfabrication (LPM2023), Hirosaki, 2023-06-14.
 
 ## 2023
 
+* Fabrication of FeCoNi medium-entropy alloy nanoparticles by high-repetition-rate UV picosecond laser ablation in water  
+    <u>Atsuya Watanabe</u>, ◦Tomoyuki Yatsuhashi.  
+    [The 24th International Symposium on Laser Precision Microfabrication (LPM2023)](http://www.jlps.gr.jp/lpm/lpm2023/), Hirosaki, 2023-06-14.
+
 * Fabrication of FeCoNi medium-entropy alloy by laser ablation in water using UV picosecond laser pulses  
     <u>Atsuya Watanabe</u>, ◦Tomoyuki Yatsuhashi.  
-    HEA International Workshop, Kyoto, 2023-02-14, 15.
+    HEA International Workshop, Kyoto, 2023-02-14.
 
 ## 2022
 
@@ -33,7 +34,7 @@ weight: 30
     日本材料学会 第8回材料WEEK 若手学生研究発表会，95，京都，2022-10-12．
 
 * 電析ナノ結晶FeCoNiミディアムエントロピー合金への第四元素微量添加  
-    ◦植山希，<u>渡邉充哉</u>，瀧川順庸
+    ◦植山希，<u>渡邉充哉</u>，瀧川順庸．  
     日本材料学会 第8回材料WEEK 若手学生研究発表会，44，京都，2022-10-11．
 
 * [バルクナノ結晶FeCoNiミディアムエントロピー合金の室温変形特性](https://confit.atlas.jp/guide/event/jim2022autumn/subject/2M08-20-13/advanced)  
@@ -53,6 +54,7 @@ weight: 30
     [日本金属学会 2022年春期(第170回)講演大会](https://jim.or.jp/MEETINGS/2022_spr/news/meeting-guide.html) ハイエントロピー合金の材料科学VII，S2.26，オンライン，2022-03-16．
 
 ## 2021
+
 * 高強度・高延性化を指向した電着法による超微細粒FeCoNi ミディアムエントロピー合金の作製  
     ◦<u>渡邉充哉</u>，宮本了輔，瀧川順庸  
     [第23回 関西表面技術フォーラム](https://kansai.sfj.or.jp/gyoji/forum/23th/index.html)，オンライン，2021-11.
@@ -98,6 +100,7 @@ weight: 30
     [ナノテクノロジープラットフォーム学生研修プログラム](https://www.nanonet.go.jp/pages/gakusei/2019/)成果発表会，学1，東京，2019-09．
 
 ## 2014
+
 * バイオプラスチックの耐熱性向上に関する研究  
   ◦<u>渡邉充哉</u>，川崎禎明，懸野正崇，森陽一郎，浅川健一郎，伊藤遼，小川凌，西村大樹，稲垣美穂，政木確．  
   [日本動物学会 第85回大会](http://www.zoology.or.jp/news2/index.asp?patten_cd=12&page_no=708)高校生によるポスター発表, 22, 仙台, 2014-09.
