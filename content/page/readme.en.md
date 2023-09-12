@@ -4,6 +4,7 @@ date: 2022-12-27T11:00:00+09:00
 draft: false
 icon: "fa-user"
 weight: 10
+menu: "topnav"
 ---
 
 # Atsuya Watanabe

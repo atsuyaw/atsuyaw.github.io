@@ -5,6 +5,7 @@ draft: false
 icon: "fa-pen-nib"
 tags: ["works", "publish"]
 weight: 20
+menu: "topnav"
 ---
 
 See also [researchmap](https://researchmap.jp/atsuyaw).

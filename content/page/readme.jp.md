@@ -3,6 +3,7 @@ title: "About me"
 date: 2023-04-26T19:00:00+09:00
 draft: false
 weight: 10
+menu: "topnav"
 ---
 
 # 渡邉充哉（Atsuya Watanabe）

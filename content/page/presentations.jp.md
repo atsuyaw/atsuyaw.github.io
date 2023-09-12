@@ -5,6 +5,7 @@ icon: "fa-microphone"
 draft: false
 tags: ["works", "publish", "学会"]
 weight: 30
+menu: "topnav"
 ---
 
 <!-- <iframe style="width:100%;height:600px;margin:15px 0;max-width:680px;" title="Vega" src="/page/visit.html" frameborder="0" scrolling="no"></iframe> -->
@@ -12,6 +13,13 @@ weight: 30
 [researchmap](https://researchmap.jp/atsuyaw)も併せてご覧ください。
 
 ## 予定
+* めっき法によるバルクナノ結晶FeCoNiミディアムエントロピー合金の創製  
+    <u>渡邉充哉, 山本剛久, 瀧川順庸</u>  
+    第30回機械材料・材料加工技術講演会(M&P2023) 2023年9月28日 日本機械学会 機械材料・材料加工部門.
+
+* Grain growth bihavior in electrodeposited nanocrystalline FeCoNi medium-entropy alloy  
+    <u>Atsuya Watanabe</u>, Takahisa Yamamoto, Koichiro Nambu, Yorinobu Takigawa  
+    IFHTSE2023 2023年11月15日 The Japan Society for Heat Treatment.
 
 ## 2023
 

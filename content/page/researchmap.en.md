@@ -7,4 +7,5 @@ link: "https://researchmap.jp/atsuyaw?lang=en"
 # set the html target parameter if you want to change default behavior
 target: "_blank"
 weight: 100
+menu: "topnav"
 ---

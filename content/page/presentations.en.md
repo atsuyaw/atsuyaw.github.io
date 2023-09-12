@@ -5,6 +5,7 @@ icon: "fa-microphone"
 draft: false
 tags: ["works", "publish", "学会"]
 weight: 30
+menu: "topnav"
 ---
 
 See also [researchmap](https://researchmap.jp/atsuyaw).
