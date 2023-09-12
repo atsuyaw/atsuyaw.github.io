@@ -1,0 +1,90 @@
+baseURL = "https://atsuyaw.github.io"
+languageCode = "ja-jp"
+title = "渡邉充哉"
+enableRobotsTXT = true
+publishDir = "docs"
+canonifyurls = false
+gems = "jekyll-redirect-from"
+DefaultContentLanguage = "jp"
+googleAnalytics = "G-HNVCPLHT68"
+
+[module]
+  [[module.imports]]
+    path = 'github.com/Lednerb/bilberry-hugo-theme/v4'
+
+[params]
+author = "Atsuya Watanabe"
+github = "atsuyaw"
+location = "Osaka Metropolitan University"
+resizeImages = true
+avatarEmail = "watanabe@osakafu-u.net"
+customImage = "https://atsuyaw.github.io/images/avatar.jpg"
+permanentTopNav = true
+stickyNav = true
+showHeaderLanguageChooser = true
+enableMomentJs = false
+dateFormat = "2006-01-02"
+showReadingTime = false
+showFooter = true
+showArchive = true
+showFooterLanguageChooser = true
+archiveDateGrouping = "2006"
+amountLatestPostsInFooter = -1
+copyrightUrl = "https://github.com/atsuyaw"
+copyrightUseCurrentYear = true
+copyrightBy = "Atsuya Watanabe"
+creditsText = " "
+creditsUrl = " "
+dafaultNoimage = "/no-image.png"
+css_modules = ["..", "//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css","https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"]
+js_modules = ["..", "//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js","init-cookieconsent.js"]
+socialMediaLinks = [
+  { link = "https://orcid.org/0000-0002-6861-7352", icon = "fab fa-orcid" },
+  { link = "https://scholar.google.com/citations?hl=ja&user=WOwPSkEAAAAJ", icon = "ai ai-google-scholar" },
+  { link = "https://www.webofscience.com/wos/author/rid/AAD-7527-2021", icon = "ai ai-clarivate"},
+  { link = "https://www.scopus.com/authid/detail.uri?authorId=57211107471", icon = "ai ai-scopus" },
+  { link = "https://github.com/atsuyaw", icon = "fab fa-github"}
+]
+
+[Languages]
+  [Languages.jp]
+    weight = 1
+  [Languages.en]
+  weight = 2
+  title = "Atsuya Watanabe's Personal Web-site"
+
+[markup]
+  defaultMarkdownHandler = 'goldmark'
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      # change to 'true' if you need to render raw HTML within your markdown content
+      unsafe = true
+    [markup.highlight]
+      anchorLineNos = false
+      codeFences = true
+      guessSyntax = false
+      hl_Lines = ''
+      hl_inline = false
+      lineAnchors = ''
+      lineNoStart = 1
+      lineNos = false
+      lineNumbersInTable = true
+      noClasses = true
+      noHl = false
+      style = 'monokai'
+      tabWidth = 4
+    [markup.tableOfContents]
+      endLevel = 5
+      ordered = false
+      startLevel = 2
+
+# don't change anything below
+[taxonomies]
+  author   = "author"
+  tag      = "tags"
+  category = "categories"
+  series   = "series"
+
+[outputs]
+  home = [ "HTML", "JSON", "RSS" ]
+  page = [ "HTML" ]
