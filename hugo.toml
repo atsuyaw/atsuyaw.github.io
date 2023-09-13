@@ -7,6 +7,7 @@ canonifyurls = false
 gems = "jekyll-redirect-from"
 DefaultContentLanguage = "jp"
 googleAnalytics = "G-HNVCPLHT68"
+enableGitInfo = true
 
 [module]
 [[module.imports]]
@@ -61,36 +62,39 @@ socialMediaLinks = [
 ]
 
 [Languages]
-  [Languages.jp]
-    weight = 1
-  [Languages.en]
-  weight = 2
-  title = "Atsuya Watanabe's Personal Web-site"
+[Languages.jp]
+weight = 1
+[Languages.en]
+weight = 2
+title = "Atsuya Watanabe's Personal Web-site"
+
+[frontmatter]
+lastmod = [":fileModTime"]
 
 [markup]
   defaultMarkdownHandler = 'goldmark'
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      # change to 'true' if you need to render raw HTML within your markdown content
-      unsafe = true
-    [markup.highlight]
-      anchorLineNos = false
-      codeFences = true
-      guessSyntax = false
-      hl_Lines = ''
-      hl_inline = false
-      lineAnchors = ''
-      lineNoStart = 1
-      lineNos = false
-      lineNumbersInTable = true
-      noClasses = true
-      noHl = false
-      style = 'monokai'
-      tabWidth = 4
-    [markup.tableOfContents]
-      endLevel = 5
-      ordered = false
-      startLevel = 2
+[markup.goldmark]
+[markup.goldmark.renderer]
+# change to 'true' if you need to render raw HTML within your markdown content
+unsafe = true
+[markup.highlight]
+anchorLineNos = false
+codeFences = true
+guessSyntax = false
+hl_Lines = ''
+hl_inline = false
+lineAnchors = ''
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
+noClasses = true
+noHl = false
+style = 'monokai'
+tabWidth = 4
+[markup.tableOfContents]
+endLevel = 5
+ordered = false
+startLevel = 2
 
 # don't change anything below
 [taxonomies]
