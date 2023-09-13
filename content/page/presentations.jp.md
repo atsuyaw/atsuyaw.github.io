@@ -1,8 +1,6 @@
 ---
 title: "Presentation"
-date: 2023-09-13T11:00:00+09:00
 icon: "fa-microphone"
-draft: false
 tags: ["works", "publish", "学会"]
 weight: 30
 menu: "topnav"

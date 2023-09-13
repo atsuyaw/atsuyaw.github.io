@@ -1,8 +1,6 @@
 ---
 title: "Presentations"
-date: 2023-04-01T12:50:00+02:00
 icon: "fa-microphone"
-draft: false
 tags: ["works", "publish", "学会"]
 weight: 30
 menu: "topnav"

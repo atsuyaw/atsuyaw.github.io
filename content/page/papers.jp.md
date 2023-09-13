@@ -1,7 +1,5 @@
 ---
 title: "Paper"
-date: 2023-04-06T13:00:00+09:00
-draft: false
 icon: "fa-pen-nib"
 tags: ["works", "publish"]
 weight: 20

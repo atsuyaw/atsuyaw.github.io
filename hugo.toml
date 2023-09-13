@@ -69,7 +69,9 @@ weight = 2
 title = "Atsuya Watanabe's Personal Web-site"
 
 [frontmatter]
-lastmod = [":fileModTime"]
+lastmod = [":git",":fileModTime"]# Only for metadata and search engine
+publishDate = ["publishDate","date","lastmod",":git"]# Displayed in "META"
+date = ["date",":git"]# Affects sort
 
 [markup]
   defaultMarkdownHandler = 'goldmark'
