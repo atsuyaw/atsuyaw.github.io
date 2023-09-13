@@ -1,6 +1,6 @@
 ---
-title: "学会発表"
-date: 2023-06-15T11:00:00+09:00
+title: "Presentation"
+date: 2023-09-13T11:00:00+09:00
 icon: "fa-microphone"
 draft: false
 tags: ["works", "publish", "学会"]
@@ -22,6 +22,10 @@ menu: "topnav"
     IFHTSE2023 2023年11月15日 The Japan Society for Heat Treatment.
 
 ## 2023
+
+* 水中レーザーアブレーションによるコアシェiル型FeCoNiミディアムエントロピー合金ナノ粒子の鎖状構造形成（2A05）  
+八ツ橋知幸, <u>渡邉充哉</u>  
+光化学討論会，広島， 2023-09-06．
 
 * Fabrication of FeCoNi medium-entropy alloy nanoparticles by high-repetition-rate UV picosecond laser ablation in water  
     <u>Atsuya Watanabe</u>, ◦Tomoyuki Yatsuhashi.  
