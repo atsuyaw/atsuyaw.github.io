@@ -5,7 +5,7 @@ draft: false
 summary: "雪が降りました"
 showDate: true
 excludeFromIndex: true
-categories: ["Other"]
+categories: ["Misc"]
 icon: "fa-plane-departure"
 series: ["Sweden"]
 ---
@@ -23,4 +23,5 @@ series: ["Sweden"]
 2月に入り少しずつ日も長くなってきました。  
 今回は降雪の話題でしたが，押し並べて言えば天気の良い日も増えてきたように思います。
 
+＜スウェーデン滞在記＞
 {{< series "Sweden" >}}

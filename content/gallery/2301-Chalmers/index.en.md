@@ -5,7 +5,8 @@ draft: false
 noSummary: true
 imageSlider: true   #set to false if you don't want to use the imageSlider but a featuredImage
 icon: "fa-plane-departure"
-categories: ["Sweden"]
+categories: ["Misc"]
+series: ["Sweden"]
 ---
 As a visiting PhD student, I have been at Chalmers tekniska högskola (Chalmers University of Technology) in Göteborg, Sweden since Jan.  
 I will work with professor Sheng Guo and Dr. Zhenyuan Xia for about 3 months here.

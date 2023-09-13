@@ -5,7 +5,8 @@ draft: false
 summary: "スウェーデン滞在全体を通じての留意点"
 showDate: true
 excludeFromIndex: false
-categories: ["Sweden"]
+series: ["Sweden"]
+categories: ["Misc"]
 icon: "fa-plane-departure"
 ---
 
@@ -171,3 +172,7 @@ GöteborgではVästtrafikが運行しているトラムとバスが主な交通
 
 雑多な内容を中心にご紹介しました。  
 気が向いたら追記するかもしれません。
+
+＜スウェーデン滞在記＞
+{{< series "Sweden" >}}
+

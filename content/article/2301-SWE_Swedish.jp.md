@@ -2,11 +2,12 @@
 title: "Swedish"
 date: 2023-01-13T19:00:00+01:00
 draft: false
-summary: "スウェーデン語が読めない"
+summary: "スウェーデン語が読めない（スウェーデン滞在記）"
 showDate: true
 excludeFromIndex: true
-categories: ["Sweden"]
+categories: ["Misc"]
 icon: "fa-plane-departure"
+series: ["Sweden"]
 ---
 スウェーデンの文字はドイツ語に似ています。
 なんか読めそうで，でも読めない。
@@ -30,3 +31,6 @@ Enterキーが日本仕様である一方，Backspaceが欧文仕様なのが興
 キーが足りないのか，[Alt Gr]なるキーがあり，Shiftキーとは別のレイヤーが割り当てられています。
 
 渡邉は日本語も使いたいので，PCに日本語入力を設定したところキー配列が訳わからん状態になりました。
+
+＜スウェーデン滞在記＞
+{{< series "Sweden" >}}
