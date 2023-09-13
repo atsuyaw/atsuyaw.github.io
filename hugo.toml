@@ -9,9 +9,9 @@ DefaultContentLanguage = "jp"
 googleAnalytics = "G-HNVCPLHT68"
 
 [module]
-  [[module.imports]]
-    path = 'github.com/Lednerb/bilberry-hugo-theme/v4'
-
+[[module.imports]]
+path = 'github.com/Lednerb/bilberry-hugo-theme/v4'
+ 
 [params]
 author = "Atsuya Watanabe"
 github = "atsuyaw"
@@ -33,9 +33,23 @@ amountLatestPostsInFooter = -1
 copyrightUrl = "https://github.com/atsuyaw"
 copyrightUseCurrentYear = true
 copyrightBy = "Atsuya Watanabe"
-creditsText = " "
-creditsUrl = " "
+creditsText = "Lednerb/bilberry-hugo-theme"
+creditsUrl = "https://github.com/atsuyaw/atsuyaw.github.io"
 dafaultNoimage = "/no-image.png"
+headlineFont = ["'Noto Sans', sans-serif"]
+contentFont = ["'Noto Sans', sans-serif"]
+articleFooterfont = ["'Noto Sans', sans-serif"]
+pageBackgroundColor = "#ddd"
+baseColor = "#604c38"# mDarkBrown
+specialColor = "#23303b"# mDarkTeal
+highlightColor = "#1080aa"
+textColor = "#23373b"#
+headerTextColor = "#f1f1f1"
+navTextColor = "#f1f1f1"
+articleBackgroundColor = "#f1f1f1"
+metaBorderColor = "#23373b20"
+metaTextColor = "#23373b"
+
 css_modules = ["..", "//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css","https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"]
 js_modules = ["..", "//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js","init-cookieconsent.js"]
 socialMediaLinks = [
