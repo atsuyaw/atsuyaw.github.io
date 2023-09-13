@@ -5,8 +5,9 @@ draft: false
 summary: "もちろん差すひともいます"
 showDate: true
 excludeFromIndex: true
-categories: ["Sweden"]
+categories: ["Misc"]
 icon: "fa-plane-departure"
+series: ["Sweden"]
 ---
 
 きょうは雨です。
@@ -27,3 +28,6 @@ icon: "fa-plane-departure"
 
 日の長さも日本の真冬と同じくらいになってきました。春分の日が近付いています。
 ![本日の日の出・日の入り時刻](https://user-images.githubusercontent.com/68371029/219701923-d78d3283-460a-4ae1-804e-a8b832e8e09d.png)
+
+＜スウェーデン滞在記＞
+{{< series "Sweden" >}}

@@ -5,8 +5,9 @@ draft: false
 summary: "開き戸タイプの自動ドア"
 showDate: true
 excludeFromIndex: true
-categories: ["Sweden"]
+categories: ["Misc"]
 icon: "fa-plane-departure"
+series: ["Sweden"]
 ---
 
 スウェーデンで引き戸はあまり見かけません。  
@@ -23,3 +24,6 @@ icon: "fa-plane-departure"
 扉が閉じると施錠されるのでインキーのリスクはあります。
 
 初めてみたときは力技だなあと思いましたが，歴史を感じる建物も多くあるので，こういった開き戸のまま自動化できるのは趣があって個人的には好きです。
+
+＜スウェーデン滞在記＞
+{{< series "Sweden" >}}

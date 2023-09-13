@@ -1,12 +1,13 @@
 ---
-title: "降雪"
+title: "降雪（スウェーデン滞在記）"
 date: 2023-02-03T10:00:00+01:00
 draft: false
 summary: "雪が降りました"
 showDate: true
 excludeFromIndex: true
-categories: ["Sweden"]
+categories: ["Misc"]
 icon: "fa-plane-departure"
+series: ["Sweden"]
 ---
 気温自体は氷点下の日も少なくありませんが，1月は降水がそれほどなかったので水たまりが軽く凍っている程度でした。
 
@@ -21,3 +22,6 @@ icon: "fa-plane-departure"
 
 2月に入り少しずつ日も長くなってきました。  
 今回は降雪の話題でしたが，押し並べて言えば天気の良い日も増えてきたように思います。
+
+＜スウェーデン滞在記＞
+{{< series "Sweden" >}}
