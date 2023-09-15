@@ -3,8 +3,8 @@ title: "メモ: WSLでcondaをインストール"
 date: 2021-06-13T16:30:34+09:00
 draft: false
 summary: "WSLでcondaをインストールした際の備忘録"
-showDate: false
 excludeFromIndex: true
+categories: ["Tips"]
 ---
 
 # ことのアラマシ

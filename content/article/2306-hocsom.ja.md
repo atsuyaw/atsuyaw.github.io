@@ -3,12 +3,13 @@ date: 2023-05-26T00:00:00+09:00
 draft: false
 icon: "fa-book"
 showDate: true
-categories: [Other]
+categories: [Misc]
 title: "執筆協力"
 ---
 
 安田亨とそのグループ  
 * [大学入試問題解答集 私立編 2023年度](http://hocsom.com/books.html#nyushi-bookstore:~:text=%E8%B3%BC%E5%85%A5%E3%83%AA%E3%83%B3%E3%82%AF-,%E7%A7%81%E7%AB%8B%E7%B7%A8%E3%80%80%202023%E5%B9%B4%E5%BA%A6,-%C2%A55%2C280%20%2D)
+* [大学入試問題解答集 国公立編 2023年度](http://hocsom.com/books.html#nyushi-bookstore:~:text=%E8%B3%BC%E5%85%A5%E3%83%AA%E3%83%B3%E3%82%AF-,%E7%A7%81%E7%AB%8B%E7%B7%A8%E3%80%80%202023%E5%B9%B4%E5%BA%A6,-%C2%A55%2C280%20%2D)
 
 <!--more-->
 

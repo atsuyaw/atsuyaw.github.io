@@ -3,6 +3,7 @@ title: 'bilberry-hugo-themeへのPR'
 date: 2023-09-12T18:35:51+09:00
 showDate: true
 draft: false
+categories: ["Misc"]
 ---
 
 Lednerb/bilberry-hugo-themeへのPRがmergeされました。

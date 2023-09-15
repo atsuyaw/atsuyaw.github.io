@@ -1,13 +1,21 @@
 baseURL = "https://atsuyaw.github.io"
-languageCode = "ja-jp"
 title = "渡邉充哉"
 enableRobotsTXT = true
 publishDir = "docs"
 canonifyurls = false
 gems = "jekyll-redirect-from"
-DefaultContentLanguage = "jp"
+DefaultContentLanguage = "ja"
 googleAnalytics = "G-HNVCPLHT68"
 enableGitInfo = true
+
+[Languages]
+[Languages.ja]
+weight = 1
+languageCode = "ja"
+[Languages.en]
+weight = 2
+languageCode = "en"
+title = "Atsuya Watanabe's Personal Web-site"
 
 [module]
 [[module.imports]]
@@ -31,15 +39,15 @@ showArchive = true
 showFooterLanguageChooser = true
 archiveDateGrouping = "2006"
 amountLatestPostsInFooter = -1
-copyrightUrl = "https://github.com/atsuyaw"
+copyrightUrl = "https://github.com/atsuyaw/atsuyaw.github.io"
 copyrightUseCurrentYear = true
 copyrightBy = "Atsuya Watanabe"
-creditsText = "Lednerb/bilberry-hugo-theme"
-creditsUrl = "https://github.com/atsuyaw/atsuyaw.github.io"
-dafaultNoimage = "/no-image.png"
-headlineFont = ["'Noto Sans', sans-serif"]
-contentFont = ["'Noto Sans', sans-serif"]
-articleFooterfont = ["'Noto Sans', sans-serif"]
+# creditsText = "Lednerb/bilberry-hugo-theme"
+# creditsUrl = "https://github.com/atsuyaw/atsuyaw.github.io"
+# dafaultNoimage = "/no-image.png"
+headlineFont = ["'Roboto', 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'BIZ UDPGothic', 'Yu Gothic Medium', 'YuGothic', 'Meiryo', 'Font Awesome 6 Free', sans-serif"]
+contentFont = ["'Roboto', 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'BIZ UDPGothic', 'Yu Gothic Medium', 'YuGothic', 'Meiryo', 'Font Awesome 6 Free', sans-serif"]
+articleFooterfont = ["'Roboto', 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'BIZ UDPGothic', 'Yu Gothic Medium', 'YuGothic', 'Meiryo', 'Font Awesome 6 Free', sans-serif"]
 pageBackgroundColor = "#ddd"
 baseColor = "#604c38"# mDarkBrown
 specialColor = "#23303b"# mDarkTeal
@@ -61,20 +69,13 @@ socialMediaLinks = [
   { link = "https://github.com/atsuyaw", icon = "fab fa-github"}
 ]
 
-[Languages]
-[Languages.jp]
-weight = 1
-[Languages.en]
-weight = 2
-title = "Atsuya Watanabe's Personal Web-site"
-
 [frontmatter]
 lastmod = [":git",":fileModTime"]# Only for metadata and search engine
 publishDate = ["publishDate","date","lastmod",":git"]# Displayed in "META"
 date = ["date",":git"]# Affects sort
 
 [markup]
-  defaultMarkdownHandler = 'goldmark'
+defaultMarkdownHandler = 'goldmark'
 [markup.goldmark]
 [markup.goldmark.renderer]
 # change to 'true' if you need to render raw HTML within your markdown content

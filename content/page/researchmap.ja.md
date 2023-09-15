@@ -1,5 +1,5 @@
 ---
-title: "Researchmap "
+title: "Researchmap↗"
 date: 2022-11-28T10:13:00+09:00
 
 # set the link if you want to redirect the user.

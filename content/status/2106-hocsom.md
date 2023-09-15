@@ -3,7 +3,7 @@ date: 2021-06-30T00:00:00+09:00
 draft: false
 icon: "fa-book"
 showDate: true
-categories: [Other]
+categories: ["Misc"]
 ---
 
 ## 執筆協力しました。

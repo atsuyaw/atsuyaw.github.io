@@ -3,7 +3,7 @@ date: 2023-05-14T18:30:00+09:00
 draft: false
 icon: "fa-microphone"
 showDate: true
-categories: [Other]
+categories: [Misc]
 title: "初学者のためのLaTeXセミナー"
 ---
 「初学者のためのLaTeXセミナー」にて講師を担当しました。

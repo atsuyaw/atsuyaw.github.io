@@ -3,7 +3,7 @@ date: 2022-12-23T18:30:00+09:00
 draft: false
 icon: "fa-microphone"
 showDate: true
-categories: [Other]
+categories: ["Misc"]
 ---
 
 ## セミナー実施

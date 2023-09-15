@@ -5,7 +5,7 @@ draft: false
 summary: "LaTeXに追加で導入しているパッケージの一覧"
 showDate: true
 excludeFromIndex: false
-categories: ["Other"]
+categories: ["Misc"]
 icon: "fa-lightbulb"
 tags: ["LaTeX","備忘録"]
 ---

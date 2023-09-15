@@ -10,14 +10,14 @@ See also [researchmap](https://researchmap.jp/atsuyaw).
 
 ## Fabrication of FeCoNi medium-entropy alloy nanoparticles by high-repetition-rate UV picosecond laser ablation in water
 <u>Atsuya Watanabe</u>, Tomoyuki Yatsuhashi  
-Journal of Alloys and Compounds 950, 169896.  
+Journal of Alloys and Compounds 950, 169896 (2023).  
 <i class="ai ai-doi ai-lg"></i> [10.1016/j.jallcom.2023.169896](https://doi.org/10.1016/j.jallcom.2023.169896) <i class="ai ai-closed-access ai-lg"></i>
 
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0925838823011994" data-iframely-url="//cdn.iframe.ly/api/iframe?url=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.jallcom.2023.169896&key=8bc9fbec81f15b0cbb303c18f126d6a3"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script></br>
 
 ## Microstructure and tensile strength of electrodeposited Fe-rich bcc FeCoNi medium-entropy alloys
 <u>A. Watanabe</u>, T. Yamamoto, R. Miyamoto, Y. Takigawa  
-Materials Science and Technology (in press).  
+Materials Science and Technology, 39, (15) 2028-2034 (2023).  
 <i class="ai ai-doi ai-lg"></i> [10.1080/02670836.2023.2187973](https://doi.org/10.1080/02670836.2023.2187973) <i class="ai ai-closed-access ai-lg"></i></br>
 <i class="ai ai-doi ai-lg"></i> [10.2139/ssrn.3972720](http://dx.doi.org/10.2139/ssrn.3972720) <object data="https://img.shields.io/static/v1?label=&message=Preprint&style=flat&logo=open%20access&color=008500&logoColor=white" type="image/gif" height="18"></object>
 
