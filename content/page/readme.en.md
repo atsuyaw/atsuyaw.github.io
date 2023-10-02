@@ -1,13 +1,11 @@
 ---
 title: "About me"
-date: 2022-12-27T11:00:00+09:00
-draft: false
 icon: "fa-user"
 weight: 10
 menu: "topnav"
 ---
 
-# Atsuya Watanabe
+## Atsuya Watanabe
 
 E-Mail: `watanabe [at] osakafu-u.net`  
 ORCID <i class="ai ai-orcid ai"></i> [0000-0002-6861-7352](https://orcid.org/0000-0002-6861-7352)  
@@ -17,16 +15,24 @@ Scopus <i class="ai ai-scopus ai"></i> [57211107471](https://www.scopus.com/auth
 </br>
 <img title='researchmap' alt='researchmap' src='https://researchmap.jp/outline/img/researchmap130.gif' align="left">  <a href='https://researchmap.jp/atsuyaw' target='_blank'> atsuyaw</a>
 
-## Works
+### PGP public key
+Fingerprint: `D20A 66AE 29A2 D6FE 02AF  FDF0 2056 E8DF 1E7E CA55`
+* [atsuyaw.github.io](/2056E8DF1E7ECA55.asc)
+* [keys.openpgp.org](https://keys.openpgp.org/vks/v1/by-fingerprint/D20A66AE29A2D6FE02AFFDF02056E8DF1E7ECA55)
+* [keyserver.ubuntu.com](http://keyserver.ubuntu.com/pks/lookup?op=vindex&search=0x2056e8df1e7eca55)
 
-Please check [my ORCID](https://orcid.org/0000-0002-6861-7352) page.
+### S/MIME
+My E-mails are usually signed by S/MIME. The fingerprint of certificates are following:
+* watanabe [at] osakafu-u.net: `75:02:97:7B:E9:A4:D8:C3:97:6E:00:CA:55:D3:39:9C:CE:C0:B2:C0`
+* wtnb [at] omu.ac.jp: `37:3A:58:D3:64:BA:F3:1F:27:D7:2C:97:F1:9C:CB:A1:E3:8E:04:0F`
+* se22813v [at] st.omu.ac.jp: `8D:92:42:C6:D9:D3:FE:2F:CE:C5:1A:F1:71:6E:A3:BF:C5:9A:42:0B`
 
-## Affiliation
+### Affiliation
 
 [Department of Materials Science](https://www.omu.ac.jp/eng/en/undergraduate/mat-sci/), [Graduate School of Engineering](https://www.omu.ac.jp/eng/en/), [Osaka Metropolitan University](https://www.omu.ac.jp/en/)  
 [Graduate Course for System-Inspired Leaders in Multidisciplinary Science](http://sims-program.osakafu-u.ac.jp/eng/)
 
- ## Education
+ ### Education
 
 - 2022-03 Master of Engineering  
 [Department of Materials Science](http://mtr1.osakafu-u.ac.jp/materials-eng/),  
@@ -38,7 +44,7 @@ Please check [my ORCID](https://orcid.org/0000-0002-6861-7352) page.
 [Dept. Materials Science and Engineering](https://www.suzuka-ct.ac.jp/mse),  
 [National Institute of Technology (KOSEN), Suzuka College](https://www.suzuka-ct.ac.jp/english/)
 
-## Membership
+### Membership
 - [The Surface Finishing Society of Japan](https://www.sfj.or.jp) Student member
 - [The Japan Institute of Metals and Materials](https://jimm.jp/en/) Student member
 - [The Society of Materials Science, Japan](https://www.jsms.jp/e-index.html) Student member

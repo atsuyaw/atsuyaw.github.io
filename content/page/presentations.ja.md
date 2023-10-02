@@ -13,21 +13,21 @@ menu: "topnav"
 ## 予定
 * Grain growth bihavior in electrodeposited nanocrystalline FeCoNi medium-entropy alloy  
     <u>Atsuya Watanabe</u>, Takahisa Yamamoto, Koichiro Nambu, Yorinobu Takigawa  
-    IFHTSE2023, 2023-11-15.
+    IFHTSE2023, Yokohama, 2023-11-15.
 
 ## 2023
 
 * めっき法によるバルクナノ結晶FeCoNiミディアムエントロピー合金の創製  
     <u>渡邉充哉</u>, 山本剛久, 瀧川順庸  
-    第30回機械材料・材料加工技術講演会(M&P2023) 2023-09-28.
+    [第30回機械材料・材料加工技術講演会(M&P2023)](https://jsmempd.com/conference/mpdconf/2023/)，つくば， 2023-09-28.
 
 * Development of high-strength bulk nanocrystalline FeCoNi medium-entropy alloy via electrodeposition  
     <u>Atsuya Watanabe</u>, Takahisa Yamamoto, Yorinobu Takigawa  
-    大阪公立大学国際シンポジウム，大阪，2023-09-20．
+    [大阪公立大学 工学研究科国際シンポジウム](https://www.omu.ac.jp/event/entry-01712.html)，大阪，2023-09-20．
 
 * 水中レーザーアブレーションによるコアシェル型FeCoNiミディアムエントロピー合金ナノ粒子の鎖状構造形成  
     八ツ橋知幸, <u>渡邉充哉</u>  
-    光化学討論会，広島， 2023-09-06．
+    [光化学討論会](https://photochemistry.jp/2023/index.html)，広島， 2023-09-06．
 
 * Fabrication of FeCoNi medium-entropy alloy nanoparticles by high-repetition-rate UV picosecond laser ablation in water  
     <u>Atsuya Watanabe</u>, ◦Tomoyuki Yatsuhashi.  
