@@ -1,5 +1,5 @@
 ---
-title: "About me"
+title: "About"
 weight: 10
 menu: "topnav"
 ---
@@ -17,14 +17,17 @@ menu: "topnav"
 ### PGP公開鍵
 Fingerprint: `D20A 66AE 29A2 D6FE 02AF  FDF0 2056 E8DF 1E7E CA55`
 * [atsuyaw.github.io](/2056E8DF1E7ECA55.asc)
-* [keys.openpgp.org](https://keys.openpgp.org/vks/v1/by-fingerprint/D20A66AE29A2D6FE02AFFDF02056E8DF1E7ECA55)
+* [keys.openpgp.org](https://keys.openpgp.org/search?q=D20A66AE29A2D6FE02AFFDF02056E8DF1E7ECA55)
 * [keyserver.ubuntu.com](http://keyserver.ubuntu.com/pks/lookup?op=vindex&search=0x2056e8df1e7eca55)
 
-### S/MIME
-E-mailの署名は基本的にS/MIMEにより行います。証明書のfingerprintは以下の通りです。
+### CA証明書
+E-mailの署名は基本的にS/MIMEにより行います。
+CA証明書のfingerprintは以下の通りです。
 * watanabe [at] osakafu-u.net: `75:02:97:7B:E9:A4:D8:C3:97:6E:00:CA:55:D3:39:9C:CE:C0:B2:C0`
 * wtnb [at] omu.ac.jp: `37:3A:58:D3:64:BA:F3:1F:27:D7:2C:97:F1:9C:CB:A1:E3:8E:04:0F`
 * se22813v [at] st.omu.ac.jp: `8D:92:42:C6:D9:D3:FE:2F:CE:C5:1A:F1:71:6E:A3:BF:C5:9A:42:0B`
+* マイナンバーカード搭載の署名用電子証明書  
+`02:68:6B:2C:BB:94:07:3D:CB:0A:99:14:BC:1C:A0:B5:3F:EF:81:BF`
 
 ### 所属
 * [大阪公立大学](https://www.omu.ac.jp)大学院 博士後期課程  

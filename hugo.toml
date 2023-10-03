@@ -58,6 +58,7 @@ navTextColor = "#f1f1f1"
 articleBackgroundColor = "#f1f1f1"
 metaBorderColor = "#23373b20"
 metaTextColor = "#23373b"
+footerBackgroundColor = "#f1f1f1"
 
 css_modules = ["..", "//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css","https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"]
 js_modules = ["..", "//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js","init-cookieconsent.js"]
