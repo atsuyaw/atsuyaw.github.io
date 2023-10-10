@@ -1,0 +1,10 @@
+{{ if .IsNamedParams }}
+  <ol reversed>
+  {{ $data := index $.Site.Data.paper $.Params.data }}
+  {{ range sort $data "date" "desc" }}
+  <li class="myPaperNumber">
+      {{ partial "papers" . }}
+  </li>
+  {{ end }}
+  </ol>
+{{- end -}}

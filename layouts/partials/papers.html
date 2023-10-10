@@ -1,0 +1,15 @@
+{{ .type }}
+{{ .date }}
+{{ if eq .access "gold" }}
+<object data="https://img.shields.io/static/v1?label=&message=Open Access&style=flat&logo=open%20access&color=F68212&logoColor=white" type="image/gif" height="18"></object>
+{{ else if eq .access "green" }}
+<object data="https://img.shields.io/static/v1?label=&message=Preprint&style=flat&logo=open%20access&color=008500&logoColor=white" type="image/gif" height="18"></object>
+{{ end }}
+</br>
+<div><h2 class="paperTitle"><b>{{ .title }}</b></h2></div>
+<div class="paperAuthor">{{ .author }}</div>
+<div>
+  <i>{{ .journal }}</i>, <b>{{ .vol }}</b>, {{ .page }} ({{ .year }}).</br>
+  <i class="ai ai-doi ai"></i>
+  <a href="https://doi.org/{{ .doi1 }}" target="_blank">{{ .doi1 }}</a>
+</div>
