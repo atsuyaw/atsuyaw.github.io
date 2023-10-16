@@ -61,7 +61,7 @@ metaTextColor = "#23373b"
 footerBackgroundColor = "#f1f1f1"
 
 css_modules = [
-  "/css/custom.css",
+  "/sass/custom.css",
   "//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css",
   "https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
 ]

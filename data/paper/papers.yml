@@ -6,7 +6,7 @@
   date:     2022-07-15
   year:     2022
   type:     Article
-  doi1:      10.1038/s41598-022-16086-6
+  doi1:     10.1038/s41598-022-16086-6
   access:   gold
 
 - title:    Fabrication of FeCoNi medium-entropy alloy nanoparticles by high-repetition-rate UV picosecond laser ablation in water
@@ -17,8 +17,8 @@
   date:     2023-07-25
   year:     2023
   type:     Research article
-  doi1:      10.1016/j.jallcom.2023.169896
-  access:  close
+  doi1:     10.1016/j.jallcom.2023.169896
+  access:   close
 
 - title:    Microstructure and tensile strength of electrodeposited Fe-rich bcc FeCoNi medium-entropy alloys
   author:   Atsuya Watanabe, Takahisa Yamamoto, Ryousuke Miyamoto, Yorinobu Takigawa
@@ -30,7 +30,9 @@
   date:     2023-03-15
   type:     Research Article
   doi1:     10.1080/02670836.2023.2187973
-  access:    close
+  access:   green
+  repoURL:  http://hdl.handle.net/10466/0002000064
+  embargo:  2024-03-15
 
 - title:    Reducing sulfur to improve thermal embrittlement in electrodeposited nickel using citric acid
   author:   Atsuya Watanabe, Yorinobu Takigawa
@@ -39,11 +41,12 @@
   page:     100001
   year:     2020
   date:     2020-11-01
+  type:     Full Length Article
   doi1:     10.1016/j.rsurfi.2020.100001
   access:   gold
 
 - title:    "Microstructural heterogeneity in the electrodeposited Ni: insights from growth modes"
-  author:   Isao Matsui, Atsuya Watanabe, Yorinobu Takigawa, Naoki Omura & Takahisa Yamamoto
+  author:   Isao Matsui, Atsuya Watanabe, Yorinobu Takigawa, Naoki Omura, Takahisa Yamamoto
   journal:  Scientific Reports
   vol:      10
   page:     5548

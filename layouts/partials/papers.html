@@ -1,16 +1,23 @@
-<li style="float:left;clear:left"><div style="display:inline;float:right;width:90%">
-  {{ .type }} |  {{ .date }}
-  {{ if eq .access "gold" }}
-  <p style="background:#F68212;color:#FFF;border-radius:10%;display:inline;font-size:0.75em;padding:.25em;margin-left:0.5em">Open</p>
-  {{ else if eq .access "green" }}
-  <p style="background:#008500;color:#FFF;border-radius:10%;display:inline;font-size:0.75em;padding:.25em;margin-left:0.5em">Green</p>
-  {{ end }}
-  </br>
-  <h2 style="font-weight:bolder;margin-bottom:0">{{ .title }}</h2>
-  <div class="paperAuthor">{{ .author }}</div>
-  <div>
-    <i>{{ .journal }}</i>, <b>{{ .vol }}</b>, {{ .page }} ({{ .year }}).</br>
-    <i class="ai ai-doi ai"></i><a href="https://doi.org/{{ .doi1 }}" target="_blank"> {{ .doi1 }} </a>
-  </div>
+<li style="float:left;clear:left;margin-bottom:3ex">
+  <div style="display:inline;float:right;width:93%">
+    {{ .type }} |  {{ .date }}
+    {{ if eq .access "gold" }}
+      <p style="background:#F68212;color:#FFF;border-radius:10%;display:inline;font-size:0.7em;padding:.25em;padding-left:.5em;padding-right:.5em;margin-left:0.5em">Open</p>
+    {{ else if eq .access "green" }}
+      <p style="background:#008500;color:#FFF;border-radius:10%;display:inline;font-size:0.7em;padding:.25em;padding-left:.5em;padding-right:.5em;margin-left:0.5em">Open</p>
+    {{ end }}
+    </br>
+    <h2 style="font-weight:bolder;margin-bottom:0">{{ .title }}</h2>
+    <p style="margin-bottom:0">{{ .author }}</p>
+    <p style="margin-bottom:0"><i>{{ .journal }}</i>, <b>{{ .vol }}</b>, {{ .page }} ({{ .year }}).</p>
+    <p style="background:#555;color:#fff;border-radius:10%;display:inline;font-size:0.7em;padding:.1em;padding-left:.5em;padding-right:.5em;margin-right:.2em">doi</p>
+    <a href="https://doi.org/{{ .doi1 }}" target="_blank">{{ .doi1 }}</a>
+    {{ if .repoURL }}
+      </br>
+      <p style="background:#008500;color:#fff;border-radius:10%;display:inline;font-size:0.7em;padding:.1em;padding-left:.5em;padding-right:.5em;margin-right:.8em">IR</p><a href="{{ .repoURL }}" target="_blank" class="tooltip">
+        {{ .repoURL }}
+        <span class="tooltip-text">Embargo: {{ .embargo }}</span>
+      </a>
+    {{ end }}
   </div>
 </li>
