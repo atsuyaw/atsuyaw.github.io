@@ -6,11 +6,12 @@ showDate: true
 categories: ["Misc"]
 tags: ["LaTeX"]
 toc: false
+featuredImage: "article/2407-clbeamer/240730CLbeamer.png"
 ---
 
-アカリク Cloud LaTeX team主催の「LaTeX を使った“伝わる発表スライド”作成を学ぼう」を開催しました。
+株式会社アカリク Cloud LaTeX主催セミナー「LaTeX を使った“伝わる発表スライド”作成を学ぼう」にて講師を担当しました。
 
 <!--more-->
 
-* オンラインで学べるLaTeX を用いたスライド作成セミナー  
-https://acaric.jp/event/detail/394
+* LaTeX を使った“伝わる発表スライド”作成を学ぼう  
+2024-07-30, https://acaric.jp/event/detail/394
