@@ -1,0 +1,32 @@
+{{ $csv := "a,/na" | transform.Unmarshal }}
+<pre>{{ debug.Dump ($csv ) }}</pre>
+
+{{ $json := "{\"a\":\"a\",\"b\":14}" | transform.Unmarshal }}
+{{ $json.b }}
+
+
+
+
+{{ $url := "https://api.researchmap.jp/atsuyaw?format=json" }}
+{{ with resources.GetRemote $url }}
+  {{ with .Err }}
+    {{ errorf "%s" . }}
+  {{ else }}
+    {{ $data := .Content | transform.Unmarshal }}
+<!--    <pre>{{ jsonify (dict "indent" "  ") $data }}</pre>-->
+    {{ $graph := slice $data "@graph" }}
+    {{ with $graph }}
+    hogehoge<br>
+      {{ $papers := where $data "@type" "published_papers" }}
+        {{ $items := slice $papers "items" }}
+        {{ range $papers }}
+          {{ index $papers "rm:id" | debug.Dump }}
+          {{ end }}
+      {{ end }}
+  {{ end }}
+{{ else }}
+  {{ errorf "Unable to get remote resource %q" $url }}
+{{ end }}
+
+
+
