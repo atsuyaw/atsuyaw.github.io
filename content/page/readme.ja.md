@@ -35,7 +35,10 @@ CA証明書のfingerprintは以下の通りです。
     [システム発想型学際科学リーダー養成学位プログラム](https://www.omu.ac.jp/las/sims/)  
     [信頼性材料研究グループ](http://www2.mtr.osakafu-u.ac.jp)
 * 日本学術振興会  
-    特別研究員 DC2
+    特別研究員 DC2  
+    <img alt="JSPS GAKUSHIN" src="/images/logo_DC_stdColor.jpg" height="150rem" align="left" style="background-color:white;padding:2rem">
+    <div style="clear:both;"></div>
+
 * [大阪産業大学](https://www.osaka-sandai.ac.jp) 工学部  
     非常勤講師
 

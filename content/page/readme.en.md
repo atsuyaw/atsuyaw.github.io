@@ -31,8 +31,12 @@ My E-mails are usually signed by S/MIME. The fingerprint of CA certificates are 
 
 ### Affiliation
 
-[Department of Materials Science](https://www.omu.ac.jp/eng/en/undergraduate/mat-sci/), [Graduate School of Engineering](https://www.omu.ac.jp/eng/en/), [Osaka Metropolitan University](https://www.omu.ac.jp/en/)  
+* [Department of Materials Science](https://www.omu.ac.jp/eng/en/undergraduate/mat-sci/), [Graduate School of Engineering](https://www.omu.ac.jp/eng/en/), [Osaka Metropolitan University](https://www.omu.ac.jp/en/)  
 [Graduate Course for System-Inspired Leaders in Multidisciplinary Science](http://sims-program.osakafu-u.ac.jp/eng/)
+*  Japan Society for the Promotion of Science
+    Research Fellow for Young Researchers (DC2)  
+    <img alt="JSPS GAKUSHIN" src="/images/logo_DC_stdColor.jpg" height="150rem" align="left" style="background-color:white;padding:2rem">
+    <div style="clear:both;"></div>
 
  ### Education
 
