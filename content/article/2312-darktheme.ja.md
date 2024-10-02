@@ -1,6 +1,6 @@
 ---
 title: "ダークモードに対応"
-date: 2023-12-09T
+date: 2023-12-09
 draft: false
 summary: "ダークモード実装しました"
 showDate: true
