@@ -1,23 +1,80 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>publish on 渡邉充哉</title><link>https://atsuyaw.github.io/tags/publish/</link><description>Recent content in publish on 渡邉充哉</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Tue, 10 Oct 2023 17:00:29 +0900</lastBuildDate><atom:link href="https://atsuyaw.github.io/tags/publish/index.xml" rel="self" type="application/rss+xml"/><item><title>Paper</title><link>https://atsuyaw.github.io/page/papers/</link><pubDate>Tue, 10 Oct 2023 17:00:29 +0900</pubDate><guid>https://atsuyaw.github.io/page/papers/</guid><description>researchmapも併せてご覧ください。
-Research article | 2023-07-25 Fabrication of FeCoNi medium-entropy alloy nanoparticles by high-repetition-rate UV picosecond laser ablation in water Atsuya Watanabe, Tomoyuki Yatsuhashi
-Journal of Alloys and Compounds, 950, 169896 (2023).
-doi
-10.1016/j.jallcom.2023.169896 Research Article | 2023-03-15 Open
-Microstructure and tensile strength of electrodeposited Fe-rich bcc FeCoNi medium-entropy alloys Atsuya Watanabe, Takahisa Yamamoto, Ryousuke Miyamoto, Yorinobu Takigawa
-Materials Science and Technology, 39, 2028-2034 (2023).
-doi
-10.1080/02670836.2023.2187973 IR
-http://hdl.handle.net/10466/0002000064 Embargo: 2024-03-15 Article | 2022-07-15 Open</description></item><item><title>Presentation</title><link>https://atsuyaw.github.io/page/presentations/</link><pubDate>Mon, 02 Oct 2023 17:17:59 +0900</pubDate><guid>https://atsuyaw.github.io/page/presentations/</guid><description>researchmapも併せてご覧ください。
-予定 Grain growth bihavior in electrodeposited nanocrystalline FeCoNi medium-entropy alloy
-Atsuya Watanabe, Takahisa Yamamoto, Koichiro Nambu, Yorinobu Takigawa
-IFHTSE2023, Yokohama, 2023-11-15. 2023 めっき法によるバルクナノ結晶FeCoNiミディアムエントロピー合金の創製
-渡邉充哉, 山本剛久, 瀧川順庸
-第30回機械材料・材料加工技術講演会(M&amp;amp;amp;P2023)，つくば， 2023-09-28.
-Development of high-strength bulk nanocrystalline FeCoNi medium-entropy alloy via electrodeposition
-Atsuya Watanabe, Takahisa Yamamoto, Yorinobu Takigawa
-大阪公立大学 工学研究科国際シンポジウム，大阪，2023-09-20．
-水中レーザーアブレーションによるコアシェル型FeCoNiミディアムエントロピー合金ナノ粒子の鎖状構造形成
-八ツ橋知幸, 渡邉充哉
-光化学討論会，広島， 2023-09-06．
-Fabrication of FeCoNi medium-entropy alloy nanoparticles by high-repetition-rate UV picosecond laser ablation in water
-Atsuya Watanabe, ◦Tomoyuki Yatsuhashi.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Publish on 渡邉充哉</title><link>https://atsuyaw.github.io/tags/publish/</link><description>Recent content in Publish on 渡邉充哉</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Tue, 10 Oct 2023 17:00:29 +0900</lastBuildDate><atom:link href="https://atsuyaw.github.io/tags/publish/index.xml" rel="self" type="application/rss+xml"/><item><title>Paper</title><link>https://atsuyaw.github.io/page/papers/</link><pubDate>Tue, 10 Oct 2023 17:00:29 +0900</pubDate><guid>https://atsuyaw.github.io/page/papers/</guid><description>&lt;p>&lt;a href="https://researchmap.jp/atsuyaw" target="_blank">researchmap&lt;/a>も併せてご覧ください。&lt;/p>
+
+ &lt;ol reversed>
+ 
+ 
+ &lt;li style="float:left;clear:left;margin-bottom:3ex">
+ &lt;div style="display:inline;float:right;width:93%">
+ Research article | 2023-07-25
+ 
+ &lt;/br>
+ &lt;h2 style="font-weight:bolder;margin-bottom:0">Fabrication of FeCoNi medium-entropy alloy nanoparticles by high-repetition-rate UV picosecond laser ablation in water&lt;/h2>
+ &lt;p style="margin-bottom:0">Atsuya Watanabe, Tomoyuki Yatsuhashi&lt;/p>
+ &lt;p style="margin-bottom:0">&lt;i>Journal of Alloys and Compounds&lt;/i>, &lt;b>950&lt;/b>, 169896 (2023).&lt;/p>
+ &lt;p style="background:#555;color:#fff;border-radius:10%;display:inline;font-size:0.7em;padding:.1em;padding-left:.5em;padding-right:.5em;margin-right:.2em">doi&lt;/p>
+ &lt;a href="https://doi.org/10.1016/j.jallcom.2023.169896" target="_blank">10.1016/j.jallcom.2023.169896&lt;/a>
+ 
+ &lt;/div>
+&lt;/li>
+
+ 
+ &lt;li style="float:left;clear:left;margin-bottom:3ex">
+ &lt;div style="display:inline;float:right;width:93%">
+ Research Article | 2023-03-15
+ 
+ &lt;p style="background:#008500;color:#FFF;border-radius:10%;display:inline;font-size:0.7em;padding:.25em;padding-left:.5em;padding-right:.5em;margin-left:0.5em">Open&lt;/p>
+ 
+ &lt;/br>
+ &lt;h2 style="font-weight:bolder;margin-bottom:0">Microstructure and tensile strength of electrodeposited Fe-rich bcc FeCoNi medium-entropy alloys&lt;/h2>
+ &lt;p style="margin-bottom:0">Atsuya Watanabe, Takahisa Yamamoto, Ryousuke Miyamoto, Yorinobu Takigawa&lt;/p>
+ &lt;p style="margin-bottom:0">&lt;i>Materials Science and Technology&lt;/i>, &lt;b>39&lt;/b>, 2028-2034 (2023).&lt;/p>
+ &lt;p style="background:#555;color:#fff;border-radius:10%;display:inline;font-size:0.7em;padding:.1em;padding-left:.5em;padding-right:.5em;margin-right:.2em">doi&lt;/p>
+ &lt;a href="https://doi.org/10.1080/02670836.2023.2187973" target="_blank">10.1080/02670836.2023.2187973&lt;/a>
+ 
+ &lt;/br>
+ &lt;p style="background:#008500;color:#fff;border-radius:10%;display:inline;font-size:0.7em;padding:.1em;padding-left:.5em;padding-right:.5em;margin-right:.8em">IR&lt;/p>&lt;a href="http://hdl.handle.net/10466/0002000064" target="_blank" class="tooltip">
+ http://hdl.handle.net/10466/0002000064
+ &lt;span class="tooltip-text">Embargo: 2024-03-15&lt;/span>
+ &lt;/a>
+ 
+ &lt;/div>
+&lt;/li>
+
+ 
+ &lt;li style="float:left;clear:left;margin-bottom:3ex">
+ &lt;div style="display:inline;float:right;width:93%">
+ Article | 2022-07-15
+ 
+ &lt;p style="background:#F68212;color:#FFF;border-radius:10%;display:inline;font-size:0.7em;padding:.25em;padding-left:.5em;padding-right:.5em;margin-left:0.5em">Open&lt;/p>
+ 
+ &lt;/br>
+ &lt;h2 style="font-weight:bolder;margin-bottom:0">Tensile strength of nanocrystalline FeCoNi medium-entropy alloy fabricated using electrodeposition&lt;/h2>
+ &lt;p style="margin-bottom:0">Atsuya Watanabe, Takahisa Yamamoto, Yorinobu Takigawa&lt;/p></description></item><item><title>Presentation</title><link>https://atsuyaw.github.io/page/presentations/</link><pubDate>Mon, 02 Oct 2023 17:17:59 +0900</pubDate><guid>https://atsuyaw.github.io/page/presentations/</guid><description>&lt;!-- &lt;iframe style="width:100%;height:600px;margin:15px 0;max-width:680px;" title="Vega" src="https://atsuyaw.github.io/page/visit.html" frameborder="0" scrolling="no">&lt;/iframe> -->
+&lt;p>&lt;a href="https://researchmap.jp/atsuyaw" target="_blank">researchmap&lt;/a>も併せてご覧ください。&lt;/p>
+&lt;h2 id="予定">予定&lt;/h2>
+&lt;ul>
+&lt;li>Grain growth bihavior in electrodeposited nanocrystalline FeCoNi medium-entropy alloy&lt;br>
+&lt;u>Atsuya Watanabe&lt;/u>, Takahisa Yamamoto, Koichiro Nambu, Yorinobu Takigawa&lt;br>
+IFHTSE2023, Yokohama, 2023-11-15.&lt;/li>
+&lt;/ul>
+&lt;h2 id="2023">2023&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>めっき法によるバルクナノ結晶FeCoNiミディアムエントロピー合金の創製&lt;br>
+&lt;u>渡邉充哉&lt;/u>, 山本剛久, 瀧川順庸&lt;br>
+&lt;a href="https://jsmempd.com/conference/mpdconf/2023/" target="_blank">第30回機械材料・材料加工技術講演会(M&amp;amp;P2023)&lt;/a>，つくば， 2023-09-28.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Development of high-strength bulk nanocrystalline FeCoNi medium-entropy alloy via electrodeposition&lt;br>
+&lt;u>Atsuya Watanabe&lt;/u>, Takahisa Yamamoto, Yorinobu Takigawa&lt;br>
+&lt;a href="https://www.omu.ac.jp/event/entry-01712.html" target="_blank">大阪公立大学 工学研究科国際シンポジウム&lt;/a>，大阪，2023-09-20．&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>水中レーザーアブレーションによるコアシェル型FeCoNiミディアムエントロピー合金ナノ粒子の鎖状構造形成&lt;br>
+八ツ橋知幸, &lt;u>渡邉充哉&lt;/u>&lt;br>
+&lt;a href="https://photochemistry.jp/2023/index.html" target="_blank">光化学討論会&lt;/a>，広島， 2023-09-06．&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Fabrication of FeCoNi medium-entropy alloy nanoparticles by high-repetition-rate UV picosecond laser ablation in water&lt;br>
+&lt;u>Atsuya Watanabe&lt;/u>, ◦Tomoyuki Yatsuhashi.&lt;br>
+&lt;a href="http://www.jlps.gr.jp/lpm/lpm2023/" target="_blank">The 24th International Symposium on Laser Precision Microfabrication (LPM2023)&lt;/a>, Hirosaki, 2023-06-14.&lt;/p></description></item></channel></rss>
