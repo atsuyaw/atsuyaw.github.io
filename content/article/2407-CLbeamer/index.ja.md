@@ -9,9 +9,8 @@ toc: false
 featuredImage: "article/2407-clbeamer/240730CLbeamer.png"
 ---
 
-株式会社アカリク Cloud LaTeX主催セミナー「LaTeX を使った“伝わる発表スライド”作成を学ぼう」にて講師を担当しました。
-
-<!--more-->
+講師を担当しました。
 
 * LaTeX を使った“伝わる発表スライド”作成を学ぼう  
-2024-07-30, https://acaric.jp/event/detail/394
+2024-07-30 (Web) https://acaric.jp/event/detail/394  
+主催: 株式会社アカリク Cloud LaTeX
