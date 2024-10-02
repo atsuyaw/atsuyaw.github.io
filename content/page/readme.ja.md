@@ -38,8 +38,7 @@ CA証明書のfingerprintは以下の通りです。
     特別研究員 DC2  
     <img alt="JSPS GAKUSHIN" src="/images/logo_DC_stdColor.jpg" height="150rem" align="left" style="background-color:white;padding:2rem">
     <div style="clear:both;"></div>
-
-* [大阪産業大学](https://www.osaka-sandai.ac.jp) 工学部  
+* [大阪産業大学](https://www.osaka-sandai.ac.jp) 工学部 [機械工学科](https://www.osaka-sandai.ac.jp/fc/en/mech/)  
     非常勤講師
 
  ### 学歴
@@ -56,3 +55,5 @@ CA証明書のfingerprintは以下の通りです。
 - [日本金属学会](https://jimm.jp) 学生会員
 - [日本材料学会](https://www.jsms.jp) 学生会員
 - [日本機械学会](https://www.jsme.or.jp) 正員
+- [TeX Users Group](https://tug.org) Special (student) member
+

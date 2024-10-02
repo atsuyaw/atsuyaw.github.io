@@ -37,6 +37,9 @@ My E-mails are usually signed by S/MIME. The fingerprint of CA certificates are 
     Research Fellow for Young Researchers (DC2)  
     <img alt="JSPS GAKUSHIN" src="/images/logo_DC_stdColor.jpg" height="150rem" align="left" style="background-color:white;padding:2rem">
     <div style="clear:both;"></div>
+* [Osaka Sangyo University](https://www.osaka-sandai.ac.jp/english/)  
+    Department of Mechanical Engineering  
+    Part-time lecturer
 
  ### Education
 
@@ -54,3 +57,5 @@ My E-mails are usually signed by S/MIME. The fingerprint of CA certificates are 
 - [The Surface Finishing Society of Japan](https://www.sfj.or.jp) Student member
 - [The Japan Institute of Metals and Materials](https://jimm.jp/en/) Student member
 - [The Society of Materials Science, Japan](https://www.jsms.jp/e-index.html) Student member
+- [TeX Users Group](https://tug.org) Special (student) member
+
