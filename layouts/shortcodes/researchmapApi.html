@@ -16,15 +16,14 @@
     {{ with $data := .Content | transform.Unmarshal }}
       {{ with index . "@graph" }}
         {{ range . }}
-          {{ range where . "@type" "works" }}
+          {{ range where . "@type" "published_papers" }}
             {{ range . }}
-              {{ with index . "work_title" }}
-                {{ index . "ja" }}
+              {{ range .authors.en }}
+                {{ .name }}
               {{ end }}
-              {{ with index . "see_also" }}
-                {{ range . }}
-                  {{ index . "@id" }}
-                {{ end }}
+              {{ range .identifiers.doi }}
+                <pre>{{ jsonify (dict "indent" "  ") . }}</pre>
+                <p>doi: <code>{{ . }}</code></p>
               {{ end }}
             {{ end }}
           {{ end }}
@@ -32,7 +31,6 @@
       {{ end }}
     {{ end }}
     <!-- range where . $atype "published_papers" -->
-    <!--{{ jsonify (dict "indent" "  ") . }}-->
   {{ end }}
 {{ else }}
   {{ errorf "Unable to get remote resource %q" $url }}
