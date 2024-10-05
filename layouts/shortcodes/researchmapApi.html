@@ -14,11 +14,18 @@
     {{ errorf "%s" . }}
   {{ else }}
     {{ with $data := .Content | transform.Unmarshal }}
-    {{ $id := index .Params "@id" }}
-    {{ $atype := index .Params "@type" }}
-    {{ $agraph := index .Params "@graph" }}
     <!--<pre>{{ debug.Dump . }}</pre>-->
-    <pre>{{ jsonify (dict "indent" "  ") $temp }}</pre>
+    {{ with index . "@graph" }}
+    {{ range . }}
+    {{ range where . "@type" "works" }}
+    {{ range . }}
+    {{ $worktitle := index "work_title" }}
+    <pre>{{ jsonify (dict "indent" "  ") . }}</pre>
+    <!--<pre>{{ debug.Dump . }}</pre>-->
+    {{ end }}
+    {{ end }}
+    {{ end }}
+    {{ end }}
     {{ end }}
     <!-- range where . $atype "published_papers" -->
     <!--{{ jsonify (dict "indent" "  ") . }}-->
