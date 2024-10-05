@@ -8,4 +8,6 @@ menu: "topnav"
 
 [researchmap](https://researchmap.jp/atsuyaw)も併せてご覧ください。
 
-{{< paperList data="papers" >}}
+{{< researchmapApi >}}
+
+<!--{{< paperList data="papers" >}}-->
