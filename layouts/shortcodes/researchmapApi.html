@@ -11,12 +11,26 @@
           <p>
           {{ range $k, $v:= .authors.en }}{{ if $k }}, {{ end }}{{ .name }}{{ end }}
           {{ with index . "paper_title" }}
-            {{ .en }}<br>
+          <p>{{ .en }}</p>
           {{ end }}
-          {{ range $k, $v:= .identifiers.doi }}{{ if $k }}<br>{{ end }}
+          <p>
+          {{ with index . "publication_name" }}{{ .en }}{{ end }}
+          {{ with .volume }}<b>{{ . }}</b>,{{ end }}
+          {{ index . "starting_page" }}{{ with index . "ending_page" }}&ndash;{{ . }}{{ end }}.
+          </p>
+          {{ range $k, $v:= .identifiers.doi }}{{ if $k }}{{ end }}
+          <p>
             <!--<pre>{{ jsonify (dict "indent" "  ") . }}</pre>-->
-            doi: <code>{{ . }}</code>
+            doi: <a href="https://doi.org/{{ . }}"><code>{{ . }}</code></a>
+          </p>
           {{ end }}
+          <p>
+          {{ with index . "see_also" }}
+            {{ range and (where . "is_downloadable" true) (where . "label" "ne" "doi") (where . "label" "ne" "rm:research_project_id") }}
+              <p><a href="{{ index . "@id" }}">{{ .label }}</a></p>
+            {{ end }}
+          {{ end }}
+          </p>
           </p>
         {{ end }}
         {{ end }}
