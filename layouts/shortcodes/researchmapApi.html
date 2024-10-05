@@ -1,32 +1,24 @@
-{{ $csv := "a,/na" | transform.Unmarshal }}
-<pre>{{ debug.Dump ($csv ) }}</pre>
-
-{{ $json := "{\"a\":\"a\",\"b\":14}" | transform.Unmarshal }}
-{{ $json.b }}
-
-
-
-
-{{ $url := "https://api.researchmap.jp/atsuyaw?format=json" }}
+{{ $url := "https://api.researchmap.jp/atsuyaw/published_papers" }}
 {{ with resources.GetRemote $url }}
 {{ $temp := slice }}
   {{ with .Err }}
     {{ errorf "%s" . }}
   {{ else }}
     {{ with $data := .Content | transform.Unmarshal }}
-      {{ with index . "@graph" }}
-        {{ range . }}
-          {{ range where . "@type" "published_papers" }}
-            {{ range . }}
-              {{ range .authors.en }}
-                {{ .name }}
-              {{ end }}
-              {{ range .identifiers.doi }}
-                <pre>{{ jsonify (dict "indent" "  ") . }}</pre>
-                <p>doi: <code>{{ . }}</code></p>
-              {{ end }}
-            {{ end }}
+      {{ with index . "items" }}
+        {{ with where . "published_paper_type" "scientific_journal" }}
+        {{ range sort . "publication_date" "desc" }}
+          <p>
+          {{ range $k, $v:= .authors.en }}{{ if $k }}, {{ end }}{{ .name }}{{ end }}
+          {{ with index . "paper_title" }}
+            {{ .en }}<br>
           {{ end }}
+          {{ range $k, $v:= .identifiers.doi }}{{ if $k }}<br>{{ end }}
+            <!--<pre>{{ jsonify (dict "indent" "  ") . }}</pre>-->
+            doi: <code>{{ . }}</code>
+          {{ end }}
+          </p>
+        {{ end }}
         {{ end }}
       {{ end }}
     {{ end }}
