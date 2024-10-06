@@ -8,32 +8,15 @@
       {{ with index . "items" }}
         {{ with where . "published_paper_type" "scientific_journal" }}
         {{ range sort . "publication_date" "desc" }}
-          <p>
-          {{ with index . "paper_title" }}
-          <h3>{{ .en }}</h3>
-          {{ end }}
-          {{ range $k, $v:= .authors.en }}{{ if $k }}, {{ end }}{{ .name }}{{ end }}
-          <p>
-          {{ with index . "publication_name" }}{{ .en }}{{ end }}
-          {{ with .volume }}<b>{{ . }}</b>,{{ end }}
-          {{ index . "starting_page" }}{{ with index . "ending_page" }}&ndash;{{ . }}{{ end }}.
-          {{ range $k, $v:= .identifiers.doi }}{{ if $k }}{{ end }}
-            <!--<pre>{{ jsonify (dict "indent" "  ") . }}</pre>-->
-            <p>doi: <a href="https://doi.org/{{ . }}"><code>{{ . }}</code></a></p>
-          </p>
-          {{ end }}
-          <p>
-          {{ with index . "see_also" }}
-            {{ range and (where . "is_downloadable" true) }} 
-              {{ if and (ne .label "doi") }}
-              <p><a href="{{ index . "@id" }}">{{ .label }}</a></p>
-            {{ end }}
-            {{ end }}
-          {{ end }}
-          </p>
-          </p>
+          {{ partial "papers" . }}
         {{ end }}
         {{ end }}
+        {{ with where . "published_paper_type" "ne" "scientific_journal" }}
+        {{ range sort . "publication_date" "desc" }}
+          {{ partial "papers" . }}
+        {{ end }}
+        {{ end }}
+
       {{ end }}
     {{ end }}
     <!-- range where . $atype "published_papers" -->
