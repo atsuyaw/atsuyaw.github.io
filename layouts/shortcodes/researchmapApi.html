@@ -9,25 +9,25 @@
         {{ with where . "published_paper_type" "scientific_journal" }}
         {{ range sort . "publication_date" "desc" }}
           <p>
-          {{ range $k, $v:= .authors.en }}{{ if $k }}, {{ end }}{{ .name }}{{ end }}
           {{ with index . "paper_title" }}
-          <p>{{ .en }}</p>
+          <h3>{{ .en }}</h3>
           {{ end }}
+          {{ range $k, $v:= .authors.en }}{{ if $k }}, {{ end }}{{ .name }}{{ end }}
           <p>
           {{ with index . "publication_name" }}{{ .en }}{{ end }}
           {{ with .volume }}<b>{{ . }}</b>,{{ end }}
           {{ index . "starting_page" }}{{ with index . "ending_page" }}&ndash;{{ . }}{{ end }}.
-          </p>
           {{ range $k, $v:= .identifiers.doi }}{{ if $k }}{{ end }}
-          <p>
             <!--<pre>{{ jsonify (dict "indent" "  ") . }}</pre>-->
-            doi: <a href="https://doi.org/{{ . }}"><code>{{ . }}</code></a>
+            <p>doi: <a href="https://doi.org/{{ . }}"><code>{{ . }}</code></a></p>
           </p>
           {{ end }}
           <p>
           {{ with index . "see_also" }}
-            {{ range and (where . "is_downloadable" true) (where . "label" "ne" "doi") (where . "label" "ne" "rm:research_project_id") }}
+            {{ range and (where . "is_downloadable" true) }} 
+              {{ if and (ne .label "doi") }}
               <p><a href="{{ index . "@id" }}">{{ .label }}</a></p>
+            {{ end }}
             {{ end }}
           {{ end }}
           </p>
