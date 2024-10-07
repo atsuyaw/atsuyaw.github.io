@@ -1,4 +1,4 @@
-<div>
+<div class="rm">
 {{ with index . "paper_title" }}
   {{ if .ja }}<h5 class="pubTitle">{{ .ja }}</h5>
   {{ else }}<h5 class="pubTitle">{{ .en }}</h5>{{ end }}
@@ -25,11 +25,11 @@
 <p class="pubDate">{{ index . "publication_date" }}</p>
 
 {{ range .identifiers.doi }}
-  <p class="doi">doi: <a href="https://doi.org/{{ . }}"><span class="doiID">{{ . }}</span></a></p>
+  <p class="seeAlso"><span class="label">doi</span> <a href="https://doi.org/{{ . }}"><code class="doiID">{{ . }}</code></a></p>
 {{ end }}
 {{ with index . "see_also" }}
   {{ range $k, $v := where (where . "label" "ne" "doi") "is_downloadable" true }}
-  <p>{{ .label }} <a href="{{ $k := index . "@id" }}">{{ $k }}</a></p>
+  <p class="seeAlso"><span class="label">{{ .label }}</span> <a href="{{ $k := index . "@id" }}">{{ $k }}</a></p>
   {{ end }}
 {{ end }}
 </div>
