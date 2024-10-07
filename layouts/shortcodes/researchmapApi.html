@@ -7,19 +7,21 @@
     {{ with $data := .Content | transform.Unmarshal }}
       {{ with index . "items" }}
         {{ with where . "published_paper_type" "scientific_journal" }}
-        {{ range sort . "publication_date" "desc" }}
-          {{ partial "papers" . }}
-        {{ end }}
+          <ol reversed>
+          {{ range sort . "publication_date" "desc" }}
+            <li>{{ partial "papers" . }}</li>
+          {{ end }}
+          </ol>
         {{ end }}
         {{ with where . "published_paper_type" "ne" "scientific_journal" }}
-        {{ range sort . "publication_date" "desc" }}
-          {{ partial "papers" . }}
+          <ol>
+          {{ range sort . "publication_date" "desc" }}
+            <li>{{ partial "papers" . }}</li>
+          {{ end }}
+          </ol>
         {{ end }}
-        {{ end }}
-
       {{ end }}
     {{ end }}
-    <!-- range where . $atype "published_papers" -->
   {{ end }}
 {{ else }}
   {{ errorf "Unable to get remote resource %q" $url }}

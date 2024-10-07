@@ -1,37 +1,36 @@
+<div>
 {{ with index . "paper_title" }}
-  {{ if .ja }}
-    <h5 class="pubTitle">{{ .ja }}</h5>
-  {{ else }}
-    <h5 class="pubTitle">{{ .en }}</h5>
-  {{ end }}
+  {{ if .ja }}<h5 class="pubTitle">{{ .ja }}</h5>
+  {{ else }}<h5 class="pubTitle">{{ .en }}</h5>{{ end }}
 {{ end }}
 {{ with .authors }}
   <p class="authors">
-  {{ if .ja }}
+  {{ if and (eq (page.Language.Lang) "ja") (.ja) }}
     {{ range $k, $v := .ja }}{{ if $k }}, {{ end }}{{ .name }}{{ end }}
   {{ else }}
     {{ range $k, $v := .en }}{{ if $k }}, {{ end }}{{ .name }}{{ end }}
   {{ end }}
   </p>
 {{ end }}
-  <p class="pubDetail">
+<p class="pubDetail">
 {{ with index . "publication_name" }}
   <span class="pubName">
-  {{ if .ja }}{{ .ja }}
+  {{ if and (eq (page.Language.Lang) "ja") (.ja) }}{{ .ja }}
   {{ else }}{{ .en }}{{ end }}
   </span>
 {{ end }}
 {{ with .volume }}<span class="vol">{{ . }}</span>,{{ end }}
-{{ index . "starting_page" }}{{ with index . "ending_page" }}&ndash;{{ . }}{{ end }}.
-  </p>
+{{ index . "starting_page" }}{{ with index . "ending_page" }}&ndash;{{ . }}{{ end }}
+</p>
 <p class="pubDate">{{ index . "publication_date" }}</p>
 
 {{ range .identifiers.doi }}
   <p class="doi">doi: <a href="https://doi.org/{{ . }}"><span class="doiID">{{ . }}</span></a></p>
 {{ end }}
 {{ with index . "see_also" }}
-  {{ range where . "is_downloadable" true }}{{ if ne .label "doi" }}
-    <p><a href="{{ index . "@id" }}">{{ .label }}</a></p>
-  {{ end }}{{ end }}
+  {{ range $k, $v := where (where . "label" "ne" "doi") "is_downloadable" true }}
+  <p>{{ .label }} <a href="{{ $k := index . "@id" }}">{{ $k }}</a></p>
+  {{ end }}
 {{ end }}
+</div>
 
