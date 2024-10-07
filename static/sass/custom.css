@@ -19,3 +19,57 @@
 .tooltip:hover .tooltip-text {
   visibility: visible;
 }
+
+.rmli {
+  clear: both;
+  margin-bottom:3ex;
+  & .rm {
+    max-width:93%;
+    margin-left: 3rem;
+    & .pubDetail {
+      margin: 0;
+    }
+    & .pubTitle {
+      margin-bottom: .5rem;
+      font-weight: bold;
+    }
+    & .authors {
+      margin-bottom: .5rem;
+    }
+    & .vol {
+      font-weight: bold;
+    }
+    & .pubName {
+      font-style: italic;
+      margin-bottom: .5rem;
+    }
+    & .pubDate {
+      margin-bottom: .5rem;
+    }
+    & .doi {
+      margin-bottom: .5rem;
+    }
+    & .seeAlso {
+      margin-bottom: 1rem;
+      & .label {
+        display: inline-block;
+        text-align: center;
+        background: #333;
+        color: #aaa;
+        margin-right: .5rem;
+        padding: .1rem;
+        border-radius: .5rem;
+        min-width: 5rem;
+        font-size: 80%;
+        float: left;
+      }
+      & .doiID {
+        background: transparent;
+        color: text;
+        border: 0;
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+}

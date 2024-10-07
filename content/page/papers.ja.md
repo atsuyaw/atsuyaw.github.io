@@ -10,4 +10,3 @@ menu: "topnav"
 
 {{< researchmapApi >}}
 
-<!--{{< paperList data="papers" >}}-->

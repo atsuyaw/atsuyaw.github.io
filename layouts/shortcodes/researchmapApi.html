@@ -7,16 +7,16 @@
     {{ with $data := .Content | transform.Unmarshal }}
       {{ with index . "items" }}
         {{ with where . "published_paper_type" "scientific_journal" }}
-          <ol reversed>
+          <ol class="rmol" reversed>
           {{ range sort . "publication_date" "desc" }}
-            <li>{{ partial "papers" . }}</li>
+            <li class="rmli">{{ partial "papers" . }}</li>
           {{ end }}
           </ol>
         {{ end }}
         {{ with where . "published_paper_type" "ne" "scientific_journal" }}
-          <ol>
+          <ol class="rmol" reversed>
           {{ range sort . "publication_date" "desc" }}
-            <li>{{ partial "papers" . }}</li>
+            <li class="rmli">{{ partial "papers" . }}</li>
           {{ end }}
           </ol>
         {{ end }}
