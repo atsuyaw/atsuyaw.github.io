@@ -1,0 +1,31 @@
+name: Release
+
+"on":
+  push:
+    branches-ignore:
+      - main
+    tags:
+      - *
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  openPR:
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run create-pull-request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          author: >-
+            github-actions[bot]
+            <41898282+github-actions[bot]@users.noreply.github.com>
+          branch: "${{ github.ref_name }}"
+          base: "main"
+          title: "Release/${{ github.ref_name }}"
+
