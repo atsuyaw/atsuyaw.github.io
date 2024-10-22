@@ -1,0 +1,27 @@
+name: Release
+
+"on":
+  push:
+    branches-ignore:
+      - main
+    tags:
+      - "*"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  openPR:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh pr create \
+            --base "main" \
+            --head "${{ github.ref_name }}" \
+            --title "Release/${{ github.ref_name }}" \
+            --body "GitHub actions" \
