@@ -1,19 +1,37 @@
 name: Release
 
-"on": ["create"]
+"on":
+  create:
+  pull_request:
+    types: [opened,synchronize]
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
-env:
-  GH_TOKEN: ${{ github.token }}
 
 jobs:
   openPR:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
+      - uses: tj-actions/changed-files@v40
+        id: updCont
+        with:
+          files:
+            - "content/**"
+            - "data/**"
+      - uses: tj-actions/changed-files@v40
+        id: updSrc
+        with:
+          files:
+            - ".github/**"
+            - "./**"
+            - "layout/**"
+            - "static/**"
       - name: Create PR
+        if: {{ github.event_name != create }}
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           gh pr create \
             --base "main" \
@@ -21,3 +39,15 @@ jobs:
             --title "Release/${{ github.ref_name }}" \
             --body "" \
             --draft
+      - name: Mark as post
+        if: {{ steps.updCont.outputs.any_changed }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh pr edit --add-label "create post"
+      - name: Mark as dev
+        if: {{ steps.updSrc.outputs.any_changed }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh pr edit --add-label "development"
