@@ -14,7 +14,7 @@ jobs:
   openPR:
     runs-on: ubuntu-22.04
     permissions:
-      pull-requests: read
+      pull-requests: write
     steps:
       - uses: actions/checkout@v4
       - uses: tj-actions/changed-files@v45
@@ -33,23 +33,23 @@ jobs:
       - name: Create PR
         if: ${{ github.event_name }} != create
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh pr create \
             --base "main" \
             --head "${{ github.ref_name }}" \
-            --title "Release/${{ github.ref_name }}" \
+            --title "${{ github.ref_name }}" \
             --body "" \
             --draft
       - name: Mark as post
         if: steps.updCont.outputs.any_changed == true
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh pr edit --add-label "create post"
+          gh pr edit "${{ github.ref_name }}" --add-label "create post"
       - name: Mark as dev
         if: steps.updSrc.outputs.any_changed == true
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh pr edit --add-label "development"
+          gh pr edit "${{ github.ref_name }}" --add-label "development"
