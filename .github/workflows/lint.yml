@@ -10,29 +10,6 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  markdownlint:
-    runs-on: ubuntu-22.04
-    permissions:
-      contents: write
-      pull-requests: write
-    if: ${{ github.ref }} == 'refs/heads/main'
-    steps:
-      - uses: actions/checkout@v4
-      - name: Run markdownlint-cli2-action@v17
-        uses: DavidAnson/markdownlint-cli2-action@v17
-        with:
-          fix: true
-          globs: '**/*.md'
-          continue-on-error: true
-      - name: Run create-pull-request
-        uses: peter-evans/create-pull-request@v7
-        with:
-          author: >-
-            github-actions[bot]
-            <41898282+github-actions[bot]@users.noreply.github.com>
-          commit-message: "fix: Lint suggestions"
-          branch: "patch/${{ github.ref_name }}"
-          title: "fix: Lint suggestions for ${{ github.ref_name }}"
   yamllint:
     runs-on: ubuntu-22.04
     steps:

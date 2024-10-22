@@ -3,7 +3,7 @@ name: Release
 "on":
   create:
   pull_request:
-    types: [opened,synchronize]
+    types: [opened, synchronize]
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -12,24 +12,25 @@ concurrency:
 jobs:
   openPR:
     runs-on: ubuntu-22.04
+    permissions:
+      pull-requests: read
     steps:
       - uses: actions/checkout@v4
-      - uses: tj-actions/changed-files@v40
+      - uses: tj-actions/changed-files@v45
         id: updCont
         with:
-          files:
-            - "content/**"
-            - "data/**"
-      - uses: tj-actions/changed-files@v40
+          files: |
+            content/**
+            data/**
+      - uses: tj-actions/changed-files@v45
         id: updSrc
         with:
-          files:
-            - ".github/**"
-            - "./**"
-            - "layout/**"
-            - "static/**"
+          files: |
+            *
+            !content/**
+            !data/**
       - name: Create PR
-        if: {{ github.event_name != create }}
+        if: ${{ github.event_name }} != create
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -40,13 +41,13 @@ jobs:
             --body "" \
             --draft
       - name: Mark as post
-        if: {{ steps.updCont.outputs.any_changed }}
+        if: steps.updCont.outputs.any_changed == "true"
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh pr edit --add-label "create post"
       - name: Mark as dev
-        if: {{ steps.updSrc.outputs.any_changed }}
+        if: steps.updSrc.outputs.any_changed == "true"
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
