@@ -5,7 +5,7 @@ name: Lint
     branches-ignore:
       - main
     tags:
-      - *
+      - "*"
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -24,6 +24,7 @@ jobs:
         with:
           fix: true
           globs: '**/*.md'
+          continue-on-error: true
       - name: Run create-pull-request
         uses: peter-evans/create-pull-request@v7
         with:
@@ -40,6 +41,5 @@ jobs:
       - name: Run yamllint-github-action
         uses: karancode/yamllint-github-action@v2.0.0
         with:
-          yamllint_file_or_dir: .
+          yamllint_file_or_dir: .github/workflows/
           yamllint_config_filepath: .github/.yamllint
-

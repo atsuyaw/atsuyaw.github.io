@@ -5,7 +5,7 @@ name: Release
     branches-ignore:
       - main
     tags:
-      - *
+      - "*"
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -28,4 +28,3 @@ jobs:
           branch: "${{ github.ref_name }}"
           base: "main"
           title: "Release/${{ github.ref_name }}"
-
