@@ -1,15 +1,12 @@
 name: Release
 
-"on":
-  push:
-    branches-ignore:
-      - main
-    tags:
-      - "*"
+"on": ["create"]
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
+env:
+  GH_TOKEN: ${{ github.token }}
 
 jobs:
   openPR:
@@ -17,11 +14,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Create PR
-        env:
-          GH_TOKEN: ${{ github.token }}
         run: |
           gh pr create \
             --base "main" \
             --head "${{ github.ref_name }}" \
             --title "Release/${{ github.ref_name }}" \
-            --body "GitHub actions" \
+            --body "" \
+            --draft
