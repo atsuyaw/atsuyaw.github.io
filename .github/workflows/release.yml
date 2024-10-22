@@ -1,11 +1,10 @@
 name: Release
 
 "on":
-  push:
-    branches-ignore:
-      - main
-    tags:
-      - "*"
+  create:
+  pull_request:
+    types: [opened, synchronize]
+  workflow_dispatch:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -14,14 +13,43 @@ concurrency:
 jobs:
   openPR:
     runs-on: ubuntu-22.04
+    permissions:
+      pull-requests: write
     steps:
       - uses: actions/checkout@v4
+      - uses: tj-actions/changed-files@v45
+        id: updCont
+        with:
+          files: |
+            content/**
+            data/**
+      - uses: tj-actions/changed-files@v45
+        id: updSrc
+        with:
+          files: |
+            *
+            !content/**
+            !data/**
       - name: Create PR
+        if: ${{ github.event_name }} != create
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh pr create \
             --base "main" \
             --head "${{ github.ref_name }}" \
-            --title "Release/${{ github.ref_name }}" \
-            --body "GitHub actions" \
+            --title "${{ github.ref_name }}" \
+            --body "" \
+            --draft
+      - name: Mark as post
+        if: steps.updCont.outputs.any_changed == true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr edit "${{ github.ref_name }}" --add-label "create post"
+      - name: Mark as dev
+        if: steps.updSrc.outputs.any_changed == true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr edit "${{ github.ref_name }}" --add-label "development"
