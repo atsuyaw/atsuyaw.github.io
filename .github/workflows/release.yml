@@ -19,12 +19,9 @@ jobs:
       pull-requests: write
     steps:
       - uses: actions/checkout@v4
-      - name: Run create-pull-request
-        uses: peter-evans/create-pull-request@v7
-        with:
-          author: >-
-            github-actions[bot]
-            <41898282+github-actions[bot]@users.noreply.github.com>
-          branch: "${{ github.ref_name }}"
-          base: "main"
-          title: "Release/${{ github.ref_name }}"
+      - name: Create PR
+        run: >-
+          gh pr create
+            --base main
+            --head "${{ github.ref_name }}"
+            --title "Release/${{ github.ref_name }}"
