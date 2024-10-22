@@ -4,6 +4,7 @@ name: Release
   create:
   pull_request:
     types: [opened, synchronize]
+  workflow_dispatch:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -41,13 +42,13 @@ jobs:
             --body "" \
             --draft
       - name: Mark as post
-        if: steps.updCont.outputs.any_changed == "true"
+        if: steps.updCont.outputs.any_changed == true
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh pr edit --add-label "create post"
       - name: Mark as dev
-        if: steps.updSrc.outputs.any_changed == "true"
+        if: steps.updSrc.outputs.any_changed == true
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
