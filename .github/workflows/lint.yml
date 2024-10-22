@@ -2,10 +2,11 @@ name: Lint
 
 "on":
   push:
-    branches-ignore:
-      - main
-    tags:
-      - "*"
+    branches: ["Notting"]
+    # branches-ignore:
+      # - main
+    # tags:
+      # - "*"
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
