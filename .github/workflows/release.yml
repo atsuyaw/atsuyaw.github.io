@@ -1,9 +1,9 @@
 name: Release
 
 "on":
-  create:
-  pull_request:
-    types: [opened, synchronize]
+  push:
+    branchs-ignore:
+      - main
   workflow_dispatch:
 
 concurrency:
@@ -11,27 +11,47 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  openPR:
+  get-changes:
     runs-on: ubuntu-22.04
+    outputs:
+      updCont: ${{ steps.updCont.outputs.any_changed }}
+      dev: ${{ steps.dev.outputs.any_changed }}
+      existPR: ${{ steps.existPR.outputs.cnt }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check updCont
+        uses: tj-actions/changed-files@v45
+        id: updCont
+        with:
+          base_sha: 'main'
+          files: |
+            content/**
+            data/**
+      - name: Check dev
+        uses: tj-actions/changed-files@v45
+        id: dev
+        with:
+          base_sha: 'main'
+          files: |
+            !content/**
+            !data/**
+      - name: Check exist PR
+        id: existPR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "cnt=$(gh pr list -B main -H ${{ github.ref_name }} | wc -l)" \
+            >> $GITHUB_OUTPUT
+  createPR:
+    runs-on: ubuntu-22.04
+    needs:
+      - get-changes
     permissions:
       pull-requests: write
     steps:
       - uses: actions/checkout@v4
-      - uses: tj-actions/changed-files@v45
-        id: updCont
-        with:
-          files: |
-            content/**
-            data/**
-      - uses: tj-actions/changed-files@v45
-        id: updSrc
-        with:
-          files: |
-            *
-            !content/**
-            !data/**
       - name: Create PR
-        if: ${{ github.event_name }} != create
+        if: needs.get-changes.outputs.existPR == 0
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -42,14 +62,16 @@ jobs:
             --body "" \
             --draft
       - name: Mark as post
-        if: steps.updCont.outputs.any_changed == true
+        if: needs.get-changes.outputs.updCont == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh pr edit "${{ github.ref_name }}" --add-label "create post"
+          gh pr edit "${{ github.ref_name }}" \
+            --add-label "documentation"
       - name: Mark as dev
-        if: steps.updSrc.outputs.any_changed == true
+        if: needs.get-changes.outputs.dev == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh pr edit "${{ github.ref_name }}" --add-label "development"
+          gh pr edit "${{ github.ref_name }}" \
+            --add-label "enhancement"
