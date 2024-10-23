@@ -16,7 +16,7 @@ jobs:
     outputs:
       updCont: ${{ steps.updCont.outputs.any_changed }}
       dev: ${{ steps.dev.outputs.any_changed }}
-      PRexist: ${{ steps.PRexist.outputs.cnt }}
+      existPR: ${{ steps.existPR.outputs.cnt }}
     steps:
       - uses: actions/checkout@v4
       - name: Check updCont
@@ -36,24 +36,22 @@ jobs:
             !content/**
             !data/**
       - name: Check exist PR
-        id: PRexist
+        id: existPR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo "cnt= \
-          $(gh pr list --search \
-            --base "main" \
-            --head "${{ github.ref_name }}" \
-            --state "open" \
-            | wc -l)" >> $GITHUB_OUTPUT
+          echo "cnt=$(gh pr list -B main -H ${{ github.ref_name }} | wc -l)" \
+            >> $GITHUB_OUTPUT
   createPR:
     runs-on: ubuntu-22.04
     needs:
       - get-changes
     permissions:
       pull-requests: write
-    if: needs.PRexist.outputs.cnt == 0
     steps:
       - uses: actions/checkout@v4
       - name: Create PR
+        if: needs.get-changes.outputs.existPR == 0
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -69,11 +67,11 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh pr edit "${{ github.ref_name }}" \
-            --add-label "create post"
+            --add-label "documentation"
       - name: Mark as dev
         if: needs.get-changes.outputs.dev == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh pr edit "${{ github.ref_name }}" \
-            --add-label "development"
+            --add-label "enhancement"
