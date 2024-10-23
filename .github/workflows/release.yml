@@ -2,8 +2,9 @@ name: Release
 
 "on":
   create:
-  pull_request:
-    types: [opened, synchronize]
+  push:
+    branchs-ignore:
+      - main
   workflow_dispatch:
 
 concurrency:
@@ -22,6 +23,7 @@ jobs:
         uses: tj-actions/changed-files@v45
         id: updCont
         with:
+          base_sha: 'main'
           files: |
             content/**
             data/**
@@ -32,8 +34,8 @@ jobs:
         uses: tj-actions/changed-files@v45
         id: dev
         with:
+          base_sha: 'main'
           files: |
-            *
             !content/**
             !data/**
       - name: Output dev
