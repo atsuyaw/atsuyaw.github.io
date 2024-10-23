@@ -1,7 +1,6 @@
 name: Release
 
 "on":
-  create:
   push:
     branchs-ignore:
       - main
@@ -17,6 +16,7 @@ jobs:
     outputs:
       updCont: ${{ steps.updCont.outputs.any_changed }}
       dev: ${{ steps.dev.outputs.any_changed }}
+      PRexist: ${{ steps.PRexist.outputs.cnt }}
     steps:
       - uses: actions/checkout@v4
       - name: Check updCont
@@ -27,9 +27,6 @@ jobs:
           files: |
             content/**
             data/**
-      - name: Output updCont
-        run: |
-          echo ${{ steps.updCont.outputs.any_changed }}
       - name: Check dev
         uses: tj-actions/changed-files@v45
         id: dev
@@ -38,14 +35,22 @@ jobs:
           files: |
             !content/**
             !data/**
-      - name: Output dev
+      - name: Check exist PR
+        id: PRexist
         run: |
-          echo ${{ steps.dev.outputs.any_changed }}
+          echo "cnt= \
+          $(gh pr list --search \
+            --base "main" \
+            --head "${{ github.ref_name }}" \
+            --state "open" \
+            | wc -l)" >> $GITHUB_OUTPUT
   createPR:
     runs-on: ubuntu-22.04
+    needs:
+      - get-changes
     permissions:
       pull-requests: write
-    if: ${{ github.event_name }} == 'create'
+    if: needs.PRexist.outputs.cnt == 0
     steps:
       - uses: actions/checkout@v4
       - name: Create PR
@@ -58,15 +63,6 @@ jobs:
             --title "${{ github.ref_name }}" \
             --body "" \
             --draft
-  labelPR:
-    runs-on: ubuntu-22.04
-    needs:
-      - get-changes
-      - createPR
-    permissions:
-      pull-requests: write
-    steps:
-      - uses: actions/checkout@v4
       - name: Mark as post
         if: needs.get-changes.outputs.updCont == 'true'
         env:
