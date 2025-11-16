@@ -5,6 +5,7 @@ draft: false
 showDate: true
 noSummary: true
 imageSlider: true
+resizeImages:false
 icon: "fa-flask"
 categories: ["Travel"]
 tags: ["KEK", "XMCD", "X-ray", "Experiment"]
