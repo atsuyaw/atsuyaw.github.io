@@ -13,3 +13,5 @@ noSummary: true
 渡辺は放射光を用いた測定はこれが初めての経験でした。
 
 大変勉強になりました。お力添え頂いた皆さま，有難うございました。
+
+![BL16A](https://github.com/atsuyaw/atsuyaw.github.io/blob/main/content/article/2510KEK/2510-BL16A.webp)
